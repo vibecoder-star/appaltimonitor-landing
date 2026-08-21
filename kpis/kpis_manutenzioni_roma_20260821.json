@@ -1,0 +1,13 @@
+{
+  "total_retrieved": 29,
+  "relevant": 29,
+  "high_priority": 1,
+  "medium_priority": 20,
+  "low_priority": 8,
+  "with_deadline": 16,
+  "with_deadline_pct": 55.172413793103445,
+  "with_value": 0,
+  "with_value_pct": 0.0,
+  "processing_time": 1.850521,
+  "timestamp": "2026-08-21T15:54:45.847255"
+}

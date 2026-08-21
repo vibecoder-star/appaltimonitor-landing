@@ -1,0 +1,131 @@
+=== WEEKLY PROCUREMENT INTELLIGENCE REPORT ===
+Profile: SME C — Cleaning & Facility
+Generated: 2026-08-21 13:28
+
+NEW RELEVANT TENDERS: 2491
+
+HIGH PRIORITY (303 tenders):
+
+1. CIG: B0309DEC36 | Score: 88.1
+   Title: SERVIZIO RACCOLTA E TRASPORTO RIFIUTI URBANI
+   Value: €188,208.32
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: LATINA
+   Deadline: 2024-01-31
+   Authority: COMUNE DI PONZA
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+2. CIG: B02A8E3455 | Score: 82.4
+   Title: MANUTENZIONE E CONDUZIONE IMPIANTO DI DEPURAZIONE LIQUAMI E IMPIANTI F
+   Value: €152,161.32
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: VITERBO
+   Deadline: 2024-01-30
+   Authority: CENTRO LOGISTICO MUNIZIONAMENTO E ARMAMENTO
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+3. CIG: B02D4DCDE4 | Score: 80.6
+   Title: MANUTENZIONE ORDINARIA DELL’IMPIANTO ANTINCENDIO IDRICO DI SPEGNIMENTO
+   Value: €140,619.52
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: ROMA
+   Deadline: 2024-01-30
+   Authority: CONSIGLIO NAZIONALE DELLE RICERCHE
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+4. CIG: B0156E8B49 | Score: 80.6
+   Title: MANUTENZIONE ORDINARIA DELL?IMPIANTO ANTINCENDIO IDRICO DI SPEGNIMENTO
+   Value: €140,619.52
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: ROMA
+   Deadline: 2024-01-23
+   Authority: CONSIGLIO NAZIONALE DELLE RICERCHE
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+5. CIG: B01F1C0342 | Score: 80.5
+   Title: AFFIDAMENTO SERVIZIO PER IL TRATTAMENTO DEI RIFIUTI URBANI NON DIFFERE
+   Value: €139,655.00
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: ROMA
+   Deadline: 2024-01-25
+   Authority: COMUNE DI MARCELLINA
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+6. CIG: B0271F2D84 | Score: 80.5
+   Title: SERVIZIO DI RECUPERO E SMALTIMENTO RIFIUTI CER 200301
+   Value: €139,995.00
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: ROMA
+   Deadline: 2024-01-29
+   Authority: COMUNE DI FORMELLO
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+7. CIG: B02AFAEF63 | Score: 80.5
+   Title: SERVIZIO DI RECUPERO E SMALTIMENTO RIFIUTI COMUNALI EER 200301 TONNELL
+   Value: €139,995.00
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: ROMA
+   Deadline: 2024-01-30
+   Authority: COMUNE DI FORMELLO
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+8. CIG: B02A15AC76 | Score: 80.5
+   Title: SERVIZIO CONFERIMENTO RIFIUTI EER 200301 ANNO 2024
+   Value: €139,655.00
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: ROMA
+   Deadline: 2024-01-30
+   Authority: COMUNE DI MARCELLINA
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+9. CIG: B00EEAC6F5 | Score: 80.4
+   Title: MANUTENZIONE IMPIANTI TELEFONICI
+   Value: €139,500.00
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: ROMA
+   Deadline: 2024-01-22
+   Authority: MINISTERO DELL'UNIVERSITA' E DELLA RICERCA
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+10. CIG: B014A29694 | Score: 80.2
+   Title: SERVIZIO CONFERIMENTO RIFIUTI URBANI INDIFFERENZIATI EER 20.03.01
+   Value: €137,900.00
+   CPV: 99999999 - Cpv prevalente non disponibile
+   Location: ROMA
+   Deadline: 2024-01-23
+   Authority: COMUNE DI GENAZZANO
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+MEDIUM PRIORITY (1536 tenders):
+
+1. CIG: B00F97F5A9 | Score: 60.0
+   Title: AFFIDAMENTO SERVIZIO DI TRATTAMENTO RIFIUTI INDIFFERENZIATI PRIMO TRIM
+   Value: €105,000.00
+   Location: SIRACUSA | Deadline: 2024-01-22
+
+2. CIG: B00914EA66 | Score: 60.0
+   Title: MANUTENZIONE ORDINARIA STRADE COMUNALI
+   Value: €10,000.00
+   Location: LATINA | Deadline: 2024-01-18
+
+3. CIG: B017C5A1EA | Score: 60.0
+   Title: GESTIONE RIFIUTI NON PERICOLOSI RECUPERO
+   Value: €10,000.00
+   Location: LATINA | Deadline: 2024-01-24
+
+4. CIG: B018DEF441 | Score: 60.0
+   Title: AFFIDAMENTO DEL SERVIZIO DI PICCOLA MANUTENZIONE ORDINARIA DELLO STADI
+   Value: €10,000.00
+   Location: VITERBO | Deadline: 2024-01-24
+
+5. CIG: B01C8ED2D2 | Score: 60.0
+   Title: IMPEGNO PER LAVORI DI PICCOLA MANUTENZIONE CAMPO SPORTIVO
+   Value: €10,000.00
+   Location: VITERBO | Deadline: 2024-01-25
+
+LOW PRIORITY (652 tenders):
+   (Summary available upon request)
+
+RECOMMENDATION:
+- Pursue top 3 high-priority tenders
+- Review deadlines and prepare documentation

@@ -1,0 +1,39 @@
+{
+  "id": "infrastrutture_bologna",
+  "company_name": "InfrastruttureVerdi SRL (Demo)",
+  "industry": "Opere infrastrutturali e verde pubblico",
+  "cpv_codes": [
+    "45"
+  ],
+  "cpv_detailed": [
+    "45230000",
+    "45110000",
+    "45220000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 500000,
+  "value_max": 5000000,
+  "excluded_categories": [],
+  "keywords": [
+    "infrastrutture",
+    "strade",
+    "ponti",
+    "verde",
+    "opere"
+  ],
+  "excluded_keywords": [
+    "software",
+    "informatica"
+  ],
+  "preferred_buyers": [
+    "ANAS",
+    "REGIONE",
+    "COMUNE",
+    "MIT"
+  ],
+  "notes": "PMI infrastrutture Bologna - 25-40 dipendenti",
+  "created_at": "2026-08-21T15:54:43.060063",
+  "updated_at": "2026-08-21T15:54:43.060066"
+}

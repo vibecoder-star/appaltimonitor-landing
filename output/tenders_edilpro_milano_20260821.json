@@ -1,0 +1,1103 @@
+[
+  {
+    "notice_id": "8cc865ee-8e1e-4f6f-87f1-a6fe6e37b276",
+    "title": "Italia \u2013 Lavori generali di costruzione di edifici \u2013 PROCEDURA APERTA TELEMATICA AI SENSI ART 71 DEL D.LGS. 31 MARZO 2023 N. 36 E SS.MM.II. PER L AFFIDAMENTO DEI LAVORI PER LA REALIZZAZIONE DELLA NUOV",
+    "buyer": "AGENZIA DEL DEMANIO - DIREZIONE REGIONALE EMILIA ROMAGNA",
+    "country": "",
+    "place_performance": "ITA",
+    "cpv": "45210000",
+    "cpv_list": [
+      "45210000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-09-18",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/8cc865ee-8e1e-4f6f-87f1-a6fe6e37b276",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 85,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 20,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45210000)",
+      "Detailed CPV match: 45210000 (found 45210000)",
+      "Location match: ITA",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "notice_id": "8194c52a-9fb9-46c4-bf45-dcf11b0e4604",
+    "title": "Italia \u2013 Lavori di costruzione di condutture, linee di comunicazione e linee elettriche, autostrade, strade, campi di aviazione e ferrovie; lavori di livellamento \u2013 Appalto integrato del servizio di p",
+    "buyer": "Consorzio per l'Area di Sviluppo Industriale della Provincia di Napoli",
+    "country": "",
+    "place_performance": "ITF33",
+    "cpv": "45230000",
+    "cpv_list": [
+      "45230000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "2026-10-05",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/8194c52a-9fb9-46c4-bf45-dcf11b0e4604",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 65,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45230000)",
+      "Detailed CPV match: 45230000 (found 45230000)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "b70bcdd5-00a3-4b09-a2d3-23330634edd3",
+    "title": "Italia \u2013 Lavori di scavo e movimento terra \u2013 REALIZZAZIONE DEL SITO DI RACCOLTA NELLA VALLE DEL RIO SAN GIORGIO IN LOCALIT\u00c0 CASA MASSIDDA \u2013 LOTTO FUNZIONALE 1",
+    "buyer": "COMUNE DI IGLESIAS",
+    "country": "",
+    "place_performance": "ITG2H",
+    "cpv": "45112000",
+    "cpv_list": [
+      "45112000",
+      "45100000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-10-13",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/b70bcdd5-00a3-4b09-a2d3-23330634edd3",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 60,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45112000)",
+      "Active deadline",
+      "Keyword match: lavori",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "00e6e66f-3d4b-4a56-b226-abce7c89d2a7",
+    "title": "Italia \u2013 Lavori di costruzione \u2013 APPALTO INTEGRATO DI PROGETTAZIONE ESECUTIVA ED ESECUZIONE DEI LAVORI PER LA &#8220;RIQUALIFICAZIONE E FUNZIONALIZZAZIONE DEL COMPLESSO ANTICHE TERME ED ANNESSO PARCO ",
+    "buyer": "Comune di Castellammare di Stabia",
+    "country": "",
+    "place_performance": "ITF33",
+    "cpv": "45000000",
+    "cpv_list": [
+      "45000000",
+      "45400000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-21",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/00e6e66f-3d4b-4a56-b226-abce7c89d2a7",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 60,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45000000)",
+      "Active deadline",
+      "Keyword match: lavori",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "44b6578f-b840-4bf5-8d05-fe61c23ff81e",
+    "title": "Italia \u2013 Altri lavori di completamento di edifici \u2013 PNRR - M4 - C1 \u2013 INV. 3.3 LAVORI DI ADEGUAMENTO DELLA PALESTRA DELLA SCUOLA LAMBRUSCHINI",
+    "buyer": "COMUNE DI LIVORNO - Ufficio Gare e Contratti",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "45450000",
+    "cpv_list": [
+      "45450000",
+      "45310000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-09-03",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/44b6578f-b840-4bf5-8d05-fe61c23ff81e",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 60,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45450000)",
+      "Active deadline",
+      "Keyword match: lavori",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "19b194f0-a57f-4afe-a178-0502da1ae12b",
+    "title": "Italia \u2013 Lavori di costruzione di impianti di trattamento dei rifiuti \u2013 PROCEDURA APERTA SOPRA SOGLIA UE EX ART. 71 D.LGS. 36/2023, PER LAFFIDAMENTO CON IL CRITERIO DEL MINOR PREZZO DELL'ACCORDO QUADR",
+    "buyer": "SCAPIGLIATO SRL",
+    "country": "",
+    "place_performance": "ITI16",
+    "cpv": "45222100",
+    "cpv_list": [
+      "45222100"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "2026-10-02",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/19b194f0-a57f-4afe-a178-0502da1ae12b",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45222100)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "b75c15cf-d1b6-4d71-a810-42c4fadf42a2",
+    "title": "Italia \u2013 Lavori di costruzione di acquedotti \u2013 APPALTO INTEGRATO DI PROGETTAZIONE ESECUTIVA ED ESECUZIONE LAVORI RELATIVI ALL\u2019INTERVENTO DI \u201cREALIZZAZIONE INTERCONNESSIONE TRA I SISTEMI DI APPROVIGION",
+    "buyer": "Ente Regionale per il Servizio Idrico Integrato ERSI ABRUZZO",
+    "country": "",
+    "place_performance": "ITF11",
+    "cpv": "45247130",
+    "cpv_list": [
+      "45247130"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-16",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/b75c15cf-d1b6-4d71-a810-42c4fadf42a2",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45247130)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "87b73418-eec1-460f-b36a-e026c679dc71",
+    "title": "Italia \u2013 Lavori di costruzione per piscine \u2013 PROGETTAZIONE ESECUTIVA (AGGIORNAMENTO/ADEGUAMENTO), REALIZZAZIONE E GESTIONE PLURIENNALE A BASSO IMPATTO AMBIENTALE DELL\u2019INTERVENTO DENOMINATO \u201cSTADIO DEL",
+    "buyer": "Stazione Unica Appaltante della Provincia di Avellino",
+    "country": "",
+    "place_performance": "ITF34",
+    "cpv": "45212212",
+    "cpv_list": [
+      "45212212",
+      "92610000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-08-31",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/87b73418-eec1-460f-b36a-e026c679dc71",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45212212)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "3940c58d-167b-41c5-aba4-16d12b795d3a",
+    "title": "Italia \u2013 Lavori di costruzione di condotte idriche e fognarie \u2013 Gara europea a procedura telematica aperta, a lotti, per l'affidamento dei lavori di \"sostituzione condotte di distribuzione, a servizio",
+    "buyer": "Azienda Cuneese dell'Acqua S.p.A.",
+    "country": "",
+    "place_performance": "ITC16",
+    "cpv": "45231300",
+    "cpv_list": [
+      "45231300",
+      "45252120",
+      "45453000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-10-19",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/3940c58d-167b-41c5-aba4-16d12b795d3a",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45231300)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "ae5835cc-10de-4ec1-9fb9-b4426c9e26b8",
+    "title": "Italia \u2013 Lavori di installazione di ingegneria meccanica \u2013 Procedura aperta sopra soglia europea per l\u2019affidamento in concessione delle attivit\u00e0 di progettazione, realizzazione, fornitura e conduzione",
+    "buyer": "Azienda Sanitaria dell\u2019Alto Adige - Ufficio nuove costruzioni",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "45351000",
+    "cpv_list": [
+      "45351000",
+      "50700000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-11-02",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/ae5835cc-10de-4ec1-9fb9-b4426c9e26b8",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45351000)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "561843d6-1afc-47cf-ae83-348ea31fb4cb",
+    "title": "Italia \u2013 Lavori stradali \u2013 Gara europea a Procedura Aperta ex artt. 44, 59, 71 e 108 del D.Lgs. n. 36/2023 per l'affidamento, mediante sottoscrizione di un Accordo Quadro con un unico operatore econom",
+    "buyer": "Provveditorato Interregionale OO.PP. per la Sicilia e la Calabria - Sede di Palermo",
+    "country": "",
+    "place_performance": "ITF63",
+    "cpv": "45233140",
+    "cpv_list": [
+      "45233140",
+      "45316110",
+      "45232130",
+      "71340000",
+      "71322000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-07",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/561843d6-1afc-47cf-ae83-348ea31fb4cb",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45233140)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "00aa3cab-4251-478a-a437-e1232e0742a1",
+    "title": "Italia \u2013 Lavori di manutenzione stradale \u2013 PROCEDURA APERTA DI RILIEVO COMUNITARIO PER LAFFIDAMENTO, MEDIANTE ACCORDO QUADRO CON UN UNICO OPERATORE ECONOMICO, DEI LAVORI DI MANUTENZIONE INFRASTRUTTURE",
+    "buyer": "Segreteria e Affari Generali - Unit\u00e0 Gare e Assicurazioni",
+    "country": "",
+    "place_performance": "ITH58",
+    "cpv": "45233141",
+    "cpv_list": [
+      "45233141"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-10-14",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/00aa3cab-4251-478a-a437-e1232e0742a1",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45233141)",
+      "Active deadline",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "7efd7380-ecaf-4083-b4e7-93c4d82fac80",
+    "title": "Italia \u2013 Lavori di costruzione di strade e autostrade \u2013 FSC CAMPANIA 2021-2027. DELIBERA CIPESS N. 70 DEL 07/11/2024. DECRETO DIRIGENZIALE REGIONE CAMPANIA N. 85 DEL 02/07/2026. INTERVENTODENOMINATO \"",
+    "buyer": "CASTEL MORRONE",
+    "country": "",
+    "place_performance": "ITF31",
+    "cpv": "45233100",
+    "cpv_list": [
+      "45233100"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-24",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/7efd7380-ecaf-4083-b4e7-93c4d82fac80",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45233100)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "e9d60de4-7e17-4b19-81bd-08c8d1439393",
+    "title": "Italia \u2013 Lavori di costruzione di centri ricreativi, sportivi, culturali, alberghi e ristoranti \u2013 AOV SUA L 19_2026 - Costruzione della nuova casa dello sport a Nova Levante",
+    "buyer": "Agenzia per i contratti pubblici \u2013 ACP - Stazione unica appaltante Lavori",
+    "country": "",
+    "place_performance": "ITH10",
+    "cpv": "45212000",
+    "cpv_list": [
+      "45212000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-08",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/e9d60de4-7e17-4b19-81bd-08c8d1439393",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45212000)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "b0b1f1b1-6d2f-44ed-8650-52e4a9a2def4",
+    "title": "Italia \u2013 Lavori stradali \u2013 Comune di San Miniato - Procedura aperta per l\u2019affidamento dei lavori di riqualificazione del Prato del Duomo",
+    "buyer": "CENTRALE UNICA DI COMMITTENZA PER I COMUNI DI SAN MINIATO, CASTELFRANCO DI SOTTO, MONTOPOLI IN VAL D",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "45233140",
+    "cpv_list": [
+      "45233140"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-21",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/b0b1f1b1-6d2f-44ed-8650-52e4a9a2def4",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45233140)",
+      "Active deadline",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "70a676a4-a8a7-473a-b0c7-2cb2a942efcd",
+    "title": "Italia \u2013 Lavori generali di costruzione di edifici \u2013 PROCEDURA APERTA AI SENSI DELLART. 71 DEL D.LGS. 36/2023 SUDDIVISA IN 4 LOTTI PER LA CONCLUSIONE DI UN ACCORDO QUADRO DI CUI ALLART. 59 D.LGS. 36/2",
+    "buyer": "Direzione Roma Capitale",
+    "country": "",
+    "place_performance": "ITI43",
+    "cpv": "45210000",
+    "cpv_list": [
+      "45210000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/70a676a4-a8a7-473a-b0c7-2cb2a942efcd",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45210000)",
+      "Detailed CPV match: 45210000 (found 45210000)",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "d2e32e22-8f0e-44ae-9fbb-19c4d65b8120",
+    "title": "Italia \u2013 Lavori di costruzione di edifici scolastici \u2013 REALIZZAZIONE DEL COMPLESSO SCOLASTICO SCUOLA ELEMENTARE E SCUOLA MEDIA IN VIA BARI A BOLZANO.",
+    "buyer": "Comune di Bolzano - 6 - Ripartizione Lavori Pubblici",
+    "country": "",
+    "place_performance": "ITH10",
+    "cpv": "45214200",
+    "cpv_list": [
+      "45214200"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "cont-modif",
+    "source_url": "https://ted.europa.eu/en/notice/d2e32e22-8f0e-44ae-9fbb-19c4d65b8120",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45214200)",
+      "Keyword match: lavori",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "d18d3b94-0130-403a-8da9-7ee4bdc08443",
+    "title": "Italia \u2013 Lavori di manutenzione stradale \u2013 Accordo quadro per lavori di adeguamento pavimentazioni stradali e segnaletica, periodo 2026-2029. Affidamento suddiviso in n. 4 lotti funzionali. Appalto co",
+    "buyer": "COMUNE DI LUCCA - U.O B1 CENTRALE UNICA DI COMMITTENZA, PROVVEDITORATO, ECONOMATO E CONTRATTI",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "45233141",
+    "cpv_list": [
+      "45233141"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/d18d3b94-0130-403a-8da9-7ee4bdc08443",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45233141)",
+      "Keyword match: manutenzione",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "85299e9a-ca0f-4c76-8d77-6e22da57afdd",
+    "title": "Italia \u2013 Trivellazioni e perforazioni di sondaggio \u2013 Accordo quadro per l'esecuzione delle attivit\u00e0 di caratterizzazione delle matrici ambientali e di sorgenti primarie o secondarie di potenziale cont",
+    "buyer": "Commissario Straordinario Discariche Abusive Dpcm 24.03.2017",
+    "country": "",
+    "place_performance": "ITF33",
+    "cpv": "45120000",
+    "cpv_list": [
+      "45120000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-22",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/85299e9a-ca0f-4c76-8d77-6e22da57afdd",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45120000)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "81540a20-5bff-4483-a8a7-fe4bf6fffbf1",
+    "title": "Italia \u2013 Lavori di lastricatura e asfaltatura \u2013 PROCEDURA APERTA PER L\u2019APPALTO DEI LAVORI DI RIPRISTINO DI TRATTI STRADALI DI VIA MENTANA. CUP C67H22002500004.",
+    "buyer": "COMUNE DI SIENA - DIREZIONE AFFARI GENERALI E AMMINISTRATIVI- Servizio Stazione Unica Appaltante, Ga",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "45233222",
+    "cpv_list": [
+      "45233222"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/81540a20-5bff-4483-a8a7-fe4bf6fffbf1",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45233222)",
+      "Keyword match: lavori",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "9c7d0f18-b033-4dbe-8502-83b3cec0c499",
+    "title": "Italia \u2013 Riparazione e manutenzione di impianti \u2013 Sistema di qualificazione finalizzato a qualificare operatori economici per l\u2019esecuzione di lavori di manutenzione specialistica di tipo MECCANICA da ",
+    "buyer": "HERA S.p.A.",
+    "country": "",
+    "place_performance": "ITH55",
+    "cpv": "45259000",
+    "cpv_list": [
+      "45259000",
+      "45262400",
+      "45421150",
+      "45421140"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/9c7d0f18-b033-4dbe-8502-83b3cec0c499",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45259000)",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "b6e216a6-8257-485b-b684-3fbbfaeae577",
+    "title": "Italia \u2013 Lavori per la costruzione completa o parziale e ingegneria civile \u2013 Procedura aperta finalizzata all'affidamento di tre distinti accordi quadro, ciascuno con un unico operatore economici, ave",
+    "buyer": "Acqua Pubblica Sabina Spa",
+    "country": "",
+    "place_performance": "ITI42",
+    "cpv": "45200000",
+    "cpv_list": [
+      "45200000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/b6e216a6-8257-485b-b684-3fbbfaeae577",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45200000)",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "2e0b7382-9476-4e64-a57d-76b9485b43c3",
+    "title": "Italia \u2013 Riparazione e manutenzione di impianti \u2013 Sistema di qualificazione finalizzato a qualificare operatori economici per l\u2019esecuzione di lavori di manutenzione specialistica di tipo EDILE da eseg",
+    "buyer": "HERA S.p.A.",
+    "country": "",
+    "place_performance": "ITH55",
+    "cpv": "45259000",
+    "cpv_list": [
+      "45259000",
+      "45262500",
+      "45111000",
+      "45454000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/2e0b7382-9476-4e64-a57d-76b9485b43c3",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45259000)",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "54b81954-afc6-4546-bf44-fe0b9bf31493",
+    "title": "Italia \u2013 Servizi di riparazione e manutenzione di impianti elettrici di edifici \u2013 ANNULLAMENTO IN AUTOTUTELA DELLA PROCEDURA per l'affidamento del Servizio triennale relativo all'esercizio, conduzione",
+    "buyer": "Provincia di Fermo",
+    "country": "",
+    "place_performance": "ITI35",
+    "cpv": "50711000",
+    "cpv_list": [
+      "50711000",
+      "45259000",
+      "50700000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/54b81954-afc6-4546-bf44-fe0b9bf31493",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45259000)",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "a91e029d-7767-4431-95c9-78314239157c",
+    "title": "Italia \u2013 Lavori di costruzione \u2013 Variante n.2",
+    "buyer": "Terna S.p.A.",
+    "country": "",
+    "place_performance": "ITI16",
+    "cpv": "45000000",
+    "cpv_list": [
+      "45000000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "cont-modif",
+    "source_url": "https://ted.europa.eu/en/notice/a91e029d-7767-4431-95c9-78314239157c",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45000000)",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "531a70c7-7f8e-4ddc-9cca-5de4b3600e42",
+    "title": "Italia \u2013 Lavori di costruzione di impianti di depurazione delle acque residue \u2013 G2300041_PNRR_Appalto integrato inerente la progettazione esecutiva e l'esecuzione dei lavori di realizzazione di n.2 im",
+    "buyer": "Acqualatina S.p.A.",
+    "country": "",
+    "place_performance": "ITI44",
+    "cpv": "45232420",
+    "cpv_list": [
+      "45232420"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/531a70c7-7f8e-4ddc-9cca-5de4b3600e42",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45232420)",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "6da9bc54-6d6c-410d-a1a3-586106d4b017",
+    "title": "Italia \u2013 Lavori di costruzione di laboratori \u2013 Affidamento Lavori adeguamento sismico e rifunzionalizzazione Camerino MCD0014 PNRR M1C3",
+    "buyer": "Agenzia del demanio Direzione regionale Marche",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "45214610",
+    "cpv_list": [
+      "45214610"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "cont-modif",
+    "source_url": "https://ted.europa.eu/en/notice/6da9bc54-6d6c-410d-a1a3-586106d4b017",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45214610)",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "7f2c2bfb-17e5-4e5d-bcd5-ec92e7259e5f",
+    "title": "Italia \u2013 Lavori di costruzione di edifici per servizi sanitari \u2013 GARA EUROPEA A PROCEDURA APERTA PER L\u2019AFFIDAMENTO DEI LAVORI DI POTENZIAMENTO DEL PRESIDIO OSPEDALIERO DI DESIO- INTERVENTI DI AMPLIAME",
+    "buyer": "ASST BRIANZA",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "45215100",
+    "cpv_list": [
+      "45215100"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/7f2c2bfb-17e5-4e5d-bcd5-ec92e7259e5f",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45215100)",
+      "Keyword match: lavori"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "db68325c-e0de-42eb-9fb3-a1fe2fafc876",
+    "title": "Italia \u2013 Navi e imbarcazioni \u2013 AVVISO PUBBLICO PER OPPOSIZIONI E OSSERVAZIONI",
+    "buyer": "Autorit\u00e0 di sistema portuale del Mar Ionio",
+    "country": "",
+    "place_performance": "ITF43",
+    "cpv": "34500000",
+    "cpv_list": [
+      "34500000",
+      "45200000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "planning",
+    "source_url": "https://ted.europa.eu/en/notice/db68325c-e0de-42eb-9fb3-a1fe2fafc876",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 45 (found 45200000)"
+    ],
+    "confidence": "LOW"
+  }
+]

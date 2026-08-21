@@ -1,0 +1,41 @@
+{
+  "id": "pulizieverde_napoli",
+  "company_name": "PulizieVerde SRL (Demo)",
+  "industry": "Pulizie civili e industriali",
+  "cpv_codes": [
+    "90",
+    "99"
+  ],
+  "cpv_detailed": [
+    "90511000",
+    "90480000",
+    "90620000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 20000,
+  "value_max": 200000,
+  "excluded_categories": [],
+  "keywords": [
+    "pulizie",
+    "manutenzione",
+    "igiene",
+    "sanificazione",
+    "facility",
+    "rifiuti"
+  ],
+  "excluded_keywords": [
+    "software",
+    "informatica",
+    "costruzioni"
+  ],
+  "preferred_buyers": [
+    "COMUNE",
+    "ASST",
+    "OSPEDALE"
+  ],
+  "notes": "PMI pulizie Napoli - 20-30 dipendenti",
+  "created_at": "2026-08-21T15:54:43.061380",
+  "updated_at": "2026-08-21T15:54:43.061385"
+}

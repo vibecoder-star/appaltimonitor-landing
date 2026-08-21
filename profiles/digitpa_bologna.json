@@ -1,0 +1,41 @@
+{
+  "id": "digitpa_bologna",
+  "company_name": "DigitPA SRL (Demo)",
+  "industry": "Trasformazione digitale PA",
+  "cpv_codes": [
+    "72",
+    "48"
+  ],
+  "cpv_detailed": [
+    "72210000",
+    "72260000",
+    "72510000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 100000,
+  "value_max": 1000000,
+  "excluded_categories": [],
+  "keywords": [
+    "digitale",
+    "trasformazione",
+    "software",
+    "PA",
+    "informatica"
+  ],
+  "excluded_keywords": [
+    "farmaci",
+    "medicinali",
+    "costruzioni"
+  ],
+  "preferred_buyers": [
+    "COMUNE",
+    "PROVINCIA",
+    "REGIONE",
+    "MINISTERO"
+  ],
+  "notes": "PMI digitalizzazione Bologna - 15-25 dipendenti",
+  "created_at": "2026-08-21T15:54:43.061121",
+  "updated_at": "2026-08-21T15:54:43.061126"
+}

@@ -1,0 +1,44 @@
+{
+  "sme_a_it": {
+    "profile_name": "SME A \u2014 IT Services",
+    "total_matched": 1381,
+    "high_priority": 58,
+    "medium_priority": 394,
+    "low_priority": 929,
+    "rejection_reasons": {
+      "value_out_of_range": 27556,
+      "excluded_keyword": 1594,
+      "no_match": 9809
+    },
+    "top_score": 90.7,
+    "report_path": "/opt/autonomous-venture-engine/appalti-monitor/output/report_sme_a_it.txt"
+  },
+  "sme_b_construction": {
+    "profile_name": "SME B \u2014 Construction",
+    "total_matched": 2240,
+    "high_priority": 219,
+    "medium_priority": 797,
+    "low_priority": 1224,
+    "rejection_reasons": {
+      "excluded_keyword": 659,
+      "value_out_of_range": 30674,
+      "no_match": 6767
+    },
+    "top_score": 93.8,
+    "report_path": "/opt/autonomous-venture-engine/appalti-monitor/output/report_sme_b_construction.txt"
+  },
+  "sme_c_cleaning": {
+    "profile_name": "SME C \u2014 Cleaning & Facility",
+    "total_matched": 2491,
+    "high_priority": 303,
+    "medium_priority": 1536,
+    "low_priority": 652,
+    "rejection_reasons": {
+      "value_out_of_range": 17712,
+      "no_match": 19447,
+      "excluded_keyword": 690
+    },
+    "top_score": 88.1,
+    "report_path": "/opt/autonomous-venture-engine/appalti-monitor/output/report_sme_c_cleaning.txt"
+  }
+}

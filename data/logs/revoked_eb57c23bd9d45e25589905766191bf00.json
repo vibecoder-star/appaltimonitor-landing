@@ -1,0 +1,31 @@
+{
+  "token": "eb57c23bd9d45e25589905766191bf00",
+  "status": "revoked",
+  "created_at": "2026-08-21T16:04:34.405019",
+  "expires_at": "2026-08-22T16:04:34.405023",
+  "profile": {
+    "company_name": "Test Company SRL",
+    "business_email": "test@example.com",
+    "industry": "it-software",
+    "geo_area": "nord",
+    "services": "Sviluppo software, cloud",
+    "cpv_codes": "72260000, 72510000",
+    "value_range": "medium"
+  },
+  "consent": {
+    "service_consent": true,
+    "marketing_consent": false,
+    "privacy_consent": true,
+    "consent_version": "1.0",
+    "consent_text": "\nAcconsento al trattamento dei miei dati personali per ricevere il servizio di \nintelligence sugli appalti pubblici da AppaltiMonitor, secondo l'informativa \nprivacy disponibile sul sito.\n",
+    "marketing_consent_text": "\nAcconsento a ricevere comunicazioni commerciali e aggiornamenti su \nAppaltiMonitor, inclusi suggerimenti, novit\u00e0 e offerte.\n",
+    "timestamp": "2026-08-21T16:04:34.405045",
+    "ip_address": "unknown",
+    "user_agent": "unknown"
+  },
+  "source": "test",
+  "confirmation_timestamp": "2026-08-21T16:04:34.405853",
+  "report_generated": false,
+  "report_path": null,
+  "revocation_timestamp": "2026-08-21T16:04:34.406453"
+}

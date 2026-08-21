@@ -1,0 +1,564 @@
+[
+  {
+    "profile": {
+      "id": "edilpro_milano",
+      "company_name": "EdilPro SRL (Demo)",
+      "industry": "Costruzioni edili",
+      "cpv_codes": [
+        "45"
+      ],
+      "cpv_detailed": [
+        "45210000",
+        "45230000",
+        "45110000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 200000,
+      "value_max": 2000000,
+      "keywords": [
+        "costruzioni",
+        "edilizia",
+        "manutenzione",
+        "ristrutturazione",
+        "opere",
+        "lavori"
+      ],
+      "excluded_keywords": [
+        "software",
+        "informatica",
+        "medicinali"
+      ],
+      "preferred_buyers": [
+        "COMUNE",
+        "REGIONE",
+        "ANAS",
+        "FERROVIE"
+      ],
+      "notes": "PMI costruzioni Milano - 15-20 dipendenti"
+    },
+    "status": {
+      "profile_id": "edilpro_milano",
+      "profile_name": "EdilPro SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:43.996456",
+      "total_retrieved": 29,
+      "relevant": 29,
+      "high_priority": 1,
+      "medium_priority": 27,
+      "low_priority": 1,
+      "processing_time": 0.920573,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_edilpro_milano_20260821_155443.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_edilpro_milano_20260821_155443.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_edilpro_milano_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_edilpro_milano_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "manutenzioni_roma",
+      "company_name": "ManutenzioniStrutturali SRL (Demo)",
+      "industry": "Manutenzione e restauro edifici",
+      "cpv_codes": [
+        "45"
+      ],
+      "cpv_detailed": [
+        "45420000",
+        "45262522",
+        "45210000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 50000,
+      "value_max": 500000,
+      "keywords": [
+        "restauro",
+        "manutenzione",
+        "edilizia",
+        "ristrutturazione"
+      ],
+      "excluded_keywords": [
+        "software",
+        "informatica"
+      ],
+      "preferred_buyers": [
+        "COMUNE",
+        "PROVINCIA",
+        "MINISTERO"
+      ],
+      "notes": "PMI restauro Roma - 8-12 dipendenti"
+    },
+    "status": {
+      "profile_id": "manutenzioni_roma",
+      "profile_name": "ManutenzioniStrutturali SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:45.849729",
+      "total_retrieved": 29,
+      "relevant": 29,
+      "high_priority": 1,
+      "medium_priority": 20,
+      "low_priority": 8,
+      "processing_time": 1.850521,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_manutenzioni_roma_20260821_155445.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_manutenzioni_roma_20260821_155445.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_manutenzioni_roma_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_manutenzioni_roma_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "infrastrutture_bologna",
+      "company_name": "InfrastruttureVerdi SRL (Demo)",
+      "industry": "Opere infrastrutturali e verde pubblico",
+      "cpv_codes": [
+        "45"
+      ],
+      "cpv_detailed": [
+        "45230000",
+        "45110000",
+        "45220000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 500000,
+      "value_max": 5000000,
+      "keywords": [
+        "infrastrutture",
+        "strade",
+        "ponti",
+        "verde",
+        "opere"
+      ],
+      "excluded_keywords": [
+        "software",
+        "informatica"
+      ],
+      "preferred_buyers": [
+        "ANAS",
+        "REGIONE",
+        "COMUNE",
+        "MIT"
+      ],
+      "notes": "PMI infrastrutture Bologna - 25-40 dipendenti"
+    },
+    "status": {
+      "profile_id": "infrastrutture_bologna",
+      "profile_name": "InfrastruttureVerdi SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:47.935029",
+      "total_retrieved": 29,
+      "relevant": 29,
+      "high_priority": 0,
+      "medium_priority": 16,
+      "low_priority": 13,
+      "processing_time": 2.082669,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_infrastrutture_bologna_20260821_155447.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_infrastrutture_bologna_20260821_155447.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_infrastrutture_bologna_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_infrastrutture_bologna_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "edilrestauro_firenze",
+      "company_name": "EdilRestauro Cooperativa (Demo)",
+      "industry": "Restauro e recupero edifici",
+      "cpv_codes": [
+        "45"
+      ],
+      "cpv_detailed": [
+        "45420000",
+        "45210000",
+        "45330000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 50000,
+      "value_max": 300000,
+      "keywords": [
+        "restauro",
+        "recupero",
+        "beni culturali",
+        "edilizia"
+      ],
+      "excluded_keywords": [
+        "software",
+        "informatica"
+      ],
+      "preferred_buyers": [
+        "MINISTERO",
+        "COMUNE",
+        "SOPRINTENDENZA"
+      ],
+      "notes": "Cooperativa restauro Firenze - 5-10 dipendenti"
+    },
+    "status": {
+      "profile_id": "edilrestauro_firenze",
+      "profile_name": "EdilRestauro Cooperativa (Demo)",
+      "timestamp": "2026-08-21T15:54:49.775905",
+      "total_retrieved": 29,
+      "relevant": 29,
+      "high_priority": 1,
+      "medium_priority": 16,
+      "low_priority": 12,
+      "processing_time": 1.838028,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_edilrestauro_firenze_20260821_155449.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_edilrestauro_firenze_20260821_155449.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_edilrestauro_firenze_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_edilrestauro_firenze_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "techsolutions_milano",
+      "company_name": "TechSolutions SRL (Demo)",
+      "industry": "Sviluppo software e servizi IT",
+      "cpv_codes": [
+        "72",
+        "48"
+      ],
+      "cpv_detailed": [
+        "72260000",
+        "72210000",
+        "72510000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 30000,
+      "value_max": 300000,
+      "keywords": [
+        "software",
+        "informatica",
+        "cloud",
+        "cybersecurity",
+        "sviluppo",
+        "integrazione",
+        "digitale"
+      ],
+      "excluded_keywords": [
+        "farmaci",
+        "medicinali",
+        "costruzioni"
+      ],
+      "preferred_buyers": [
+        "ASST",
+        "AZIENDA",
+        "COMUNE",
+        "REGIONE",
+        "MINISTERO"
+      ],
+      "notes": "PMI IT Milano - 10-15 dipendenti"
+    },
+    "status": {
+      "profile_id": "techsolutions_milano",
+      "profile_name": "TechSolutions SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:50.075132",
+      "total_retrieved": 16,
+      "relevant": 16,
+      "high_priority": 2,
+      "medium_priority": 7,
+      "low_priority": 7,
+      "processing_time": 0.297041,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_techsolutions_milano_20260821_155450.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_techsolutions_milano_20260821_155450.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_techsolutions_milano_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_techsolutions_milano_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "cloudnet_roma",
+      "company_name": "CloudNet SRL (Demo)",
+      "industry": "Cloud computing e infrastrutture IT",
+      "cpv_codes": [
+        "72",
+        "48"
+      ],
+      "cpv_detailed": [
+        "72413000",
+        "72510000",
+        "72260000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 50000,
+      "value_max": 500000,
+      "keywords": [
+        "cloud",
+        "infrastruttura",
+        "migrazione",
+        "data center",
+        "IT"
+      ],
+      "excluded_keywords": [
+        "farmaci",
+        "medicinali",
+        "costruzioni"
+      ],
+      "preferred_buyers": [
+        "CONSIP",
+        "REGIONE",
+        "MINISTERO",
+        "PA"
+      ],
+      "notes": "PMI cloud Roma - 8-12 dipendenti"
+    },
+    "status": {
+      "profile_id": "cloudnet_roma",
+      "profile_name": "CloudNet SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:51.752284",
+      "total_retrieved": 16,
+      "relevant": 16,
+      "high_priority": 1,
+      "medium_priority": 15,
+      "low_priority": 0,
+      "processing_time": 1.67511,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_cloudnet_roma_20260821_155451.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_cloudnet_roma_20260821_155451.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_cloudnet_roma_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_cloudnet_roma_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "cybersecure_torino",
+      "company_name": "CyberSecure SRL (Demo)",
+      "industry": "Sicurezza informatica",
+      "cpv_codes": [
+        "72"
+      ],
+      "cpv_detailed": [
+        "72413000",
+        "72510000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 20000,
+      "value_max": 200000,
+      "keywords": [
+        "sicurezza",
+        "cybersecurity",
+        "protezione",
+        "IT",
+        "informatica"
+      ],
+      "excluded_keywords": [
+        "farmaci",
+        "medicinali",
+        "costruzioni"
+      ],
+      "preferred_buyers": [
+        "ACN",
+        "MINISTERO",
+        "REGIONE",
+        "PA"
+      ],
+      "notes": "PMI cybersecurity Torino - 5-8 dipendenti"
+    },
+    "status": {
+      "profile_id": "cybersecure_torino",
+      "profile_name": "CyberSecure SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:53.748440",
+      "total_retrieved": 13,
+      "relevant": 13,
+      "high_priority": 0,
+      "medium_priority": 13,
+      "low_priority": 0,
+      "processing_time": 1.994196,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_cybersecure_torino_20260821_155453.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_cybersecure_torino_20260821_155453.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_cybersecure_torino_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_cybersecure_torino_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "digitpa_bologna",
+      "company_name": "DigitPA SRL (Demo)",
+      "industry": "Trasformazione digitale PA",
+      "cpv_codes": [
+        "72",
+        "48"
+      ],
+      "cpv_detailed": [
+        "72210000",
+        "72260000",
+        "72510000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 100000,
+      "value_max": 1000000,
+      "keywords": [
+        "digitale",
+        "trasformazione",
+        "software",
+        "PA",
+        "informatica"
+      ],
+      "excluded_keywords": [
+        "farmaci",
+        "medicinali",
+        "costruzioni"
+      ],
+      "preferred_buyers": [
+        "COMUNE",
+        "PROVINCIA",
+        "REGIONE",
+        "MINISTERO"
+      ],
+      "notes": "PMI digitalizzazione Bologna - 15-25 dipendenti"
+    },
+    "status": {
+      "profile_id": "digitpa_bologna",
+      "profile_name": "DigitPA SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:55.763738",
+      "total_retrieved": 16,
+      "relevant": 16,
+      "high_priority": 2,
+      "medium_priority": 9,
+      "low_priority": 5,
+      "processing_time": 2.013246,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_digitpa_bologna_20260821_155455.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_digitpa_bologna_20260821_155455.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_digitpa_bologna_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_digitpa_bologna_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "pulizieverde_napoli",
+      "company_name": "PulizieVerde SRL (Demo)",
+      "industry": "Pulizie civili e industriali",
+      "cpv_codes": [
+        "90",
+        "99"
+      ],
+      "cpv_detailed": [
+        "90511000",
+        "90480000",
+        "90620000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 20000,
+      "value_max": 200000,
+      "keywords": [
+        "pulizie",
+        "manutenzione",
+        "igiene",
+        "sanificazione",
+        "facility",
+        "rifiuti"
+      ],
+      "excluded_keywords": [
+        "software",
+        "informatica",
+        "costruzioni"
+      ],
+      "preferred_buyers": [
+        "COMUNE",
+        "ASST",
+        "OSPEDALE"
+      ],
+      "notes": "PMI pulizie Napoli - 20-30 dipendenti"
+    },
+    "status": {
+      "profile_id": "pulizieverde_napoli",
+      "profile_name": "PulizieVerde SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:57.906005",
+      "total_retrieved": 64,
+      "relevant": 64,
+      "high_priority": 2,
+      "medium_priority": 56,
+      "low_priority": 6,
+      "processing_time": 2.138574,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_pulizieverde_napoli_20260821_155457.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_pulizieverde_napoli_20260821_155457.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_pulizieverde_napoli_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_pulizieverde_napoli_20260821.json"
+    }
+  },
+  {
+    "profile": {
+      "id": "facilitymulti_genova",
+      "company_name": "FacilityMulti SRL (Demo)",
+      "industry": "Facility management integrato",
+      "cpv_codes": [
+        "90",
+        "99",
+        "79"
+      ],
+      "cpv_detailed": [
+        "90511000",
+        "90620000",
+        "79990000"
+      ],
+      "countries": [
+        "ITA"
+      ],
+      "value_min": 50000,
+      "value_max": 500000,
+      "keywords": [
+        "facility",
+        "manutenzione",
+        "servizi",
+        "pulizie",
+        "gestione"
+      ],
+      "excluded_keywords": [
+        "software",
+        "informatica",
+        "costruzioni"
+      ],
+      "preferred_buyers": [
+        "CONSIP",
+        "COMUNE",
+        "REGIONE",
+        "OSPEDALE"
+      ],
+      "notes": "PMI facility Genova - 30-50 dipendenti"
+    },
+    "status": {
+      "profile_id": "facilitymulti_genova",
+      "profile_name": "FacilityMulti SRL (Demo)",
+      "timestamp": "2026-08-21T15:54:58.740147",
+      "total_retrieved": 92,
+      "relevant": 92,
+      "high_priority": 6,
+      "medium_priority": 83,
+      "low_priority": 3,
+      "processing_time": 0.829544,
+      "reports": {
+        "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_facilitymulti_genova_20260821_155458.md",
+        "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_facilitymulti_genova_20260821_155458.html"
+      },
+      "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_facilitymulti_genova_20260821.json",
+      "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_facilitymulti_genova_20260821.json"
+    }
+  }
+]

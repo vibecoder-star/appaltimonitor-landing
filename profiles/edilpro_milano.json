@@ -1,0 +1,41 @@
+{
+  "id": "edilpro_milano",
+  "company_name": "EdilPro SRL (Demo)",
+  "industry": "Costruzioni edili",
+  "cpv_codes": [
+    "45"
+  ],
+  "cpv_detailed": [
+    "45210000",
+    "45230000",
+    "45110000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 200000,
+  "value_max": 2000000,
+  "excluded_categories": [],
+  "keywords": [
+    "costruzioni",
+    "edilizia",
+    "manutenzione",
+    "ristrutturazione",
+    "opere",
+    "lavori"
+  ],
+  "excluded_keywords": [
+    "software",
+    "informatica",
+    "medicinali"
+  ],
+  "preferred_buyers": [
+    "COMUNE",
+    "REGIONE",
+    "ANAS",
+    "FERROVIE"
+  ],
+  "notes": "PMI costruzioni Milano - 15-20 dipendenti",
+  "created_at": "2026-08-21T15:54:43.059605",
+  "updated_at": "2026-08-21T15:54:43.059622"
+}

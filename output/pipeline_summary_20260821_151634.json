@@ -1,0 +1,23 @@
+[
+  {
+    "error": {
+      "error": true,
+      "status": 400,
+      "message": "{\"message\":\"Value 'IT' is not supported for search field 'buyer-country' in expert search\",\"error\":{\"type\":\"QUERY_UNSUPPORTED_FIELD_VALUE\",\"location\":{\"beginColumn\":67,\"beginLine\":1,\"endColumn\":69,\"endLine\":1},\"fieldName\":\"buyer-country\",\"fieldValue\":\"IT\"}}"
+    }
+  },
+  {
+    "error": {
+      "error": true,
+      "status": 400,
+      "message": "{\"message\":\"Value 'IT' is not supported for search field 'buyer-country' in expert search\",\"error\":{\"type\":\"QUERY_UNSUPPORTED_FIELD_VALUE\",\"location\":{\"beginColumn\":67,\"beginLine\":1,\"endColumn\":69,\"endLine\":1},\"fieldName\":\"buyer-country\",\"fieldValue\":\"IT\"}}"
+    }
+  },
+  {
+    "error": {
+      "error": true,
+      "status": 400,
+      "message": "{\"message\":\"Value 'IT' is not supported for search field 'buyer-country' in expert search\",\"error\":{\"type\":\"QUERY_UNSUPPORTED_FIELD_VALUE\",\"location\":{\"beginColumn\":67,\"beginLine\":1,\"endColumn\":69,\"endLine\":1},\"fieldName\":\"buyer-country\",\"fieldValue\":\"IT\"}}"
+    }
+  }
+]

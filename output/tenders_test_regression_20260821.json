@@ -1,0 +1,591 @@
+[
+  {
+    "notice_id": "68d34303-2d11-45ec-ae35-19a735ee975d",
+    "title": "Italia \u2013 Servizi connessi al software \u2013 Servizio di Gestione del Sistema Telematico Acquisti Regionale della Toscana (START)",
+    "buyer": "SOGGETTO AGGREGATORE REGIONE TOSCANA - SETTORE SISTEMA CLOUD TOSCANO, INFRASTRUTTURE DIGITALI E PIAT",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "72260000",
+    "cpv_list": [
+      "72260000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-10-14",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/68d34303-2d11-45ec-ae35-19a735ee975d",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72260000)",
+      "Active deadline",
+      "Keyword match: software"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "6a99cbb0-3e25-4ac1-a92c-87b0519c7ef4",
+    "title": "Italia \u2013 Servizi di consulenza di software \u2013 PROCEDURA APERTA EX ART. 71 D.LGS. N. 36 2023 PER L\u2019AFFIDAMENTO DEI SERVIZI DI MANUTENZIONE E ASSISTENZA AGLI UTENTI CON HELP-DESK DEDICATO DELLA PIATTAFOR",
+    "buyer": "AUTORITA' DI SISTEMA PORTUALE DEL MAR TIRRENO SETTENTRIONALE - Segretario Generale Dirigente ad inte",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "72266000",
+    "cpv_list": [
+      "72266000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-08-27",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/6a99cbb0-3e25-4ac1-a92c-87b0519c7ef4",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72266000)",
+      "Active deadline",
+      "Keyword match: software"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "93776dd5-33bc-4e18-a082-947cbefd403c",
+    "title": "Italia \u2013 Servizi informatici: consulenza, sviluppo di software, Internet e supporto \u2013 Procedura aperta telematica, ai sensi dell'art. 71 del D.lgs. n. 36/2023 e ss.mm.ii., per l'acquisto di serivizi d",
+    "buyer": "AREA - AREA BILANCIO, RISORSE FINANZIARIE, ICT, AFFARI GENERALI E SEMPLIFICAZIONE - DIREZIONE - ICT,",
+    "country": "",
+    "place_performance": "ITH35",
+    "cpv": "72000000",
+    "cpv_list": [
+      "72000000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-09-28",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/93776dd5-33bc-4e18-a082-947cbefd403c",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72000000)",
+      "Active deadline",
+      "Keyword match: software"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "dda95339-adbf-4f9a-9666-cfcb9ab90578",
+    "title": "Italia \u2013 Servizi connessi al software \u2013 Procedura di gara aperta per l'affidamento del servizio di gestione informatizzata dell'Imposta Municipale Propria (IMU) gestione ordinaria e accertativa, compr",
+    "buyer": "Comune di Benevento - IV Settore - Gestione Economica",
+    "country": "",
+    "place_performance": "ITF32",
+    "cpv": "72260000",
+    "cpv_list": [
+      "72260000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-21",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/dda95339-adbf-4f9a-9666-cfcb9ab90578",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72260000)",
+      "Active deadline",
+      "Keyword match: software"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "e80f4afb-b7a8-4282-ab01-e4c66d806d66",
+    "title": "Italia \u2013 Servizi di sviluppo di software \u2013 Fornitura di una suite applicativa gestionale erogata in modalit\u00e0 Software as a Service presente sul Catalogo delle Infrastrutture digitali e dei Servizi clo",
+    "buyer": "COMUNE DI TARQUINIA",
+    "country": "",
+    "place_performance": "ITI41",
+    "cpv": "72262000",
+    "cpv_list": [
+      "72262000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-24",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/e80f4afb-b7a8-4282-ab01-e4c66d806d66",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72262000)",
+      "Active deadline",
+      "Keyword match: software"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "887e47a2-e220-45ad-ac3c-117e12dc7053",
+    "title": "Italia \u2013 Pacchetti software analitici, scientifici, matematici o previsionali \u2013 ACQUISIZIONE DI UN SOFTWARE GESTIONALE PER LA DIGITALIZZAZIONE DEI FLUSSI DI LAVORO DELLA S.C. GENETICA MEDICA",
+    "buyer": "ASST SANTI PAOLO E CARLO",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "48460000",
+    "cpv_list": [
+      "48460000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-30",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/887e47a2-e220-45ad-ac3c-117e12dc7053",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 48 (found 48460000)",
+      "Active deadline",
+      "Keyword match: software"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "8df2edde-6eb8-4596-b7ff-dce0f76f4116",
+    "title": "Italia \u2013 Servizi di fornitura di software \u2013 Servizio di fornitura del software del portale integrato con CRM per la gestione delle domande di ammissione di studenti internazionali UE e non-UE con tito",
+    "buyer": "Area Approvvigionamenti Beni e Servizi - Settore Gare Beni e Servizi: Ufficio Gare, Ufficio Procedur",
+    "country": "",
+    "place_performance": "ITC4C",
+    "cpv": "72268000",
+    "cpv_list": [
+      "72268000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-22",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/8df2edde-6eb8-4596-b7ff-dce0f76f4116",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72268000)",
+      "Active deadline",
+      "Keyword match: software"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "e226b2f4-b08a-485f-9a50-e36fb1c0b7b5",
+    "title": "Italia \u2013 Servizi di sviluppo di software personalizzati \u2013 Procedura aperta, ai sensi dell\u2019art 71 del D.Lgs. 36/2023 volta alla aggiudicazione di un accordo quadro con un unico operatore ai sensi dell\u2019",
+    "buyer": "Insiel S.p.A. conh socio unico Regione Autonoma Friuli Venezia Giulia",
+    "country": "",
+    "place_performance": "ITH44",
+    "cpv": "72230000",
+    "cpv_list": [
+      "72230000",
+      "72250000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/e226b2f4-b08a-485f-9a50-e36fb1c0b7b5",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72230000)",
+      "Keyword match: software"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "a27cdd2a-a2a0-496a-92b9-e7548084e1d2",
+    "title": "Italia \u2013 Servizi di banche dati \u2013 L'appalto ha ad oggetto l'esecuzione del servizio di edicola digitale su piattaforma web dedicata per la fornitura e consultazione di quotidiani, periodici e servizi ",
+    "buyer": "RAI S.p.A.",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "72320000",
+    "cpv_list": [
+      "72320000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "cont-modif",
+    "source_url": "https://ted.europa.eu/en/notice/a27cdd2a-a2a0-496a-92b9-e7548084e1d2",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72320000)"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "notice_id": "ea1d0c40-2ad6-4a7d-9be8-e144390677bc",
+    "title": "Italia \u2013 Servizi di progettazione grafica \u2013 Servizi di comunicazione integrata",
+    "buyer": "NOI SpA",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "79822500",
+    "cpv_list": [
+      "79822500",
+      "72413000",
+      "92111000",
+      "92312000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/ea1d0c40-2ad6-4a7d-9be8-e144390677bc",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72413000)"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "notice_id": "88ef7216-3b42-4429-b91d-5faf7600306f",
+    "title": "Italia \u2013 Sistema di informazione passeggeri \u2013 PR FESR LAZIO 2021-2027 - STRATEGIA TERRITORIALE DEL COMUNE DI VITERBO - PROGETTO SMART MOBILITY PROCEDURA APERTA PER L'AFFIDAMENTO DELLA FORNITURA E INST",
+    "buyer": "Comune di Viterbo",
+    "country": "",
+    "place_performance": "ITI41",
+    "cpv": "48813000",
+    "cpv_list": [
+      "48813000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/88ef7216-3b42-4429-b91d-5faf7600306f",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 48 (found 48813000)"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "notice_id": "bec7064b-bb41-4143-b120-3bc9c4003091",
+    "title": "Italia \u2013 Server \u2013 Gara a procedura aperta per la fornitura in acquisto di tecnologie server e dei servizi connessi ed opzionali per le pubbliche amministrazioni \u2013 ID 2878",
+    "buyer": "Consip S.p.A.",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "48820000",
+    "cpv_list": [
+      "48820000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/bec7064b-bb41-4143-b120-3bc9c4003091",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 48 (found 48820000)"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "notice_id": "3b560fe2-8cf5-4741-961a-760eb3c8b17f",
+    "title": "Italia \u2013 Servizi di elaborazione dati \u2013 Richiesta di offerta - Acquisizione di licenze MTS per il Dipartimento del Tesoro ID 2965",
+    "buyer": "CONSIP SPA",
+    "country": "",
+    "place_performance": "ITI43",
+    "cpv": "72300000",
+    "cpv_list": [
+      "72300000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "dir-awa-pre",
+    "source_url": "https://ted.europa.eu/en/notice/3b560fe2-8cf5-4741-961a-760eb3c8b17f",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72300000)"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "notice_id": "bf5df7dd-dcb5-4cee-8e15-4de9db71861e",
+    "title": "Italia \u2013 Servizi di trattamento dati \u2013 Servizio di Data Protection Officer (DPO) per le seguenti Aziende: Azienda Usl di Modena (Capofila), AOU di Modena, Ausl di Reggio Emilia e Ospedale di Sassuolo ",
+    "buyer": "AZIENDA USL DI MODENA",
+    "country": "",
+    "place_performance": "ITH54",
+    "cpv": "72310000",
+    "cpv_list": [
+      "72310000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/bf5df7dd-dcb5-4cee-8e15-4de9db71861e",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72310000)"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "notice_id": "81c74269-fb1c-4933-a722-52517d704c2f",
+    "title": "Italia \u2013 Servizi di assistenza per una rete di trasmissione dati \u2013 PROCEDURA APERTA PER L'AFFIDAMENTO DEL SERVIZIO DI IMPLEMENTAZIONE DELLA RETE PER LA VIDEOSORVEGLIANZA, GESTIONE E MANUTENZIONE DELLA",
+    "buyer": "Comune di Imperia",
+    "country": "",
+    "place_performance": "ITC31",
+    "cpv": "72315100",
+    "cpv_list": [
+      "72315100",
+      "32551200"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/81c74269-fb1c-4933-a722-52517d704c2f",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72315100)"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "notice_id": "0f92f62d-f7d6-4a04-90c6-39132f473bf6",
+    "title": "Italia \u2013 Servizi di gestione dati \u2013 PROCEDURA APERTA TELEMATICA PER L\u2019AFFIDAMENTO DEL SERVIZIO DI GESTIONE DELLE PROCEDURE AMMINISTRATIVE SANZIONATORIE PREVISTE DAL CODICE DELLA STRADA, DAI REGOLAMENT",
+    "buyer": "COMUNE DI TREVISO",
+    "country": "",
+    "place_performance": "ITH34",
+    "cpv": "72322000",
+    "cpv_list": [
+      "72322000"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/0f92f62d-f7d6-4a04-90c6-39132f473bf6",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 30,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 72 (found 72322000)"
+    ],
+    "confidence": "LOW"
+  }
+]

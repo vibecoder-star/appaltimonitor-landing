@@ -1,0 +1,44 @@
+{
+  "id": "techsolutions_milano",
+  "company_name": "TechSolutions SRL (Demo)",
+  "industry": "Sviluppo software e servizi IT",
+  "cpv_codes": [
+    "72",
+    "48"
+  ],
+  "cpv_detailed": [
+    "72260000",
+    "72210000",
+    "72510000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 30000,
+  "value_max": 300000,
+  "excluded_categories": [],
+  "keywords": [
+    "software",
+    "informatica",
+    "cloud",
+    "cybersecurity",
+    "sviluppo",
+    "integrazione",
+    "digitale"
+  ],
+  "excluded_keywords": [
+    "farmaci",
+    "medicinali",
+    "costruzioni"
+  ],
+  "preferred_buyers": [
+    "ASST",
+    "AZIENDA",
+    "COMUNE",
+    "REGIONE",
+    "MINISTERO"
+  ],
+  "notes": "PMI IT Milano - 10-15 dipendenti",
+  "created_at": "2026-08-21T15:54:43.060413",
+  "updated_at": "2026-08-21T15:54:43.060418"
+}

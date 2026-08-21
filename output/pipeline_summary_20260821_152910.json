@@ -1,0 +1,53 @@
+[
+  {
+    "profile_id": "sme_it_services",
+    "profile_name": "TechSolutions SRL (Hypothetical)",
+    "timestamp": "2026-08-21T15:29:06.827387",
+    "total_retrieved": 0,
+    "relevant": 0,
+    "high_priority": 0,
+    "medium_priority": 0,
+    "low_priority": 0,
+    "processing_time": 0.693483,
+    "reports": {
+      "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_sme_it_services_20260821_152906.md",
+      "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_sme_it_services_20260821_152906.html"
+    },
+    "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_sme_it_services_20260821.json",
+    "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_sme_it_services_20260821.json"
+  },
+  {
+    "profile_id": "sme_construction",
+    "profile_name": "EdilPro SRL (Hypothetical)",
+    "timestamp": "2026-08-21T15:29:08.787501",
+    "total_retrieved": 0,
+    "relevant": 0,
+    "high_priority": 0,
+    "medium_priority": 0,
+    "low_priority": 0,
+    "processing_time": 1.958985,
+    "reports": {
+      "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_sme_construction_20260821_152908.md",
+      "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_sme_construction_20260821_152908.html"
+    },
+    "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_sme_construction_20260821.json",
+    "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_sme_construction_20260821.json"
+  },
+  {
+    "profile_id": "sme_cleaning",
+    "profile_name": "PulizieVerde SRL (Hypothetical)",
+    "timestamp": "2026-08-21T15:29:10.807146",
+    "total_retrieved": 0,
+    "relevant": 0,
+    "high_priority": 0,
+    "medium_priority": 0,
+    "low_priority": 0,
+    "processing_time": 2.018463,
+    "reports": {
+      "markdown": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_sme_cleaning_20260821_152910.md",
+      "html": "/opt/autonomous-venture-engine/appalti-monitor/reports/report_sme_cleaning_20260821_152910.html"
+    },
+    "data_path": "/opt/autonomous-venture-engine/appalti-monitor/output/tenders_sme_cleaning_20260821.json",
+    "kpi_path": "/opt/autonomous-venture-engine/appalti-monitor/kpis/kpis_sme_cleaning_20260821.json"
+  }
+]

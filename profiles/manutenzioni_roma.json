@@ -1,0 +1,37 @@
+{
+  "id": "manutenzioni_roma",
+  "company_name": "ManutenzioniStrutturali SRL (Demo)",
+  "industry": "Manutenzione e restauro edifici",
+  "cpv_codes": [
+    "45"
+  ],
+  "cpv_detailed": [
+    "45420000",
+    "45262522",
+    "45210000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 50000,
+  "value_max": 500000,
+  "excluded_categories": [],
+  "keywords": [
+    "restauro",
+    "manutenzione",
+    "edilizia",
+    "ristrutturazione"
+  ],
+  "excluded_keywords": [
+    "software",
+    "informatica"
+  ],
+  "preferred_buyers": [
+    "COMUNE",
+    "PROVINCIA",
+    "MINISTERO"
+  ],
+  "notes": "PMI restauro Roma - 8-12 dipendenti",
+  "created_at": "2026-08-21T15:54:43.059895",
+  "updated_at": "2026-08-21T15:54:43.059899"
+}

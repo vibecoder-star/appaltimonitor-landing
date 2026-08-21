@@ -1,0 +1,41 @@
+{
+  "id": "cloudnet_roma",
+  "company_name": "CloudNet SRL (Demo)",
+  "industry": "Cloud computing e infrastrutture IT",
+  "cpv_codes": [
+    "72",
+    "48"
+  ],
+  "cpv_detailed": [
+    "72413000",
+    "72510000",
+    "72260000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 50000,
+  "value_max": 500000,
+  "excluded_categories": [],
+  "keywords": [
+    "cloud",
+    "infrastruttura",
+    "migrazione",
+    "data center",
+    "IT"
+  ],
+  "excluded_keywords": [
+    "farmaci",
+    "medicinali",
+    "costruzioni"
+  ],
+  "preferred_buyers": [
+    "CONSIP",
+    "REGIONE",
+    "MINISTERO",
+    "PA"
+  ],
+  "notes": "PMI cloud Roma - 8-12 dipendenti",
+  "created_at": "2026-08-21T15:54:43.060768",
+  "updated_at": "2026-08-21T15:54:43.060772"
+}

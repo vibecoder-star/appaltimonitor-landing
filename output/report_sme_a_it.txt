@@ -1,0 +1,131 @@
+=== WEEKLY PROCUREMENT INTELLIGENCE REPORT ===
+Profile: SME A — IT Services
+Generated: 2026-08-21 13:28
+
+NEW RELEVANT TENDERS: 1381
+
+HIGH PRIORITY (58 tenders):
+
+1. CIG: A03A2C26BE | Score: 90.7
+   Title: GPI-AFFIDAMENTO DI SERVIZI APPLICATIVI E DI SUPPORTO IN AMBITO 'SANITA
+   Value: €431,858.00
+   CPV: 72261000-2 - SERVIZI DI ASSISTENZA SOFTWARE
+   Location: VARESE
+   Deadline: 2024-01-05
+   Authority: AZIENDA SOCIO SANITARIA TERRITORIALE (ASST) DEI SE
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+2. CIG: A04A85D8F5 | Score: 88.5
+   Title: ADESIONE ALL'INIZIATIVA CONSIP ACCORDO QUADRO SERVIZI APPLICATIVI E SE
+   Value: €397,969.63
+   CPV: 72224000-1 - SERVIZI DI CONSULENZA PER LA GESTIONE DI
+   Location: PAVIA
+   Deadline: 2024-01-17
+   Authority: FONDAZIONE IRCCS POLICLINICO S.MATTEO
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+3. CIG: A0412BDF7D | Score: 75.4
+   Title: ADESIONE POSTUMA ALLA PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, PER L
+   Value: €350,000.00
+   CPV: 48983000-2 - PACCHETTI SOFTWARE DI SVILUPPO
+   Location: BRESCIA
+   Deadline: 2024-01-01
+   Authority: AGENZIA DI TUTELA DELLA SALUTE DI BRESCIA
+   Why: high_value, preferred_location, cpv_match, active
+
+4. CIG: A03197480B | Score: 73.5
+   Title: FORNITURA NAC PER CONTROLLO ACCESSI
+   Value: €398,000.00
+   CPV: 48730000-4 - PACCHETTI SOFTWARE DI SICUREZZA
+   Location: VERONA
+   Deadline: 2024-01-17
+   Authority: AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA ISTITU
+   Why: high_value, other_location, cpv_match, pnrr_funded, active
+
+5. CIG: A04A45CB19 | Score: 72.9
+   Title: ORDINE DIRETTO D'ACQUISTO A VALERE SULLA CONVENZIONE CONSIP DENOMINATA
+   Value: €153,620.04
+   CPV: 48517000-5 - PACCHETTI SOFTWARE IT
+   Location: MILANO
+   Deadline: 2024-01-30
+   Authority: MM S.P.A.
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+6. CIG: A0364541FC | Score: 72.1
+   Title: ACCORDO QUADRO CONSIP SISTEMA PUBBLICO DI CONNETTIVITÀ (SPC2) PERIODO 
+   Value: €297,950.82
+   CPV: 72510000-3 - SERVIZI DI GESTIONE CONNESSI ALL'INFORMA
+   Location: MILANO
+   Deadline: 2024-01-01
+   Authority: AZIENDA SOCIO -SANITARIA TERRITORIALE RHODENSE
+   Why: high_value, preferred_location, cpv_match, active
+
+7. CIG: A04514BEA9 | Score: 71.0
+   Title: ADESIONE AD ACCORDO QUADRO PER SERVIZI DI CONNETTIVITÀ DEL SISTEMA PUB
+   Value: €359,575.11
+   CPV: 72510000-3 - SERVIZI DI GESTIONE CONNESSI ALL'INFORMA
+   Location: NAPOLI
+   Deadline: 2024-01-01
+   Authority: UNIVERSITA DEGLI STUDI DI NAPOLI FEDERICO II
+   Why: high_value, other_location, cpv_match, pnrr_funded, active
+
+8. CIG: B001A7DD7E | Score: 70.5
+   Title: AFFIDAMENTO DIRETTO
+   Value: €37,800.00
+   CPV: 72267100-0 - MANUTENZIONE DI SOFTWARE DI TECNOLOGIA D
+   Location: PAVIA
+   Deadline: 2024-01-12
+   Authority: COMUNE DI DORNO
+   Why: preferred_location, cpv_match, pnrr_funded, urgent, active
+
+9. CIG: A03F51BB54 | Score: 70.2
+   Title: SERVIZI PROFESSIONALI CERT
+   Value: €346,200.00
+   CPV: 72810000-1 - SERVIZI DI AUDIT INFORMATICO
+   Location: BOLZANO
+   Deadline: 2024-01-16
+   Authority: INFORMATICA ALTO ADIGE SPA
+   Why: high_value, other_location, cpv_match, pnrr_funded, active
+
+10. CIG: A041842D89 | Score: 69.0
+   Title: ACQUISTO MODULI DI SICUREZZA PER RTCC BRINDISI E PADOVA E UPGRADE TECN
+   Value: €327,324.14
+   CPV: 48730000-4 - PACCHETTI SOFTWARE DI SICUREZZA
+   Location: BRINDISI
+   Deadline: 2024-01-15
+   Authority: ENAV S.P.A.
+   Why: high_value, other_location, cpv_match, pnrr_funded, active
+
+MEDIUM PRIORITY (394 tenders):
+
+1. CIG: A048BB9667 | Score: 59.8
+   Title: ORDINATIVO PER CONVENZIONE PER L'AFFIDAMENTO DEI SERVIZI DI MANUTENZIO
+   Value: €339,624.98
+   Location: REGGIO NELL'EMILIA | Deadline: 2024-01-10
+
+2. CIG: A0481ACB17 | Score: 59.8
+   Title: ADESIONE CONVENZ. INTERCENT.ER. 'SERV. MANUT., ASSIST. TEC. E PROFESSI
+   Value: €339,624.98
+   Location: REGGIO NELL'EMILIA | Deadline: 2024-01-09
+
+3. CIG: B016ACE6FE | Score: 59.5
+   Title: MIACQ002-24 - SERVIZIO DI GESTIONE DELL'ARCHIVIO DI ANAS - STRUTTURA T
+   Value: €100,000.00
+   Location: MILANO | Deadline: 
+
+4. CIG: B00D0028EE | Score: 59.5
+   Title: ABILITAZIONE CLOUD PA LOCALI
+   Value: €101,208.00
+   Location: ROMA | Deadline: 2024-01-22
+
+5. CIG: B00DC87DC6 | Score: 59.4
+   Title: REALIZZAZIONE SITO MUNICIPIUM E SPORTELLO TELEMATICO
+   Value: €99,500.00
+   Location: NAPOLI | Deadline: 2024-01-22
+
+LOW PRIORITY (929 tenders):
+   (Summary available upon request)
+
+RECOMMENDATION:
+- Pursue top 3 high-priority tenders
+- Review deadlines and prepare documentation

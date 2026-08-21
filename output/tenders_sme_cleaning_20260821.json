@@ -1,0 +1,1896 @@
+[
+  {
+    "notice_id": "4ddd54ae-b6bb-43bf-a954-ebc06406f2d3",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti \u2013 Servizio Quinquennale per il servizio di raccolta, trasporto econferimento rifiuti solidi urbani e assimilati, di rifiuti ingombranti ed altri serviziaccessor",
+    "buyer": "Comune DI Settingiano",
+    "country": "",
+    "place_performance": "ITF63",
+    "cpv": "90511000",
+    "cpv_list": [
+      "90511000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-20",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/4ddd54ae-b6bb-43bf-a954-ebc06406f2d3",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 70,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Active deadline",
+      "Keyword match: rifiuti",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "notice_id": "483f6478-fb05-4c5b-910e-46266fdb4a1c",
+    "title": "Italia \u2013 Servizi di sgombero neve \u2013 Servizio invernale annuale",
+    "buyer": "ANAS S.p.A.",
+    "country": "",
+    "place_performance": "ITA",
+    "cpv": "90620000",
+    "cpv_list": [
+      "90620000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "2026-09-17",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/483f6478-fb05-4c5b-910e-46266fdb4a1c",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 65,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 20,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90620000)",
+      "Location match: ITA",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "b44f1668-2d2d-4115-87dc-0fd6f108e693",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti \u2013 Raccolta e trasporto dei rifiuti biogeni nel circondario di raccolta citt\u00e1 di Brunico della Comunit\u00e0 Comprensoriale Valle Pusteria dal 01 01 2027 fino al 31 1",
+    "buyer": "Comunit\u00e0 Comprensoriale Valle Pusteria - Comunit\u00e1 Comprensoriale Valle Pusteria",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "90511000",
+    "cpv_list": [
+      "90511000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-25",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/b44f1668-2d2d-4115-87dc-0fd6f108e693",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 65,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Active deadline",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "746825a1-de22-47ac-9805-1f0d6e44d6aa",
+    "title": "Italia \u2013 Trattamento e smaltimento dei rifiuti \u2013 Smaltimento rifiuti",
+    "buyer": "Regione Puglia",
+    "country": "",
+    "place_performance": "ITF47",
+    "cpv": "90510000",
+    "cpv_list": [
+      "90510000",
+      "90511000"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "2026-09-18",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/746825a1-de22-47ac-9805-1f0d6e44d6aa",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 65,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90510000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Active deadline",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "38d3c861-16ff-4b2a-b6d3-4c4e1597f8ff",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti \u2013 Servizi di raccolta e trasporto ad impianti autorizzati di recupero/smaltimento/trattamento dei rifiuti urbani, ivi inclusi quelli derivanti dalla raccolta di",
+    "buyer": "SCR PIEMONTE SPA",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "90511000",
+    "cpv_list": [
+      "90511000"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "2026-09-30",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/38d3c861-16ff-4b2a-b6d3-4c4e1597f8ff",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 65,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Active deadline",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "0e5fe2a5-68ee-4931-a1e0-6cc55fde3b50",
+    "title": "Italia \u2013 Servizi fognari, di raccolta dei rifiuti, di pulizia e ambientali \u2013 AFFIDAMENTO DEL SERVIZIO DI RACCOLTA DIFFERENZIATA DEI RIFIUTI URBANI E ASSIMILATI CON IL SISTEMA DEL PORTA A PORTA, TRASPO",
+    "buyer": "C.U.C. Arberia - Comune di Vaccarizzo Albanese",
+    "country": "",
+    "place_performance": "ITF61",
+    "cpv": "90000000",
+    "cpv_list": [
+      "90000000",
+      "90500000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-14",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/0e5fe2a5-68ee-4931-a1e0-6cc55fde3b50",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 60,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90000000)",
+      "Active deadline",
+      "Keyword match: rifiuti",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "9ad20d26-134b-4c54-b567-b550234febae",
+    "title": "Italia \u2013 Trattamento e smaltimento dei rifiuti \u2013 CUC CMVD - CENTRO DI COSTO: COMUNE DI SALA CONSILINA. GARA EUROPE A PROCEDURA APERTA, CON IL CRITERIO DELL'O.E.V., AI SENSI DELL'ART. 108, COMMA 2, DEL",
+    "buyer": "Comune di Sala Consilina",
+    "country": "",
+    "place_performance": "ITF35",
+    "cpv": "90510000",
+    "cpv_list": [
+      "90510000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-21",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/9ad20d26-134b-4c54-b567-b550234febae",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 60,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90510000)",
+      "Active deadline",
+      "Keyword match: rifiuti",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "269dfaf8-a2c9-428e-a6c2-870296fbd314",
+    "title": "Italia \u2013 Servizi di riciclo dei rifiuti \u2013 Procedura Aperta, suddivisa in 2 (due) Lotti, per l'affidamento del servizio di trattamento e recupero dei rifiuti in legno provenienti dai centri di raccolta",
+    "buyer": "AMA S.p.A.",
+    "country": "",
+    "place_performance": "ITI43",
+    "cpv": "90514000",
+    "cpv_list": [
+      "90514000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "2026-09-30",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/269dfaf8-a2c9-428e-a6c2-870296fbd314",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90514000)",
+      "Active deadline",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "60b29111-ddca-4c44-a624-5384aaa0115c",
+    "title": "Italia \u2013 Trattamento e smaltimento dei rifiuti \u2013 Affidamento del servizio di trasporto e trattamento Rifiuti E.E.R. 19.12.12 prodotti presso il Centro di Brissogne (Aosta) e discendenti dal processo d",
+    "buyer": "ENVAL srl",
+    "country": "",
+    "place_performance": "ITC20",
+    "cpv": "90510000",
+    "cpv_list": [
+      "90510000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "2026-09-14",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/60b29111-ddca-4c44-a624-5384aaa0115c",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90510000)",
+      "Active deadline",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "e5b46bb4-174f-44d5-962a-502ed9d39abb",
+    "title": "Italia \u2013 Servizi di riparazione e manutenzione \u2013 Procedura aperta inerente all'affidamento di servizi di manutenzione impianti per esigenze del Reparto Comando e Supporti Tattici in Viterbo",
+    "buyer": "MINISTERO DELLA DIFESA - COMANDO AVIAZIONE DELL'ESERCITO",
+    "country": "",
+    "place_performance": "ITI41",
+    "cpv": "50000000",
+    "cpv_list": [
+      "50000000",
+      "50413200",
+      "50610000",
+      "50530000",
+      "90460000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "2026-09-28",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/e5b46bb4-174f-44d5-962a-502ed9d39abb",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90460000)",
+      "Active deadline",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "c74d6e7e-07d0-48f7-a175-977791f14861",
+    "title": "Italia \u2013 Servizi di pulizia di uffici, scuole e apparecchiature per ufficio \u2013 GARA EUROPEA PROCEDURA APERTA AFFIDAMENTO DEL SERVIZIO DI PULIZIA ED IGIENE AMBIENTALE DI LOCALI SEDI E COMPETENZE DELLA C",
+    "buyer": "COMUNITA' MONTANA BUSSENTO - LAMBRO E MINGARDO",
+    "country": "",
+    "place_performance": "ITF35",
+    "cpv": "90919000",
+    "cpv_list": [
+      "90919000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-17",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/c74d6e7e-07d0-48f7-a175-977791f14861",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90919000)",
+      "Active deadline",
+      "Keyword match: igiene"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "ecd9c573-5333-419c-9175-5ce0aec8f315",
+    "title": "Italia \u2013 Servizi di pulizia di uffici \u2013 FINAOSTA - PULIZIE",
+    "buyer": "IN.VA. S.P.A.",
+    "country": "",
+    "place_performance": "ITC20",
+    "cpv": "90919200",
+    "cpv_list": [
+      "90919200"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-24",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/ecd9c573-5333-419c-9175-5ce0aec8f315",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90919200)",
+      "Active deadline",
+      "Keyword match: pulizie"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "90ff1919-7001-48af-bbd0-ec6bbba53366",
+    "title": "Italia \u2013 Servizi di riparazione e manutenzione \u2013 Procedura aperta inerente all'affidamento di servizi di manutenzione impianti per esigenze del Reparto Comando e Supporti Tattici in Viterbo",
+    "buyer": "MINISTERO DELLA DIFESA - COMANDO AVIAZIONE DELL'ESERCITO",
+    "country": "",
+    "place_performance": "ITI41",
+    "cpv": "50000000",
+    "cpv_list": [
+      "50000000",
+      "50413200",
+      "50610000",
+      "50530000",
+      "90460000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-28",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/90ff1919-7001-48af-bbd0-ec6bbba53366",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90460000)",
+      "Active deadline",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "85ac6389-87db-432f-afee-9e7040b362cf",
+    "title": "Italia \u2013 Trattamento e smaltimento dei rifiuti \u2013 PROCEDURA APERTA, AI SENSI DELL&#8217;ART. 71 DEL D.LGS. N. 36/2023, PER L&#8217;AFFIDAMENTO DEL SERVIZIO DI PRELIEVO, TRASPORTO E SMALTIMENTO/RECUPERO",
+    "buyer": "AMIU Puglia S.p.A.",
+    "country": "",
+    "place_performance": "ITF47",
+    "cpv": "90510000",
+    "cpv_list": [
+      "90510000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-21",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/85ac6389-87db-432f-afee-9e7040b362cf",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90510000)",
+      "Active deadline",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "63e42bcc-8647-4f8f-85d8-9486786a95c0",
+    "title": "Italia \u2013 Servizi di pulizia e di spazzamento delle strade \u2013 Gara europea a procedura aperta per l'affidamento dell'appalto di alcuni servizi inerenti la manutenzione urbana (pulizia strade, pulizia ba",
+    "buyer": "Stazione Unica Appaltante Provincia di Pesaro Urbino",
+    "country": "",
+    "place_performance": "ITI31",
+    "cpv": "90610000",
+    "cpv_list": [
+      "90610000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-09-28",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/63e42bcc-8647-4f8f-85d8-9486786a95c0",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90610000)",
+      "Active deadline",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "7b3108d6-7f81-4106-8bd8-7830bf174218",
+    "title": "Italia \u2013 Servizi di riparazione e manutenzione \u2013 Procedura aperta inerente all'affidamento di servizi di manutenzione impianti per esigenze del Reparto Comando e Supporti Tattici in Viterbo",
+    "buyer": "MINISTERO DELLA DIFESA - COMANDO AVIAZIONE DELL'ESERCITO",
+    "country": "",
+    "place_performance": "ITI41",
+    "cpv": "50000000",
+    "cpv_list": [
+      "50000000",
+      "50413200",
+      "50610000",
+      "50530000",
+      "90460000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-09-28",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/7b3108d6-7f81-4106-8bd8-7830bf174218",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90460000)",
+      "Active deadline",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "3b06714a-46d2-4d96-a0ef-8754555ab521",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti solidi urbani \u2013 Servizio integrato di raccolta, trasporto, avvio a recupero e smaltimento dei rifiuti urbani e assimilati nel territorio di CARERI, di spazzamen",
+    "buyer": "Comune di Careri",
+    "country": "",
+    "place_performance": "ITF65",
+    "cpv": "90511100",
+    "cpv_list": [
+      "90511100"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/3b06714a-46d2-4d96-a0ef-8754555ab521",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511100)",
+      "Detailed CPV match: 90511100 (found 90511100)",
+      "Keyword match: rifiuti",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "593a5e4c-9f87-41e8-bdcf-95783d561c9b",
+    "title": "Italia \u2013 Servizi di pulizia e disinfestazione \u2013 SERVIZIO DI PULIZIA E SANIFICAZIONE, RACCOLTA DIFFERENZIATA E SMALTIMENTO RIFIUTI DELLANFITEATRO ARENA DI VERONA DAL 07/04/2027 AL 30/11/2029",
+    "buyer": "Fondazione Arena di Verona",
+    "country": "",
+    "place_performance": "ITH31",
+    "cpv": "90900000",
+    "cpv_list": [
+      "90900000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "2026-09-21",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/593a5e4c-9f87-41e8-bdcf-95783d561c9b",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90900000)",
+      "Active deadline",
+      "Keyword match: sanificazione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "13daf433-f706-4a4e-81a1-f27cd0325c36",
+    "title": "Italia \u2013 Servizi di riparazione e manutenzione \u2013 Procedura aperta inerente all'affidamento di servizi di manutenzione impianti per esigenze del Reparto Comando e Supporti Tattici in Viterbo",
+    "buyer": "MINISTERO DELLA DIFESA - COMANDO AVIAZIONE DELL'ESERCITO",
+    "country": "",
+    "place_performance": "ITI41",
+    "cpv": "50000000",
+    "cpv_list": [
+      "50000000",
+      "50413200",
+      "50610000",
+      "50530000",
+      "90460000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-28",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/13daf433-f706-4a4e-81a1-f27cd0325c36",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90460000)",
+      "Active deadline",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "ee5d8f2e-0bfb-4803-bfdd-36efbd615f87",
+    "title": "Italia \u2013 Servizi di trasporto di rifiuti \u2013 Servizio di prelievo, trasporto e avvio a recupero/smaltimento dei rifiuti plastica CER 20.01.39 dai centri di raccolta. Settori Ordinari. Durata 12 mesi (co",
+    "buyer": "ETRA SPA S.B.",
+    "country": "",
+    "place_performance": "ITH32",
+    "cpv": "90512000",
+    "cpv_list": [
+      "90512000",
+      "90514000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-24",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/ee5d8f2e-0bfb-4803-bfdd-36efbd615f87",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90512000)",
+      "Active deadline",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "35468087-a447-44fe-8eb7-ae16fd6cc401",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti \u2013 AFFIDAMENTO IN APPALTO PER 7 ANNI, OLTRE OPZIONE DI RINNOVO E DI PROROGA, DEL SERVIZIO DI RACCOLTA, TRASPORTO RSU E IGIENE URBANA NEL COMUNE DI STINTINO (SS)",
+    "buyer": "Comune di Stintino",
+    "country": "",
+    "place_performance": "ITG2D",
+    "cpv": "90511000",
+    "cpv_list": [
+      "90511000",
+      "90500000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/35468087-a447-44fe-8eb7-ae16fd6cc401",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 55,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Keyword match: igiene",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "911b19a5-9c08-46a6-846d-8c4c319b16d0",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti solidi urbani \u2013 SERVIZIO DI RACCOLTA DIFFERENZIATA PORTA A PORTA, TRASPORTO E SMALTIMENTO DEI RIFIUTI URBANI E ASSIMILATI PRESSO CENTRI AUTORIZZATI PER LO SMALT",
+    "buyer": "Castelpoto",
+    "country": "",
+    "place_performance": "ITF32",
+    "cpv": "90511100",
+    "cpv_list": [
+      "90511100"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/911b19a5-9c08-46a6-846d-8c4c319b16d0",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511100)",
+      "Detailed CPV match: 90511100 (found 90511100)",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "6f30caed-2773-4a0e-bcf9-738de09197d2",
+    "title": "Italia \u2013 Servizi di pulizia \u2013 APPALTO RISERVATO AI SENSI DELL'ART. 61 D. LGS. 36/2023 DEL SERVIZIO DI PULIZIA DEGLI UFFICI, DEI SERVIZI EDUCATIVI E DEGLI ALTRI LOCALI IN USO AL CONSORZIO DEI SERVIZI S",
+    "buyer": "Centrale Acquisti Comune di Verbania",
+    "country": "",
+    "place_performance": "ITC14",
+    "cpv": "90910000",
+    "cpv_list": [
+      "90910000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-18",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/6f30caed-2773-4a0e-bcf9-738de09197d2",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90910000)",
+      "Active deadline",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "99fa3a7a-9457-4b0e-ac21-1fa8ecd099fc",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti \u2013 SERVIZIO DI RACCOLTA, TRASPORTO, SELEZIONE E AVVIO A RECUPERO DEI RIFIUTI DI IMBALLAGGIO IN PLASTICA PROVENIENTI DALLA RACCOLTA DIFFERENZIATA SUL TERRITORIO D",
+    "buyer": "Servizi Energia Ambiente Bolzano S.p.a. - Ufficio Appalti e Contratti",
+    "country": "",
+    "place_performance": "ITH10",
+    "cpv": "90511000",
+    "cpv_list": [
+      "90511000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/99fa3a7a-9457-4b0e-ac21-1fa8ecd099fc",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "e940a85e-7248-4188-8105-c64d44bc20aa",
+    "title": "Italia \u2013 Servizi di sgombero neve \u2013 Servizio di sgombero neve e spargimento di materiale antigelo lungo le strade comunali per le stagioni invernali 2026/2027, 2027/2028 e 2028/2029",
+    "buyer": "Comune di Udine",
+    "country": "",
+    "place_performance": "ITH42",
+    "cpv": "90620000",
+    "cpv_list": [
+      "90620000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "2026-09-25",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/e940a85e-7248-4188-8105-c64d44bc20aa",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90620000)",
+      "Active deadline",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "9c1324b7-5d1b-46a9-89a2-924673bd7372",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti \u2013 Servizio biennale di ritiro, trasporto e smaltimento-recupero dei rifiuti sanitari, pericolosi e non, e rifiuti non sanitari, pericolosi e non, prodotti dall'",
+    "buyer": "ASP DI TRAPANI - U.O.C. PROVVEDITORATO",
+    "country": "",
+    "place_performance": "ITG11",
+    "cpv": "90511000",
+    "cpv_list": [
+      "90511000",
+      "90520000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/9c1324b7-5d1b-46a9-89a2-924673bd7372",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "d2ff8361-7ffd-4f9b-8f9d-94ff1cf39126",
+    "title": "Italia \u2013 Servizi di riparazione e manutenzione \u2013 SERVIZI DI SPAZZAMENTO, RACCOLTA E TRASPORTO DEI RIFIUTI URBANI ED ASSIMILATI E DI IGIENE PUBBLICA IN AMBITO COMUNALE NEL COMUNE DI ACQUAVIVA DELLE FON",
+    "buyer": "UNIONE DEI COMUNI MONTEDORO - GESTIONE GARE",
+    "country": "",
+    "place_performance": "ITF47",
+    "cpv": "50000000",
+    "cpv_list": [
+      "50000000",
+      "90511000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/d2ff8361-7ffd-4f9b-8f9d-94ff1cf39126",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "6ca63815-0431-4b39-b7ab-ad25aa444a46",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti solidi urbani \u2013 Servizi di raccolta manuale e trasporto carta e cartone",
+    "buyer": "Contarina S.p.A.",
+    "country": "",
+    "place_performance": "ITH34",
+    "cpv": "90511100",
+    "cpv_list": [
+      "90511100",
+      "90512000"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/6ca63815-0431-4b39-b7ab-ad25aa444a46",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511100)",
+      "Detailed CPV match: 90511100 (found 90511100)",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "b4b1c974-1e05-41e0-9d97-24f7312a0058",
+    "title": "Italia \u2013 Servizi di sgombero neve \u2013 accordo quadro per il servizio trattamenti di prevenzione antighiaccio, sgombero neve e pulizia delle strade",
+    "buyer": "Comune di Padova",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "90620000",
+    "cpv_list": [
+      "90620000",
+      "90510000"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "2026-09-28",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/b4b1c974-1e05-41e0-9d97-24f7312a0058",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90620000)",
+      "Active deadline",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "2c5f9c4e-2195-4b16-b110-aa626045f36a",
+    "title": "Italia \u2013 Servizi di raccolta di rifiuti \u2013 AFFIDAMENTO SERVIZIO DI IGIENE URBANA DEL COMUNE DI GALGAGNANO PERIODO 01.01.2025-31.12.2029 CON POSSIBILITA' DI RINNOVO PER ULTERIORI 12 MESI",
+    "buyer": "PROVINCIA DI LODI",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "90511000",
+    "cpv_list": [
+      "90511000"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/2c5f9c4e-2195-4b16-b110-aa626045f36a",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 50,
+    "score_breakdown": {
+      "cpv": 40,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90511000)",
+      "Detailed CPV match: 90511000 (found 90511000)",
+      "Keyword match: igiene"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "b3c57e56-7944-4f79-9983-35228159d1a4",
+    "title": "Italia \u2013 Servizi di pulizia e disinfestazione \u2013 GARA N. 3021/2026 - PROVINCIA DI FOGGIA- PROCEDURA APERTA AI SENSI DELLART.71 DEL D.LGS.36/2023 PER L'AFFIDAMENTO DELL'APPALTO RELATIVO AL SERVIZIO DI P",
+    "buyer": "PROVINCIA DI FOGGIA",
+    "country": "",
+    "place_performance": "ITF46",
+    "cpv": "90900000",
+    "cpv_list": [
+      "90900000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "2026-09-16",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/b3c57e56-7944-4f79-9983-35228159d1a4",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90900000)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "d0804378-3dd1-4227-8bfe-5c3c2701c810",
+    "title": "Italia \u2013 Servizi di pulizia e disinfestazione \u2013 APPALTO SERVIZI DI PULIZIA DEGLI UFFICI DEGLI ORGANISMI DELLA POLIZIA DI STATO DI CATANZARO E PROVINCIA DURATA TRIENNALE",
+    "buyer": "UFFICIO TERRITORIALE DEL GOVERNO (UTG EX PREFETTURA) DI CATANZARO",
+    "country": "",
+    "place_performance": "ITF63",
+    "cpv": "90900000",
+    "cpv_list": [
+      "90900000",
+      "90911200"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "2026-09-30",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/d0804378-3dd1-4227-8bfe-5c3c2701c810",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90900000)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "94583c66-8f8c-4670-a6f2-fe5128e4dd6d",
+    "title": "Italia \u2013 Servizi di sgombero neve \u2013 AP_MR_PINZOLO SGOMBERO NEVE",
+    "buyer": "Consorzio Dei Comuni Trentini Societa' Cooperativa",
+    "country": "",
+    "place_performance": "ITH20",
+    "cpv": "90620000",
+    "cpv_list": [
+      "90620000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "2026-09-08",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/94583c66-8f8c-4670-a6f2-fe5128e4dd6d",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90620000)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "62f3fb3b-a75c-407c-b4d5-3697aafe4a96",
+    "title": "Italia \u2013 Servizi di piantagione e manutenzione di zone verdi \u2013 PROCEDURA APERTA TELEMATICA PER LA CONCLUSIONE DI UN ACCORDO QUADRO CON PI\u00d9 OPERATORI ECONOMICI PER L\u2019AFFIDAMENTO DEL SERVIZIO DI MANUTEN",
+    "buyer": "COMUNE DI TREVISO",
+    "country": "",
+    "place_performance": "ITH34",
+    "cpv": "77310000",
+    "cpv_list": [
+      "77310000",
+      "90513000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/62f3fb3b-a75c-407c-b4d5-3697aafe4a96",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90513000)",
+      "Keyword match: manutenzione",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "e9a35c4e-646f-4b2c-8831-bf5c615283a3",
+    "title": "Italia \u2013 Servizi di piantagione e manutenzione di zone verdi \u2013 PROCEDURA APERTA TELEMATICA PER LA CONCLUSIONE DI UN ACCORDO QUADRO CON PI\u00d9 OPERATORI ECONOMICI PER L\u2019AFFIDAMENTO DEL SERVIZIO DI MANUTEN",
+    "buyer": "COMUNE DI TREVISO",
+    "country": "",
+    "place_performance": "ITH34",
+    "cpv": "77310000",
+    "cpv_list": [
+      "77310000",
+      "90513000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/e9a35c4e-646f-4b2c-8831-bf5c615283a3",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90513000)",
+      "Keyword match: manutenzione",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "00653aba-6e33-4fc7-b314-ed8fe060b236",
+    "title": "Italia \u2013 Servizi di piantagione e manutenzione di zone verdi \u2013 PROCEDURA APERTA TELEMATICA PER LA CONCLUSIONE DI UN ACCORDO QUADRO CON PI\u00d9 OPERATORI ECONOMICI PER L\u2019AFFIDAMENTO DEL SERVIZIO DI MANUTEN",
+    "buyer": "COMUNE DI TREVISO",
+    "country": "",
+    "place_performance": "ITH34",
+    "cpv": "77310000",
+    "cpv_list": [
+      "77310000",
+      "90513000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/00653aba-6e33-4fc7-b314-ed8fe060b236",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90513000)",
+      "Keyword match: manutenzione",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "21d3d503-3988-4b6e-9cb1-ba43720ac6bd",
+    "title": "Italia \u2013 Servizi di sorveglianza \u2013 Servizio di accoglienza, sorveglianza e pulizia della Sala studio \"UMBERTO ECO\", con l'inserimento di persone svantaggiate ex art.61 del D.lgs 36/2023 per il periodo",
+    "buyer": "SETTORE CULTURA, BIBLIOTECHE, MUSEI E MARKETING TERRITORIALE",
+    "country": "",
+    "place_performance": "ITC47",
+    "cpv": "79714000",
+    "cpv_list": [
+      "79714000",
+      "90910000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-24",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/21d3d503-3988-4b6e-9cb1-ba43720ac6bd",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90910000)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "110eca7a-084b-4da5-801c-f085c8504c03",
+    "title": "Italia \u2013 Servizi di trattamento fanghi \u2013 BS 258-26/GL Trasporto e trattamento fanghi 190805 prodotti dagli impianti di Veritas",
+    "buyer": "VERITAS SPA",
+    "country": "",
+    "place_performance": "ITH35",
+    "cpv": "90513800",
+    "cpv_list": [
+      "90513800"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-30",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/110eca7a-084b-4da5-801c-f085c8504c03",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90513800)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "c341048a-ded7-442a-ad2d-632ab0421382",
+    "title": "Italia \u2013 Servizi di sgombero neve \u2013 AP_MR_Dimaro-Folgarida_Servizio sgombero neve",
+    "buyer": "Consorzio Dei Comuni Trentini Societa' Cooperativa",
+    "country": "",
+    "place_performance": "ITH20",
+    "cpv": "90620000",
+    "cpv_list": [
+      "90620000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-14",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/c341048a-ded7-442a-ad2d-632ab0421382",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90620000)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "918e6b76-8919-4fd1-994e-0c67309fc520",
+    "title": "Italia \u2013 Servizi di smaltimento di armi e munizioni \u2013 Procedura aperta ex artt. art 59 e art. 71 del codice dei contratti (D.lgs. 36/2023) per la sottoscrizione di un Accordo Quadro della durata di du",
+    "buyer": "Agenzia Industrie Difesa",
+    "country": "",
+    "place_performance": "ITI43",
+    "cpv": "90523100",
+    "cpv_list": [
+      "90523100"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-18",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/918e6b76-8919-4fd1-994e-0c67309fc520",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90523100)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "e18ebfa3-992e-47fd-9754-dffad3d8d071",
+    "title": "Italia \u2013 Servizi di pulizia \u2013 PROCEDURA APERTA AI SENSI DELL\u2019ART. 71 DEL D. LGS 36/2023 PER L\u2019AFFIDAMENTO DEL SERVIZIO DI PULIZIA DELLE SEDI AZIENDALI IN GESTIONE AD IRPINIAMBIENTE SPA E DI FORNITURA ",
+    "buyer": "IRPINIAMBIENTE SPA",
+    "country": "",
+    "place_performance": "ITF34",
+    "cpv": "90910000",
+    "cpv_list": [
+      "90910000"
+    ],
+    "publication_date": "2026-08-20",
+    "deadline": "2026-09-28",
+    "is_active": true,
+    "estimated_value": null,
+    "procedure_type": "competition",
+    "source_url": "https://ted.europa.eu/en/notice/e18ebfa3-992e-47fd-9754-dffad3d8d071",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 15,
+      "keyword": 0,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90910000)",
+      "Active deadline"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "83f6c3ef-364b-446e-a317-dff88454e940",
+    "title": "Italia \u2013 Servizi di trattamento e smaltimento di rifiuti urbani e domestici non pericolosi \u2013 procedura aperta servizi trattamento rifiuti umido",
+    "buyer": "COMUNE DI SINNAI",
+    "country": "",
+    "place_performance": "ITG2F",
+    "cpv": "90513000",
+    "cpv_list": [
+      "90513000"
+    ],
+    "publication_date": "2026-08-21",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/83f6c3ef-364b-446e-a317-dff88454e940",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 45,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 5
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90513000)",
+      "Keyword match: rifiuti",
+      "Preferred buyer: COMUNE"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "6d5a089b-44b9-45b3-a394-ac9c89b504ba",
+    "title": "Italia \u2013 Servizi di piantagione e manutenzione di zone verdi \u2013 ACCORDO QUADRO anni 2026, 2027, 2028 e 2029 per i servizi relativi alla manutenzione del verde, sgombero neve e trattamento antighiaccio ",
+    "buyer": "PROVINCIA DI PISTOIA - ATTIVITA' AMMINISTRATIVE PER L'ACQUISIZIONE DI BENI E SERVIZI DI INTERESSE DE",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "77310000",
+    "cpv_list": [
+      "77310000",
+      "90620000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/6d5a089b-44b9-45b3-a394-ac9c89b504ba",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90620000)",
+      "Keyword match: manutenzione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "dc0b1a34-b140-4997-9003-85e062c17b25",
+    "title": "Italia \u2013 Servizi di pulizia \u2013 SUAVE P/C DEL CENTRO SERVIZI PER ANZIANI DI MONSELICE.GARA EUROPEA A PROCEDURA APERTA PER LAFFIDAMENTO DEL SERVIZIO DI PULIZIA E SANIFICAZIONE A RIDOTTO IMPATTO AMBIENTAL",
+    "buyer": "S.U.A. Citt\u00e0 Metropolitana di Venezia",
+    "country": "",
+    "place_performance": "ITH36",
+    "cpv": "90910000",
+    "cpv_list": [
+      "90910000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/dc0b1a34-b140-4997-9003-85e062c17b25",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90910000)",
+      "Keyword match: sanificazione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "149fa01c-494b-48bf-8b68-6f222452c2be",
+    "title": "Italia \u2013 Servizi fognari \u2013 ACCORDO QUADRO PER SERVIZI DI PULIZIA DI RETI E IMPIANTI DI ACQUE SPA: PRELIEVO, TRASPORTO E SCARICO DI RIFIUTI LIQUIDI SPECIALI - 5 LOTTI",
+    "buyer": "Acque S.p.A.",
+    "country": "",
+    "place_performance": "ITI17",
+    "cpv": "90400000",
+    "cpv_list": [
+      "90400000"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/149fa01c-494b-48bf-8b68-6f222452c2be",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90400000)",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "fee0f9d9-ab43-496f-a8f0-6b2a9977d968",
+    "title": "Italia \u2013 Servizi di pulizia di scuole \u2013 SERVIZI DI PULIZIA, SANIFICAZIONE E SORVEGLIANZA NEGLI ASILI NIDO COMUNALI E NEL CENTRO DELL'INFANZIA E DI SUPPORTO AL PERSONALE EDUCATIVO",
+    "buyer": "DIREZIONE PUBBLICA ISTRUZIONE E POLITICHE EDUCATIVE",
+    "country": "",
+    "place_performance": "ITF43",
+    "cpv": "90919300",
+    "cpv_list": [
+      "90919300"
+    ],
+    "publication_date": "2026-08-14",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/fee0f9d9-ab43-496f-a8f0-6b2a9977d968",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90919300)",
+      "Keyword match: sanificazione"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "018cb963-b129-4cc6-a030-bbe7c94ecb6d",
+    "title": "Italia \u2013 Servizi di smaltimento dei rifiuti solidi urbani \u2013 SERVIZIO DI STOCCAGGIO, RECUPERO/SMALTIMENTO DEL RIFIUTO CER 20.02.01, RIFIUTI BIODEGRADABILI, PROVENIENTI DALLA RACCOLTA DIFFERENZIATA DEL ",
+    "buyer": "AcegasApsAmga S.p.A.",
+    "country": "",
+    "place_performance": "ITH44",
+    "cpv": "90513200",
+    "cpv_list": [
+      "90513200",
+      "90513000"
+    ],
+    "publication_date": "2026-08-17",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/018cb963-b129-4cc6-a030-bbe7c94ecb6d",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90513200)",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "d10389ee-31c1-4514-a2eb-cfd088ed3cdf",
+    "title": "Italia \u2013 Servizi di trattamento e smaltimento di rifiuti urbani e domestici non pericolosi \u2013 PROCEDURA TELEMATICA APERTA PER L\u2019APPALTO RELATIVO ALL'AFFIDAMENTO DEL SERVIZIO DI TRATTAMENTO/SMALTIMENTO ",
+    "buyer": "Silea S.p.A.-societ\u00e0 benefit",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "90513000",
+    "cpv_list": [
+      "90513000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "cont-modif",
+    "source_url": "https://ted.europa.eu/en/notice/d10389ee-31c1-4514-a2eb-cfd088ed3cdf",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90513000)",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "81f726cd-73b1-4ebc-ad41-7b6545a4322f",
+    "title": "Italia \u2013 Trattamento e smaltimento dei rifiuti \u2013 Prelievo, trasporto e trattamento e/o smaltimento di polveri e fanghi",
+    "buyer": "Silea S.p.A.-societ\u00e0 benefit",
+    "country": "",
+    "place_performance": "00",
+    "cpv": "90510000",
+    "cpv_list": [
+      "90510000"
+    ],
+    "publication_date": "2026-08-18",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "cont-modif",
+    "source_url": "https://ted.europa.eu/en/notice/81f726cd-73b1-4ebc-ad41-7b6545a4322f",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90510000)",
+      "Keyword match: rifiuti"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "notice_id": "bc5e7068-29db-4fd0-8001-46eb223e1459",
+    "title": "Italia \u2013 Servizi di pulizia \u2013 Gara Europea a procedura aperta soprasoglia per l'affidamento del servizio di pulizie civili e industriali presso la sede di Elettra - Sincrotrone Trieste S.C.p.A.",
+    "buyer": "Elettra - Sincrotrone Trieste S.C.p.A.",
+    "country": "",
+    "place_performance": "ITH44",
+    "cpv": "90910000",
+    "cpv_list": [
+      "90910000"
+    ],
+    "publication_date": "2026-08-19",
+    "deadline": "",
+    "is_active": false,
+    "estimated_value": null,
+    "procedure_type": "result",
+    "source_url": "https://ted.europa.eu/en/notice/bc5e7068-29db-4fd0-8001-46eb223e1459",
+    "quality": "MEDIUM",
+    "quality_issues": [],
+    "quality_warnings": [
+      "Missing important field: deadline",
+      "Missing important field: estimated_value"
+    ],
+    "score": 40,
+    "score_breakdown": {
+      "cpv": 30,
+      "geography": 0,
+      "value": 0,
+      "deadline": 0,
+      "keyword": 10,
+      "buyer": 0
+    },
+    "match_reasons": [
+      "CPV match: 90 (found 90910000)",
+      "Keyword match: pulizie"
+    ],
+    "confidence": "MEDIUM"
+  }
+]

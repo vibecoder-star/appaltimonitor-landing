@@ -1,0 +1,37 @@
+{
+  "id": "edilrestauro_firenze",
+  "company_name": "EdilRestauro Cooperativa (Demo)",
+  "industry": "Restauro e recupero edifici",
+  "cpv_codes": [
+    "45"
+  ],
+  "cpv_detailed": [
+    "45420000",
+    "45210000",
+    "45330000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 50000,
+  "value_max": 300000,
+  "excluded_categories": [],
+  "keywords": [
+    "restauro",
+    "recupero",
+    "beni culturali",
+    "edilizia"
+  ],
+  "excluded_keywords": [
+    "software",
+    "informatica"
+  ],
+  "preferred_buyers": [
+    "MINISTERO",
+    "COMUNE",
+    "SOPRINTENDENZA"
+  ],
+  "notes": "Cooperativa restauro Firenze - 5-10 dipendenti",
+  "created_at": "2026-08-21T15:54:43.060219",
+  "updated_at": "2026-08-21T15:54:43.060222"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "facilitymulti_genova",
+  "company_name": "FacilityMulti SRL (Demo)",
+  "industry": "Facility management integrato",
+  "cpv_codes": [
+    "90",
+    "99",
+    "79"
+  ],
+  "cpv_detailed": [
+    "90511000",
+    "90620000",
+    "79990000"
+  ],
+  "countries": [
+    "ITA"
+  ],
+  "value_min": 50000,
+  "value_max": 500000,
+  "excluded_categories": [],
+  "keywords": [
+    "facility",
+    "manutenzione",
+    "servizi",
+    "pulizie",
+    "gestione"
+  ],
+  "excluded_keywords": [
+    "software",
+    "informatica",
+    "costruzioni"
+  ],
+  "preferred_buyers": [
+    "CONSIP",
+    "COMUNE",
+    "REGIONE",
+    "OSPEDALE"
+  ],
+  "notes": "PMI facility Genova - 30-50 dipendenti",
+  "created_at": "2026-08-21T15:54:43.061612",
+  "updated_at": "2026-08-21T15:54:43.061615"
+}

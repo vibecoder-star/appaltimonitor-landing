@@ -1,0 +1,131 @@
+=== WEEKLY PROCUREMENT INTELLIGENCE REPORT ===
+Profile: SME B — Construction
+Generated: 2026-08-21 13:28
+
+NEW RELEVANT TENDERS: 2240
+
+HIGH PRIORITY (219 tenders):
+
+1. CIG: A06BEFA63B | Score: 93.8
+   Title: DEI LAVORI DI REALIZZAZIONE DI UNA CASA DI COMUNITÀ (CDC) IN PIEDIMONT
+   Value: €1,921,163.70
+   CPV: 45215100-8 - LAVORI DI COSTRUZIONE DI EDIFICI PER SER
+   Location: CASERTA
+   Deadline: 2024-01-26
+   Authority: AZIENDA SANITARIA LOCALE DI CASERTA
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+2. CIG: A06955AC9D | Score: 93.6
+   Title: LAVORI PIAZZA AMODIO E PALAZZO SANT'ANGELO
+   Value: €1,908,413.37
+   CPV: 45210000-2 - LAVORI GENERALI DI COSTRUZIONE DI EDIFIC
+   Location: NAPOLI
+   Deadline: 2024-01-01
+   Authority: COMUNE DI POLLENA TROCCHIA
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+3. CIG: A0690B6840 | Score: 90.8
+   Title: INTERVENTO DI REALIZZAZIONE DI UNA CDC NEL COMUNE DI CASERTA
+   Value: €1,723,782.50
+   CPV: 45215100-8 - LAVORI DI COSTRUZIONE DI EDIFICI PER SER
+   Location: CASERTA
+   Deadline: 2024-01-26
+   Authority: AZIENDA SANITARIA LOCALE DI CASERTA
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+4. CIG: A0690A16EC | Score: 89.4
+   Title: INTERVENTO DI REALIZZAZIONE DI UNA CDC NEL COMUNE DI MARCIANISE
+   Value: €1,636,376.74
+   CPV: 45215100-8 - LAVORI DI COSTRUZIONE DI EDIFICI PER SER
+   Location: CASERTA
+   Deadline: 2024-01-26
+   Authority: AZIENDA SANITARIA LOCALE DI CASERTA
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+5. CIG: A0690CDB3A | Score: 88.5
+   Title: INTERVENTO DI REALIZZAZIONE DI UNA CDC NEL COMUNE DI SAN MARCELLINO
+   Value: €1,578,641.68
+   CPV: 45215100-8 - LAVORI DI COSTRUZIONE DI EDIFICI PER SER
+   Location: CASERTA
+   Deadline: 2024-01-26
+   Authority: AZIENDA SANITARIA LOCALE DI CASERTA
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+6. CIG: B010E260A3 | Score: 87.4
+   Title: GARA A PROCEDURA TELEMATICA APERTA PER L'APPALTO DI MIGLIORAMENTO DELL
+   Value: €1,830,491.54
+   CPV: 45262522-6 - LAVORI EDILI
+   Location: NAPOLI
+   Deadline: 2024-02-26
+   Authority: COMUNE DI TRECASE
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+7. CIG: B0017FEE2C | Score: 87.1
+   Title: FSC: COMUNE DI SANT'ARPINO (CE): PROCEDURA APERTA AI SENSI DELL'ART. 7
+   Value: €1,810,292.19
+   CPV: 45454000-4 - LAVORI DI RISTRUTTURAZIONE
+   Location: CASERTA
+   Deadline: 2024-03-07
+   Authority: AGENZIA AREA NOLANA S.C.P.A
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+8. CIG: B0069BE484 | Score: 87.1
+   Title: FSC COMUNE DI TEVEROLA_CELLOLE: PROCEDURA APERTA, PER L'AFFIDAMENTO «C
+   Value: €1,813,929.05
+   CPV: 45236250-7 - LAVORI DI SUPERFICIE PER PARCHI
+   Location: CASERTA
+   Deadline: 2024-01-17
+   Authority: AGENZIA AREA NOLANA S.C.P.A
+   Why: high_value, preferred_location, cpv_match, urgent, active
+
+9. CIG: A049686029 | Score: 86.9
+   Title: INTERVENTO DI COMPLETAMENTO ATTUAZIONE PIANO DI RIMOZIONE E SMALTIMENT
+   Value: €1,475,824.16
+   CPV: 45210000-2 - LAVORI GENERALI DI COSTRUZIONE DI EDIFIC
+   Location: NAPOLI
+   Deadline: 2024-01-11
+   Authority: COMUNE DI NAPOLI
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+10. CIG: A069FE2D6C | Score: 86.4
+   Title: CONTRATTO DI APPALTO INTEGRATO PER LA PROGETTAZIONE ESECUTIVA ED ESECU
+   Value: €1,442,189.55
+   CPV: 45215100-8 - LAVORI DI COSTRUZIONE DI EDIFICI PER SER
+   Location: CASERTA
+   Deadline: 2024-01-26
+   Authority: AZIENDA SANITARIA LOCALE DI CASERTA
+   Why: high_value, preferred_location, cpv_match, pnrr_funded, active
+
+MEDIUM PRIORITY (797 tenders):
+
+1. CIG: A043B42F8F | Score: 60.0
+   Title: LOTTO N. 1
+   Value: €2,000,000.00
+   Location:  | Deadline: 2024-01-11
+
+2. CIG: A03E258FC3 | Score: 60.0
+   Title: ACCORDO QUADRO N.423/2023 - C.A 01 DEL 10012023 LAVORI DI MANUTENZIONE
+   Value: €2,000,000.00
+   Location:  | Deadline: 2024-01-10
+
+3. CIG: A01C3C50B3 | Score: 59.8
+   Title: (PNRR) - MISSIONE 4 ISTRUZIONE E RICERCA, COMPONENTE 1 POTENZIAMENTO D
+   Value: €684,237.20
+   Location: TRAPANI | Deadline: 2024-01-01
+
+4. CIG: B00B346293 | Score: 59.7
+   Title: AUTONOMIA DEGLI ANZIANI NON AUTOSUFFICIENTI PNRR FONDI NEXT GENERATION
+   Value: €353,000.00
+   Location: VERBANO-CUSIO-OSSOLA | Deadline: 2024-03-12
+
+5. CIG: A05B9C6902 | Score: 59.7
+   Title: CONTRATTO ATTUATIVO - LAVORI PER LA REALIZZAZIONE DI UNA INFRASTRUTTUR
+   Value: €680,171.07
+   Location: UDINE | Deadline: 2024-01-25
+
+LOW PRIORITY (1224 tenders):
+   (Summary available upon request)
+
+RECOMMENDATION:
+- Pursue top 3 high-priority tenders
+- Review deadlines and prepare documentation
