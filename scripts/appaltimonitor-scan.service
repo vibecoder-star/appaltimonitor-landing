@@ -1,0 +1,15 @@
+[Unit]
+Description=AppaltiMonitor TED Daily Scan
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/autonomous-venture-engine/appalti-monitor
+ExecStart=/usr/bin/python3 /opt/autonomous-venture-engine/appalti-monitor/scripts/scheduler.py --once
+EnvironmentFile=/opt/autonomous-venture-engine/appalti-monitor/.env
+User=root
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
