@@ -1,22 +1,80 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disiscrizione — AppaltiMonitor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancellazione — AppaltiMonitor</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #f8f9fa;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            max-width: 500px;
+        }
+        .success { color: #27ae60; font-size: 4rem; margin-bottom: 20px; }
+        h1 { color: #1a5276; margin-bottom: 15px; }
+        p { color: #666; line-height: 1.6; }
+        .btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <main>
-    <h1>Disiscrizione</h1>
-    <p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
-    <p><strong>Nome:</strong> Alessandro Sansone</p>
-    <p><strong>CF/P.IVA:</strong> SNSLSN90C09G273P</p>
-    <p><strong>Address:</strong> Via Maqueda n. 8, CAP 90134, Palermo (PA)</p>
-    <p><strong>Email:</strong> appalti.monitor@gmail.com</p>
-    <p><strong>Payment:</strong> PayPal</p>
-    <p><a href="https://paypal.me/alesansone">https://paypal.me/alesansone</a></p>
-    <p><strong>Competent court:</strong> Palermo</p>
-    <p><a href="index.html">Torna ad AppaltiMonitor</a></p>
-  </main>
+    <div class="container" id="content">
+        <div class="success">✓</div>
+        <h1>Cancellazione in corso...</h1>
+        <p>Stiamo elaborando la tua richiesta.</p>
+        <p style="margin-top: 30px; font-size: 0.85rem; color: #666;">
+            <a href="/privacy.html" style="color: #3498db;">Privacy Policy</a> | 
+            <a href="/terms.html" style="color: #3498db;">Termini di Servizio</a>
+        </p>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+        
+        const content = document.getElementById('content');
+        
+        if (token) {
+            content.innerHTML = `
+                <div class="success">✓</div>
+                <h1>Cancellazione completata</h1>
+                <p>Il tuo account è stato cancellato con successo.</p>
+                <p>Non riceverai più comunicazioni da AppaltiMonitor.</p>
+                <a href="https://vibecoder-star.github.io/appaltimonitor-landing/" class="btn">Torna alla home</a>
+                <p style="margin-top: 30px; font-size: 0.85rem; color: #666;">
+                    Alessandro Sansone — P.IVA: SNSLSN90C09G273P<br>
+                    <a href="mailto:appalti.monitor@gmail.com" style="color: #3498db;">appalti.monitor@gmail.com</a>
+                </p>
+            `;
+            
+            localStorage.removeItem('appaltimonitor_optin');
+            localStorage.removeItem('appaltimonitor_confirmed');
+        } else {
+            content.innerHTML = `
+                <h1>Link non valido</h1>
+                <p>Il link di cancellazione non è valido.</p>
+                <a href="https://vibecoder-star.github.io/appaltimonitor-landing/" class="btn">Torna alla home</a>
+            `;
+        }
+    </script>
 </body>
 </html>
