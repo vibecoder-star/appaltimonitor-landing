@@ -34,3 +34,4 @@ landing-page/*.py
 landing-page/*.md
 !landing-page/index.html
 !landing-page/.github/
+.env
