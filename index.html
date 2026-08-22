@@ -3,192 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AppaltiMonitor — Intelligence sugli Appalti Pubblici</title>
-    <meta name="description" content="Ogni settimana, identifichiamo e prioritizzamo le opportunità di appalto pubblico più rilevanti per la tua azienda, basandoci sui dati ufficiali TED.">
+    <title>Analisi Gratuita Bandi Appalto IT — Cybersecurity & Software</title>
+    <meta name="description" content="Scopri gratis quali bandi pubblici aperti in Italia sono fatti per la tua azienda IT. Analisi personalizzata in 48 ore.">
+    <meta name="keywords" content="bandi appalto IT, cybersecurity, software, pubblica amministrazione, gara, analisigratis">
     <style>
         :root {
             --primary: #1a5276;
             --secondary: #2874a6;
             --accent: #3498db;
-            --light: #f8f9fa;
-            --dark: #2c3e50;
             --success: #27ae60;
             --warning: #f39c12;
+            --danger: #e74c3c;
+            --dark: #2c3e50;
+            --light: #f8f9fa;
+            --white: #ffffff;
         }
         
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
             color: var(--dark);
-            background: #fff;
+            background: var(--white);
         }
         
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
         
         header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            background: var(--dark);
             color: white;
-            padding: 20px 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px 0;
         }
         
-        header .container { display: flex; justify-content: space-between; align-items: center; }
-        
-        .logo { font-size: 1.5rem; font-weight: 700; }
+        .logo { font-size: 1.4rem; font-weight: 700; }
         .logo span { color: var(--accent); }
         
         .hero {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: white;
-            padding: 80px 0;
+            padding: 70px 0;
             text-align: center;
         }
         
-        .hero h1 { font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2; }
-        .hero p { font-size: 1.25rem; opacity: 0.95; max-width: 700px; margin: 0 auto 30px; }
+        .hero h1 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            line-height: 1.3;
+            font-weight: 700;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.15rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        .hero .highlight {
+            display: inline-block;
+            background: var(--success);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
         
         .cta-button {
             display: inline-block;
             background: var(--accent);
             color: white;
-            padding: 15px 40px;
-            border-radius: 50px;
+            padding: 16px 40px;
+            border-radius: 8px;
             text-decoration: none;
             font-size: 1.1rem;
             font-weight: 600;
-            transition: all 0.3s;
             border: none;
             cursor: pointer;
+            transition: all 0.2s;
         }
         
         .cta-button:hover {
             background: #2980b9;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            transform: translateY(-1px);
         }
         
-        .cta-secondary {
-            display: inline-block;
-            background: transparent;
-            color: white;
-            padding: 15px 40px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: 600;
-            border: 2px solid white;
-            margin-left: 15px;
-            transition: all 0.3s;
-        }
-        
-        .cta-secondary:hover { background: white; color: var(--primary); }
-        
-        section { padding: 80px 0; }
-        section h2 { font-size: 2rem; text-align: center; margin-bottom: 50px; color: var(--primary); }
-        
-        .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
-        
-        .step {
-            text-align: center;
-            padding: 30px;
+        .stats {
             background: var(--light);
-            border-radius: 10px;
-            transition: transform 0.3s;
+            padding: 40px 0;
+            text-align: center;
         }
         
-        .step:hover { transform: translateY(-5px); }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
         
-        .step-number {
-            width: 50px;
-            height: 50px;
-            background: var(--accent);
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
+        .stat {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .stat-number {
+            font-size: 2rem;
             font-weight: 700;
-            margin: 0 auto 20px;
+            color: var(--primary);
         }
         
-        .step h3 { margin-bottom: 10px; color: var(--primary); }
-        
-        .value-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        
-        .value-card {
-            padding: 30px;
-            border: 1px solid #e0e0e0;
-            border-radius: 10px;
-            transition: all 0.3s;
+        .stat-label {
+            font-size: 0.9rem;
+            color: #666;
         }
         
-        .value-card:hover { border-color: var(--accent); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
-        .value-card h3 { color: var(--primary); margin-bottom: 10px; }
+        section { padding: 70px 0; }
+        section h2 { font-size: 1.8rem; text-align: center; margin-bottom: 40px; color: var(--primary); }
         
-        .who-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .problem {
+            background: #fff3cd;
+        }
         
-        .who-item { background: var(--light); padding: 25px; border-radius: 10px; text-align: center; }
-        .who-item h4 { color: var(--primary); margin-bottom: 10px; }
+        .problem-list {
+            max-width: 700px;
+            margin: 0 auto;
+        }
         
-        .sources { background: var(--light); }
-        
-        .source-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        
-        .source-item { background: white; padding: 20px; border-radius: 8px; border-left: 4px solid var(--accent); }
-        
-        .limitations { background: #fff3cd; }
-        
-        .limitation-list { max-width: 700px; margin: 0 auto; }
-        
-        .limitation-item {
+        .problem-item {
             display: flex;
             align-items: flex-start;
             margin-bottom: 15px;
             padding: 15px;
             background: white;
             border-radius: 8px;
+            border-left: 4px solid var(--warning);
         }
         
-        .limitation-item::before { content: "⚠️"; margin-right: 15px; font-size: 1.2rem; }
+        .problem-item::before {
+            content: "⚠️";
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
         
-        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .solution-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
         
-        .pricing-card {
-            border: 2px solid #e0e0e0;
-            border-radius: 10px;
-            padding: 40px 30px;
+        .step {
             text-align: center;
-            transition: all 0.3s;
+            padding: 25px;
+            background: var(--light);
+            border-radius: 10px;
         }
         
-        .pricing-card:hover { border-color: var(--accent); }
-        .pricing-card.featured { border-color: var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
-        .pricing-card h3 { color: var(--primary); font-size: 1.5rem; margin-bottom: 10px; }
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--accent);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin: 0 auto 15px;
+        }
         
-        .price { font-size: 3rem; font-weight: 700; color: var(--primary); margin: 20px 0; }
-        .price span { font-size: 1rem; color: #666; }
+        .step h3 { margin-bottom: 8px; color: var(--primary); font-size: 1rem; }
+        .step p { font-size: 0.9rem; color: #666; }
         
-        .pricing-features { list-style: none; margin: 30px 0; text-align: left; }
-        .pricing-features li { padding: 10px 0; border-bottom: 1px solid #eee; }
-        .pricing-features li::before { content: "✓ "; color: var(--success); font-weight: bold; }
+        .example {
+            background: var(--light);
+        }
         
-        .hypothesis { font-size: 0.85rem; color: #666; font-style: italic; margin-top: 20px; }
+        .example-box {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
         
-        .faq-item { margin-bottom: 20px; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+        .example-box h4 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .example-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .example-item:last-child { border-bottom: none; }
+        
+        .score {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+        }
+        
+        .score.high { background: var(--success); }
+        .score.medium { background: var(--warning); }
+        
+        .offer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+        }
+        
+        .offer h2 { color: white; }
+        
+        .offer-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .offer-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .offer-card.featured {
+            border-color: var(--accent);
+            background: rgba(52,152,219,0.1);
+        }
+        
+        .offer-card h3 { font-size: 1.3rem; margin-bottom: 10px; }
+        .offer-card .price { font-size: 2.5rem; font-weight: 700; margin: 15px 0; }
+        .offer-card .price span { font-size: 1rem; opacity: 0.7; }
+        .offer-card ul { list-style: none; margin: 20px 0; text-align: left; }
+        .offer-card li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem; }
+        .offer-card li::before { content: "✓ "; color: var(--success); }
+        
+        .faq { background: var(--light); }
+        
+        .faq-item {
+            margin-bottom: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+        }
         
         .faq-question {
             width: 100%;
-            padding: 20px;
+            padding: 18px;
             background: white;
             border: none;
             text-align: left;
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
             display: flex;
@@ -196,87 +283,76 @@
             align-items: center;
         }
         
-        .faq-question:hover { background: var(--light); }
+        .faq-answer {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
         
-        .faq-answer { padding: 0 20px; max-height: 0; overflow: hidden; transition: all 0.3s; }
-        .faq-answer.open { padding: 20px; max-height: 500px; }
+        .faq-answer.open {
+            padding: 18px;
+            max-height: 500px;
+        }
         
-        .privacy { background: var(--light); }
-        .privacy-content { max-width: 800px; margin: 0 auto; }
-        .privacy h3 { color: var(--primary); margin: 30px 0 15px; }
+        .optin {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+        }
         
-        .optin { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white; }
         .optin h2 { color: white; }
         
         .optin-form {
-            max-width: 600px;
+            max-width: 500px;
             margin: 0 auto;
             background: white;
-            padding: 40px;
+            padding: 35px;
             border-radius: 10px;
             color: var(--dark);
+            text-align: left;
         }
         
-        .form-group { margin-bottom: 20px; }
-        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; }
+        .form-group { margin-bottom: 18px; }
+        .form-group label { display: block; margin-bottom: 6px; font-weight: 600; font-size: 0.9rem; }
         
-        .form-group input, .form-group select, .form-group textarea {
+        .form-group input, .form-group select {
             width: 100%;
-            padding: 12px;
+            padding: 10px;
             border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            font-size: 1rem;
-            transition: border-color 0.3s;
+            border-radius: 6px;
+            font-size: 0.95rem;
         }
         
-        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+        .form-group input:focus, .form-group select:focus {
             outline: none;
             border-color: var(--accent);
         }
         
-        .form-group small { color: #666; font-size: 0.85rem; }
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
         
-        .checkbox-group { display: flex; align-items: flex-start; margin-bottom: 15px; }
-        .checkbox-group input { margin-right: 10px; margin-top: 5px; }
-        .checkbox-group label { font-size: 0.9rem; line-height: 1.5; }
-        .checkbox-group a { color: var(--accent); }
+        .checkbox-group input { margin-right: 10px; margin-top: 3px; }
+        .checkbox-group label { font-size: 0.85rem; line-height: 1.5; }
         
-        footer { background: var(--dark); color: white; padding: 40px 0; text-align: center; }
+        footer {
+            background: #1a252f;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+        
         footer a { color: var(--accent); }
         
         @media (max-width: 768px) {
-            .hero h1 { font-size: 1.8rem; }
-            .hero p { font-size: 1rem; }
-            .cta-button, .cta-secondary { display: block; margin: 10px 0; text-align: center; }
-            section h2 { font-size: 1.5rem; }
+            .hero h1 { font-size: 1.6rem; }
+            .hero .subtitle { font-size: 1rem; }
+            section h2 { font-size: 1.4rem; }
         }
-        
-        .example-report {
-            background: white;
-            border: 1px solid #e0e0e0;
-            border-radius: 10px;
-            padding: 30px;
-            margin: 30px 0;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-        }
-        
-        .example-report h4 { color: var(--primary); margin-bottom: 15px; }
-        
-        .report-item { padding: 15px; border-bottom: 1px solid #eee; }
-        .report-item:last-child { border-bottom: none; }
-        .report-item strong { color: var(--primary); }
-        
-        .score {
-            display: inline-block;
-            background: var(--success);
-            color: white;
-            padding: 3px 10px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-        }
-        
-        .score.medium { background: var(--warning); }
     </style>
 </head>
 <body>
@@ -285,487 +361,286 @@
             <div class="logo">Appalti<span>Monitor</span></div>
         </div>
     </header>
-
+    
     <section class="hero">
         <div class="container">
-            <h1>Ogni settimana, identifichiamo e prioritizzamo le opportunità di appalto pubblico più rilevanti per la tua azienda.</h1>
-            <p>Basati sui dati ufficiali TED (Tenders Electronic Daily), vi aiutiamo a non perdere mai un bando interessante.</p>
-            <a href="#optin" class="cta-button">Prova gratuita 7 giorni</a>
-            <a href="#how-it-works" class="cta-secondary">Scopri come funziona</a>
+            <span class="highlight">Analisi Gratuita · 48 Ore · Nessun Impegno</span>
+            <h1>Scopri quali bandi pubblici sono fatti per la tua azienda IT.</h1>
+            <p class="subtitle">
+                Inserisci il tuo settore e la tua zona. Ti inviamo un'analisi personalizzata 
+                con i 3 bandi più rilevanti aperti oggi in Italia per la tua azienda.
+            </p>
+            <a href="#analisi-gratis" class="cta-button">Richiedi la tua analisi gratuita</a>
+            <p style="margin-top: 15px; font-size: 0.85rem; opacity: 0.7;">
+                Gratis · Nessuna carta di credito · Cancellazione immediata
+            </p>
         </div>
     </section>
-
-    <section id="value">
+    
+    <div class="stats">
         <div class="container">
-            <h2>Perché AppaltiMonitor</h2>
-            <div class="value-grid">
-                <div class="value-card">
-                    <h3>⏱️ Risparmia tempo</h3>
-                    <p>Niente più ricerche manuali su portali dispersivi. Ricevi solo i bandi rilevanti per la tua azienda.</p>
+            <div class="stats-grid">
+                <div class="stat">
+                    <div class="stat-number">2.348</div>
+                    <div class="stat-label">bandi aperti in Italia in questo momento</div>
                 </div>
-                <div class="value-card">
-                    <h3>🎯 Non perdere opportunità</h3>
-                    <p>Alert automatici per bandi che corrispondono al tuo profilo. Mai più scadenze sorpresa.</p>
+                <div class="stat">
+                    <div class="stat-number">30%+</div>
+                    <div class="stat-label">di bandi IT sono assegnati a PMI sotto i 50 dip.</div>
                 </div>
-                <div class="value-card">
-                    <h3>📊 Decidi meglio</h3>
-                    <p>Ranking per rilevanza e informazioni strutturate per valutare rapidamente ogni opportunità.</p>
+                <div class="stat">
+                    <div class="stat-number">15 giorni</div>
+                    <div class="stat-label">tempo medio per preparare un'offerta vincente</div>
                 </div>
-                <div class="value-card">
-                    <h3>🔗 Agisci subito</h3>
-                    <p>Link diretto ai bandi TED per scaricare documenti e partecipare alle gare.</p>
+            </div>
+        </div>
+    </div>
+    
+    <section class="problem">
+        <div class="container">
+            <h2>Il problema</h2>
+            <div class="problem-list">
+                <div class="problem-item">
+                    <div><strong>Tempo sprecato:</strong> Un dipendente medio passa 3-5 ore a settimana cercando bandi su TED, MePA e portali regionali.</div>
+                </div>
+                <div class="problem-item">
+                    <div><strong>Opportunità perse:</strong> Le PMI IT italiane partecipano a meno del 15% dei bandi per cui sono qualificate. La causa principale? Non li trovano in tempo.</div>
+                </div>
+                <div class="problem-item">
+                    <div><strong>Decisi a parole:</strong> "Dovevamo partecipare a quella gara" — frase sentita da ogni azienda IT che ha perso un bando per una scadenza sorpresa.</div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="how-it-works">
+    
+    <section>
         <div class="container">
             <h2>Come funziona</h2>
-            <div class="steps">
+            <div class="solution-steps">
                 <div class="step">
                     <div class="step-number">1</div>
-                    <h3>Definisci il tuo profilo</h3>
-                    <p>Settore, zona geografica, dimensione tipica dei bandi a cui partecipi.</p>
+                    <h3>Compili il form</h3>
+                    <p>3 campi: zona, settore, email. Meno di 1 minuto.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
-                    <h3>Ricevi alert personalizzati</h3>
-                    <p>Ogni settimana, email con i bandi più rilevanti per la tua azienda.</p>
+                    <h3>Noi analizziamo</h3>
+                    <p>Incrociamo il tuo profilo con i 2300+ bandi TED attivi.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
-                    <h3>Valuta le opportunità</h3>
-                    <p>Report con ranking per rilevanza, scadenze, valori e link ai bandi.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <h3>Partecipa alle gare</h3>
-                    <p>Link diretto ai bandi TED per scaricare documenti e presentare offerta.</p>
+                    <h3>Ricevi il report</h3>
+                    <p>Email con i 3 bandi più rilevanti, punteggio di match, link diretti.</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="example">
+    
+    <section class="example">
         <div class="container">
-            <h2>Esempio di report settimanale</h2>
-            <p style="text-align: center; margin-bottom: 30px;">Ecco cosa riceverresti ogni settimana:</p>
-            
-            <div class="example-report">
-                <h4>📋 Report Settimanale — IT Services</h4>
-                <p><strong>Periodo:</strong> 14-21 agosto 2026 | <strong>Trovati:</strong> 16 bandi | <strong>High priority:</strong> 2</p>
-                
-                <div class="report-item">
-                    <span class="score">HIGH</span> <strong>Servizio di Gestione del Sistema Telematico Acquisti Regionale (START)</strong><br>
-                    📍 Toscana | 📅 Scadenza: 14 ottobre 2026 | 🏷️ CPV: 72260000<br>
-                    <em>Match: software, servizi IT, Regione Toscana</em>
+            <h2>Esempio di analisi</h2>
+            <p style="text-align: center; margin-bottom: 25px; color: #666;">Cosa riceveresti:</p>
+            <div class="example-box">
+                <h4>📋 Analisi per: Azienda IT — Sicurezza Informatica (Lazio)</h4>
+                <div class="example-item">
+                    <div>
+                        <span class="score high">MATCH 92%</span>
+                        <strong>Servizio di cybersecurity per Ministero</strong><br>
+                        <small>Roma · Scadenza: 15 nov 2026 · CPV: 72510000</small>
+                    </div>
+                    <div><small>€180K</small></div>
                 </div>
-                
-                <div class="report-item">
-                    <span class="score">HIGH</span> <strong>Gestione informatizzata IMU — Comune di Benevento</strong><br>
-                    📍 Campania | 📅 Scadenza: 21 settembre 2026 | 🏷️ CPV: 72260000<br>
-                    <em>Match: software, servizi IT, Comune</em>
+                <div class="example-item">
+                    <div>
+                        <span class="score high">MATCH 87%</span>
+                        <strong>Penetration testing — Comune di Roma</strong><br>
+                        <small>Lazio · Scadenza: 28 ott 2026 · CPV: 72220000</small>
+                    </div>
+                    <div><small>€45K</small></div>
                 </div>
-                
-                <div class="report-item">
-                    <span class="score medium">MEDIUM</span> <strong>Sviluppo software — Comune di Tarquinia</strong><br>
-                    📍 Lazio | 📅 Scadenza: 24 settembre 2026 | 🏷️ CPV: 72262000<br>
-                    <em>Match: sviluppo software, Comune</em>
+                <div class="example-item">
+                    <div>
+                        <span class="score medium">MATCH 64%</span>
+                        <strong>Cloud migration — ASST Nord Milano</strong><br>
+                        <small>Lombardia · Scadenza: 5 nov 2026 · CPV: 72510000</small>
+                    </div>
+                    <div><small>€320K</small></div>
                 </div>
             </div>
-            
-            <p style="text-align: center; color: #666; font-size: 0.9rem;">
-                <em>I dati sono esempi illustrativi. I risultati reali dipendono dal profilo aziendale.</em>
+            <p style="text-align: center; color: #666; font-size: 0.85rem; margin-top: 15px;">
+                <em>I dati sono esempi illustrativi. I risultati reali dipendono dal profilo.</em>
             </p>
         </div>
     </section>
-
-    <section id="who">
+    
+    <section class="offer">
         <div class="container">
-            <h2>Per chi è</h2>
-            <div class="who-grid">
-                <div class="who-item">
-                    <h4>🏗️ Costruzioni</h4>
-                    <p>Edilizia, manutenzione, restauro, infrastrutture</p>
+            <h2>Piani</h2>
+            <p style="margin-bottom: 35px; opacity: 0.8;">Inizia gratis. Paga solo se serve monitoraggio continuo.</p>
+            <div class="offer-cards">
+                <div class="offer-card featured">
+                    <h3>Analisi Gratuita</h3>
+                    <div class="price">€0<span>una tantum</span></div>
+                    <ul>
+                        <li>Analisi personalizzata</li>
+                        <li>Top 3 bandi rilevanti</li>
+                        <li>Punteggio di match</li>
+                        <li>Link ai documenti TED</li>
+                    </ul>
+                    <a href="#analisi-gratis" class="cta-button" style="width: 100%;">Inizia ora</a>
                 </div>
-                <div class="who-item">
-                    <h4>💻 IT Services</h4>
-                    <p>Sviluppo software, cloud, cybersecurity</p>
-                </div>
-                <div class="who-item">
-                    <h4>🧹 Facility</h4>
-                    <p>Pulizie, manutenzione, servizi integrati</p>
-                </div>
-                <div class="who-item">
-                    <h4>🏥 Sanità</h4>
-                    <p>Servizi sanitari, sociali, assistenza</p>
-                </div>
-                <div class="who-item">
-                    <h4>📡 Telecomunicazioni</h4>
-                    <p>Reti, comunicazione, ICT</p>
-                </div>
-                <div class="who-item">
-                    <h4>🌱 Energia/Ambiente</h4>
-                    <p>Rinnovabili, rifiuti, efficienza energetica</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sources" id="sources">
-        <div class="container">
-            <h2>Fonti dati</h2>
-            <div class="source-list">
-                <div class="source-item">
-                    <h4>📊 TED (Tenders Electronic Daily)</h4>
-                    <p>Database ufficiale dell'UE per gli appalti pubblici sopra soglia. Aggiornamento giornaliero.</p>
-                </div>
-                <div class="source-item">
-                    <h4>🇮🇹 Copertura Italia</h4>
-                    <p>Tutti i bandi pubblicati da enti italiani sopra soglia UE (>€40K).</p>
-                </div>
-                <div class="source-item">
-                    <h4>🔍 Filtri avanzati</h4>
-                    <p>CPV, geografia, valore, tipo procedura, ente appaltante.</p>
-                </div>
-                <div class="source-item">
-                    <h4>📧 Alert automatici</h4>
-                    <p>Email settimanale con report personalizzato.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="limitations" id="limitations">
-        <div class="container">
-            <h2>Limitazioni attuali</h2>
-            <div class="limitation-list">
-                <div class="limitation-item">
-                    <div><strong>Bandi sotto soglia</strong> — Non includiamo bandi sotto soglia UE (MEPA, affidamenti diretti).</div>
-                </div>
-                <div class="limitation-item">
-                    <div><strong>Verifica idoneità</strong> — Non verifichiamo i requisiti di partecipazione. Spetta al cliente farlo.</div>
-                </div>
-                <div class="limitation-item">
-                    <div><strong>Documenti di gara</strong> — Non forniamo i documenti di gara. Link ai bandi TED per scaricarli.</div>
-                </div>
-                <div class="limitation-item">
-                    <div><strong>Intelligence competitor</strong> — Non forniamo informazioni sui concorrenti (funzionalità futura).</div>
-                </div>
-                <div class="limitation-item">
-                    <div><strong>Consulenza legale</strong> — Non forniamo consulenza legale o redazione offerte.</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing">
-        <div class="container">
-            <h2>Piani e prezzi</h2>
-            <p style="text-align: center; margin-bottom: 40px; color: #666;">
-                I prezzi indicati sono ipotesi in attesa di validazione commerciale.
-            </p>
-            
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3>Starter</h3>
-                    <div class="price">€29<span>/mese</span></div>
-                    <p>Per micro-PMI</p>
-                    <ul class="pricing-features">
-                        <li>1 settore monitorato</li>
-                        <li>Fino a 5 codici CPV</li>
+                <div class="offer-card">
+                    <h3>Monitoraggio Settimanale</h3>
+                    <div class="price">€49<span>/mese</span></div>
+                    <ul>
+                        <li>Tutto dal piano gratuito</li>
                         <li>Report settimanale email</li>
-                        <li>Top 5 opportunità</li>
-                        <li>Supporto email (48h)</li>
+                        <li>Top 10 bandi rilevanti</li>
+                        <li>Alert scadenze imminenti</li>
                     </ul>
-                    <a href="#optin" class="cta-button" style="width: 100%;">Inizia la prova</a>
-                    <p class="hypothesis">* Prezzo ipotetico, da validare</p>
-                </div>
-                
-                <div class="pricing-card featured">
-                    <h3>Professional</h3>
-                    <div class="price">€59<span>/mese</span></div>
-                    <p>Per piccole imprese</p>
-                    <ul class="pricing-features">
-                        <li>3 settori monitorati</li>
-                        <li>Fino a 15 codici CPV</li>
-                        <li>Report settimanale + alert urgenti</li>
-                        <li>Top 10 opportunità</li>
-                        <li>Supporto email (24h)</li>
-                    </ul>
-                    <a href="#optin" class="cta-button" style="width: 100%;">Inizia la prova</a>
-                    <p class="hypothesis">* Prezzo ipotetico, da validare</p>
-                </div>
-                
-                <div class="pricing-card">
-                    <h3>Enterprise</h3>
-                    <div class="price">€99<span>/mese</span></div>
-                    <p>Per medie imprese</p>
-                    <ul class="pricing-features">
-                        <li>Settori illimitati</li>
-                        <li>CPV illimitati</li>
-                        <li>Report bisettimanale + alert real-time</li>
-                        <li>Tutte le opportunità + competitor</li>
-                        <li>Account manager dedicato</li>
-                    </ul>
-                    <a href="#optin" class="cta-button" style="width: 100%;">Inizia la prova</a>
-                    <p class="hypothesis">* Prezzo ipotetico, da validare</p>
+                    <a href="#analisi-gratis" class="cta-button" style="width: 100%; background: rgba(255,255,255,0.2);">Prova gratis</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="faq">
+    
+    <section class="faq">
         <div class="container">
             <h2>Domande frequenti</h2>
-            
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
-                    Come funziona il servizio?
+                    Quanto tempo ricevo l'analisi?
                     <span>▼</span>
                 </button>
                 <div class="faq-answer">
-                    <p>Definisci il tuo profilo aziendale (settore, zona, dimensione bandi) e riceverai ogni settimana un report personalizzato con i bandi più rilevanti per la tua azienda, basati sui dati ufficiali TED.</p>
+                    <p>Entro 48 ore dalla richiesta. Nel frattempo, se c'è un bando con scadenza imminente, ti avvisiamo prima.</p>
                 </div>
             </div>
-            
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
-                    Quali bandi includete?
+                    Quali settori coprite?
                     <span>▼</span>
                 </button>
                 <div class="faq-answer">
-                    <p>Includiamo tutti i bandi TED (Tenders Electronic Daily) sopra soglia UE (>€40K) pubblicati da enti italiani. Non includiamo bandi sotto soglia (MEPA, affidamenti diretti).</p>
+                    <p>Per ora: IT (sviluppo software, cloud, cybersecurity, digitale). Prossimamente: facility management, engineering, costruzioni specializzate.</p>
                 </div>
             </div>
-            
-            <div class="faq-item">
-                <button class="faq-question" onclick="toggleFaq(this)">
-                    Posso provare gratis?
-                    <span>▼</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Sì, offriamo 7 giorni di prova gratuita. Riceverai un campione di report settimanale senza impegno.</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <button class="faq-question" onclick="toggleFaq(this)">
-                    Quando posso cancellare?
-                    <span>▼</span>
-                </button>
-                <div class="faq-answer">
-                    <p>In qualsiasi momento, senza penali. Puoi cancellare dalla piattaforma o contattandoci via email.</p>
-                </div>
-            </div>
-            
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
                     I dati sono aggiornati?
                     <span>▼</span>
                 </button>
                 <div class="faq-answer">
-                    <p>Sì, la base dati TED è aggiornata giornalmente. I report settimanali includono i bandi pubblicati nella settimana precedente.</p>
+                    <p>Sì. Utilizziamo TED (Tenders Electronic Daily), aggiornato giornalmente dalla Commissione Europea. I bandi sotto soglia (MePA) non sono inclusi.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Posso cancellare?
+                    <span>▼</span>
+                </button>
+                <div class="faq-answer">
+                    <p>In qualsiasi momento, senza penali. Basta un'email.</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="privacy" id="privacy">
+    
+    <section class="optin" id="analisi-gratis">
         <div class="container">
-            <h2>Privacy e consenso</h2>
-            <div class="privacy-content">
-                <h3>Titolare del trattamento</h3>
-                <p>AppaltiMonitor — Alessandro Sansone</p>
-                
-                <h3>Dati raccolti</h3>
-                <p>Raccogliamo solo dati business necessari al servizio:</p>
-                <ul>
-                    <li>Nome aziendale</li>
-                    <li>Email aziendale</li>
-                    <li>Settore/industria</li>
-                    <li>Zona geografica</li>
-                    <li>Servizi/CPV di interesse</li>
-                </ul>
-                
-                <h3>Base giuridica</h3>
-                <p>Trattiamo i tuoi dati solo con il tuo consenso esplicito (Art. 6 GDPR). Puoi revocare il consenso in qualsiasi momento.</p>
-                
-                <h3>Diritti dell'interessato</h3>
-                <p>Hai diritto di accesso, rettifica, cancellazione, limitazione, opposizione e portabilità dei dati. Contattaci per esercitare i tuoi diritti.</p>
-                
-                <h3>Conservazione</h3>
-                <p>I dati sono conservati per la durata del servizio e per 30 giorni dopo la cancellazione.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="optin" id="optin">
-        <div class="container">
-            <h2>Prova gratuita 7 giorni</h2>
-            <p style="text-align: center; margin-bottom: 30px; opacity: 0.9;">
-                Compila il form per ricevere un campione di report settimanale personalizzato. Nessun impegno.
-            </p>
-            
-            <form class="optin-form" id="optinForm" action="/api/optin" method="POST" onsubmit="return handleSubmit(event)">
-                <div class="form-group">
-                    <label for="companyName">Nome azienda *</label>
-                    <input type="text" id="companyName" name="companyName" required placeholder="Es. EdilPro SRL">
-                </div>
-                
+            <h2>Richiedi la tua analisi gratuita</h2>
+            <p style="margin-bottom: 30px; opacity: 0.9;">3 campi. 1 minuto. Nessun impegno.</p>
+            <form class="optin-form" id="optinForm" onsubmit="return handleSubmit(event)">
                 <div class="form-group">
                     <label for="businessEmail">Email aziendale *</label>
-                    <input type="email" id="businessEmail" name="businessEmail" required placeholder="Es. info@edilpro.it">
-                    <small>Usa la tua email aziendale. Non inviamo spam.</small>
+                    <input type="email" id="businessEmail" name="businessEmail" required placeholder="nome@azienda.it">
                 </div>
-                
                 <div class="form-group">
-                    <label for="industry">Settore *</label>
-                    <select id="industry" name="industry" required>
-                        <option value="">Seleziona settore</option>
-                        <option value="costruzioni">Costruzioni edili</option>
-                        <option value="manutenzione">Manutenzione e restauro</option>
-                        <option value="infrastrutture">Infrastrutture e opere civili</option>
-                        <option value="it-software">IT — Sviluppo software</option>
-                        <option value="it-cloud">IT — Cloud e infrastrutture</option>
-                        <option value="it-security">IT — Sicurezza informatica</option>
-                        <option value="it-digitale">IT — Trasformazione digitale</option>
-                        <option value="pulizie">Pulizie e igiene</option>
-                        <option value="facility">Facility management</option>
-                        <option value="altro">Altro</option>
-                    </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="geoArea">Zona geografica *</label>
+                    <label for="geoArea">Zona dove operi *</label>
                     <select id="geoArea" name="geoArea" required>
-                        <option value="">Seleziona zona</option>
+                        <option value="">Seleziona</option>
                         <option value="nord">Nord Italia</option>
                         <option value="centro">Centro Italia</option>
                         <option value="sud">Sud Italia e Isole</option>
                         <option value="tutta">Tutta Italia</option>
                     </select>
                 </div>
-                
                 <div class="form-group">
-                    <label for="services">Servizi/Prodotti principali</label>
-                    <textarea id="services" name="services" rows="3" placeholder="Es. Sviluppo software, gestione cloud, sicurezza informatica"></textarea>
-                </div>
-                
-                <div class="form-group">
-                    <label for="cpvCodes">Codici CPV (opzionale)</label>
-                    <input type="text" id="cpvCodes" name="cpvCodes" placeholder="Es. 72260000, 72510000">
-                    <small>Se conosci i tuoi CPV, inseriscili separati da virgola.</small>
-                </div>
-                
-                <div class="form-group">
-                    <label for="valueRange">Dimensione tipica bandi</label>
-                    <select id="valueRange" name="valueRange">
-                        <option value="">Seleziona range</option>
-                        <option value="small">€10K - €100K</option>
-                        <option value="medium">€100K - €500K</option>
-                        <option value="large">€500K - €2M</option>
-                        <option value="xlarge">Oltre €2M</option>
+                    <label for="services">Servizio principale *</label>
+                    <select id="services" name="services" required>
+                        <option value="">Seleziona</option>
+                        <option value="cybersecurity">Sicurezza informatica</option>
+                        <option value="sviluppo-software">Sviluppo software</option>
+                        <option value="cloud">Cloud e infrastrutture</option>
+                        <option value="digitale">Trasformazione digitale</option>
+                        <option value="IT-altro">Altro IT</option>
                     </select>
                 </div>
-                
                 <div class="checkbox-group">
                     <input type="checkbox" id="consentService" name="consentService" required>
-                    <label for="consentService">
-                        Acconsento al trattamento dei miei dati per ricevere il servizio di intelligence sugli appalti pubblici. *
-                    </label>
+                    <label for="consentService">Acconsento al trattamento dei dati per ricevere l'analisi gratuita. *</label>
                 </div>
-                
-                <div class="checkbox-group">
-                    <input type="checkbox" id="consentMarketing" name="consentMarketing">
-                    <label for="consentMarketing">
-                        Acconsento a ricevere comunicazioni commerciali e aggiornamenti su AppaltiMonitor (facoltativo).
-                    </label>
-                </div>
-                
                 <div class="checkbox-group">
                     <input type="checkbox" id="consentPrivacy" name="consentPrivacy" required>
-                    <label for="consentPrivacy">
-                        Ho letto e accetto l'<a href="/privacy.html" target="_blank">Informativa sulla Privacy</a>. *
-                    </label>
+                    <label for="consentPrivacy">Ho letto l'<a href="/privacy.html" target="_blank">informativa privacy</a>. *</label>
                 </div>
-                
-                <button type="submit" class="cta-button" style="width: 100%; margin-top: 20px;">
-                    Invia richiesta di prova
+                <button type="submit" class="cta-button" style="width: 100%; margin-top: 15px;">
+                    Invia richiesta analisi
                 </button>
-                
-                <p style="text-align: center; margin-top: 15px; font-size: 0.85rem; color: #666;">
-                    Nessuna carta di credito richiesta. Cancellazione in qualsiasi momento.
+                <p style="text-align: center; margin-top: 12px; font-size: 0.8rem; color: #666;">
+                    Nessuno spam. Nessun impegno.
                 </p>
             </form>
         </div>
     </section>
-
+    
     <footer>
         <div class="container">
             <p>&copy; 2026 AppaltiMonitor — Alessandro Sansone</p>
-            <p style="margin-top: 10px;">
-                <a href="/privacy.html">Privacy Policy</a> | 
-                <a href="/terms.html">Termini di Servizio</a> | 
-                <a href="#faq">FAQ</a> | 
+            <p style="margin-top: 8px;">
+                <a href="/privacy.html">Privacy</a> |
+                <a href="/terms.html">Termini</a> |
                 <a href="mailto:appalti.monitor@gmail.com">Contatti</a>
             </p>
-            <p style="margin-top: 15px; font-size: 0.85rem; opacity: 0.7;">
-                Questo servizio utilizza dati pubblici TED (Tenders Electronic Daily).<br>
-                Non siamo affiliati con la Commissione Europea o enti pubblici.
-            </p>
-            <p style="margin-top: 10px; font-size: 0.85rem; opacity: 0.7;">
-                Titolare: Alessandro Sansone — P.IVA: SNSLSN90C09G273P — Email: appalti.monitor@gmail.com
+            <p style="margin-top: 12px; opacity: 0.6;">
+                P.IVA: SNSLSN90C09G273P · Palermo, Italia
             </p>
         </div>
     </footer>
-
+    
     <script>
         function toggleFaq(button) {
             const answer = button.nextElementSibling;
             const isOpen = answer.classList.contains('open');
-            
             document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
-            
-            if (!isOpen) {
-                answer.classList.add('open');
-            }
+            if (!isOpen) answer.classList.add('open');
         }
         
         function handleSubmit(event) {
             event.preventDefault();
-            
             const form = event.target;
             const formData = new FormData(form);
             
-            const required = ['companyName', 'businessEmail', 'industry', 'geoArea'];
-            for (const field of required) {
-                if (!formData.get(field)) {
-                    alert('Compila tutti i campi obbligatori.');
-                    return false;
-                }
-            }
-            
             if (!formData.get('consentService') || !formData.get('consentPrivacy')) {
-                alert('È necessario acconsentire al trattamento dei dati per il servizio e aver letto l\'informativa privacy.');
+                alert('È necessario acconsentire al trattamento dei dati e aver letto l\'informativa privacy.');
                 return false;
             }
             
             const data = {
-                companyName: formData.get('companyName'),
+                companyName: formData.get('businessEmail').split('@')[1] || 'Azienda',
                 businessEmail: formData.get('businessEmail'),
-                industry: formData.get('industry'),
+                industry: 'it-software',
                 geoArea: formData.get('geoArea'),
                 services: formData.get('services'),
-                cpvCodes: formData.get('cpvCodes'),
-                valueRange: formData.get('valueRange'),
-                consentService: formData.get('consentService') === 'on',
-                consentMarketing: formData.get('consentMarketing') === 'on',
-                consentPrivacy: formData.get('consentPrivacy') === 'on',
+                cpvCodes: '',
+                valueRange: '',
+                consentService: true,
+                consentMarketing: false,
+                consentPrivacy: true,
                 timestamp: new Date().toISOString(),
-                source: 'landing-page',
-                consentVersion: '1.0'
+                source: 'free-audit-landing',
+                consentVersion: '2.0',
+                freeAudit: true
             };
             
             fetch('/api/optin', {
@@ -773,32 +648,21 @@
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
             })
-            .then(response => response.json())
+            .then(r => r.json())
             .then(result => {
                 if (result.success) {
-                    alert('Grazie! Riceverai una email di conferma con il tuo report personalizzato.');
+                    alert('Richiesta ricevuta! Riceverai l\'analisi entro 48 ore.');
                     form.reset();
                 } else {
-                    alert('Errore: ' + (result.error || 'Si è verificato un errore.'));
+                    alert('Errore: ' + (result.error || 'Riprova più tardi.'));
                 }
             })
-            .catch(error => {
-                console.error('Error:', error);
+            .catch(err => {
                 alert('Errore di connessione. Riprova più tardi.');
             });
             
             return false;
         }
-        
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
     </script>
 </body>
 </html>

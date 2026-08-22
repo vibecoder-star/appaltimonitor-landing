@@ -6,6 +6,7 @@ Modular pipeline for public procurement intelligence
 
 import csv
 import json
+import logging
 import os
 import re
 import ssl
@@ -14,6 +15,8 @@ import urllib.error
 from datetime import datetime, timedelta
 from pathlib import Path
 from collections import Counter, defaultdict
+
+logger = logging.getLogger(__name__)
 
 # Configuration
 BASE_DIR = Path("/opt/autonomous-venture-engine/appalti-monitor")
@@ -568,24 +571,24 @@ class PipelineOrchestrator:
         if not profile:
             return {"error": f"Profile not found: {profile_id}"}
         
-        print(f"Running pipeline for: {profile.get('company_name', profile_id)}")
+        logger.info(f"Running pipeline for: {profile.get('company_name', profile_id)}")
         
         # Build query
         query = self.ted_client.build_query(profile, date_from, date_to)
-        print(f"Query: {query}")
+        logger.info(f"Query: {query}")
         
         # Call TED API
         fields = self.ted_client.get_default_fields()
         result = self.ted_client.search(query, fields, page=1, limit=100)
         
         if result.get("error"):
-            print(f"API Error: {result.get('message', 'Unknown')}")
+            logger.error(f"API Error: {result.get('message', 'Unknown')}")
             return {"error": result}
         
         # Parse notices
         notices = result.get("notices", [])
         total_count = result.get("totalNoticeCount", 0)
-        print(f"Total notices: {total_count}, Retrieved: {len(notices)}")
+        logger.info(f"Total notices: {total_count}, Retrieved: {len(notices)}")
         
         # Parse and normalize
         tenders = []
@@ -649,7 +652,7 @@ class PipelineOrchestrator:
             "kpi_path": str(kpi_path)
         }
         
-        print(f"Pipeline complete. Reports: {report_paths}")
+        logger.info(f"Pipeline complete. Reports: {report_paths}")
         return status
     
     def _extract_str(self, field):
@@ -895,18 +898,18 @@ def create_test_profiles():
     for p in profiles:
         profile = engine.create_profile(p)
         created.append(profile)
-        print(f"Created profile: {profile['id']}")
+        logger.info(f"Created profile: {profile['id']}")
     
     return created
 
 
 if __name__ == "__main__":
-    print("=" * 60)
-    print("AppaltiMonitor — TED Concierge MVP")
-    print("=" * 60)
+    logger.info("=" * 60)
+    logger.info("AppaltiMonitor — TED Concierge MVP")
+    logger.info("=" * 60)
     
     # Create test profiles
-    print("\nCreating test profiles...")
+    logger.info("Creating test profiles...")
     profiles = create_test_profiles()
     
     # Run pipeline for each profile
@@ -914,26 +917,26 @@ if __name__ == "__main__":
     
     results = []
     for profile in profiles:
-        print(f"\n{'='*60}")
-        print(f"Running pipeline for: {profile['company_name']}")
-        print(f"{'='*60}")
+        logger.info(f"\n{'='*60}")
+        logger.info(f"Running pipeline for: {profile['company_name']}")
+        logger.info(f"{'='*60}")
         
         status = orchestrator.run(profile["id"])
         results.append(status)
         
         if status.get("error"):
-            print(f"ERROR: {status['error']}")
+            logger.error(f"ERROR: {status['error']}")
         else:
-            print(f"High priority: {status['high_priority']}")
-            print(f"Medium priority: {status['medium_priority']}")
-            print(f"Low priority: {status['low_priority']}")
-            print(f"Processing time: {status['processing_time']:.1f}s")
+            logger.info(f"High priority: {status['high_priority']}")
+            logger.info(f"Medium priority: {status['medium_priority']}")
+            logger.info(f"Low priority: {status['low_priority']}")
+            logger.info(f"Processing time: {status['processing_time']:.1f}s")
     
     # Save overall results
     summary_path = OUTPUT_DIR / f"pipeline_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     with open(summary_path, "w") as f:
         json.dump(results, f, indent=2, default=str)
     
-    print(f"\n{'='*60}")
-    print(f"ALL PIPELINES COMPLETE")
-    print(f"Summary: {summary_path}")
+    logger.info(f"\n{'='*60}")
+    logger.info("ALL PIPELINES COMPLETE")
+    logger.info(f"Summary: {summary_path}")

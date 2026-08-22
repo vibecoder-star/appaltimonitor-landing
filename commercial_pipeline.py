@@ -5,6 +5,7 @@ Integrates: Opt-in → TED Query → Report → Email → Trial → Conversion
 """
 
 import json
+import logging
 import os
 import smtplib
 import ssl
@@ -15,6 +16,8 @@ from pathlib import Path
 from typing import Dict, Optional, List
 import hashlib
 import uuid
+
+logger = logging.getLogger(__name__)
 
 # Import existing pipeline components
 import sys
@@ -616,14 +619,14 @@ class CommercialPipeline:
 
 
 if __name__ == "__main__":
-    print("=" * 60)
-    print("AppaltiMonitor — Commercial Pipeline Test")
-    print("=" * 60)
+    logger.info("=" * 60)
+    logger.info("AppaltiMonitor — Commercial Pipeline Test")
+    logger.info("=" * 60)
     
     pipeline = CommercialPipeline()
     
     # Test opt-in
-    print("\n1. Testing opt-in...")
+    logger.info("\n1. Testing opt-in...")
     optin_data = {
         "companyName": "Test Commercial SRL",
         "businessEmail": "test@example.com",
@@ -638,16 +641,16 @@ if __name__ == "__main__":
     }
     
     result = pipeline.process_optin(optin_data)
-    print(f"   Result: {result}")
+    logger.info(f"   Result: {result}")
     
     if result.get("success"):
         trial_id = result["trial_id"]
         
         # Test confirmation
-        print("\n2. Testing confirmation...")
+        logger.info("\n2. Testing confirmation...")
         confirm_result = pipeline.confirm_and_start_trial(trial_id)
-        print(f"   Result: {confirm_result}")
+        logger.info(f"   Result: {confirm_result}")
     
-    print("\n" + "=" * 60)
-    print("COMMERCIAL PIPELINE TEST COMPLETE")
-    print("=" * 60)
+    logger.info("\n" + "=" * 60)
+    logger.info("COMMERCIAL PIPELINE TEST COMPLETE")
+    logger.info("=" * 60)
