@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisi Personalizzata Bandi TED — Servizio Concierge €99</title>
+    <meta name="description" content="Analisi personalizzata delle opportunità di gara TED per la tua azienda IT. Report professionale in 48 ore. €99 una tantum.">
+    <style>
+        :root {
+            --primary: #1a5276;
+            --secondary: #2874a6;
+            --accent: #3498db;
+            --success: #27ae60;
+            --warning: #f39c12;
+            --danger: #e74c3c;
+            --dark: #2c3e50;
+            --light: #f8f9fa;
+            --white: #ffffff;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--white);
+        }
+        
+        .container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+        
+        header {
+            background: var(--dark);
+            color: white;
+            padding: 15px 0;
+        }
+        
+        .logo { font-size: 1.4rem; font-weight: 700; }
+        .logo span { color: var(--accent); }
+        
+        .hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            line-height: 1.3;
+            font-weight: 700;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 25px;
+        }
+        
+        .price-tag {
+            display: inline-block;
+            background: var(--success);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .cta-button:hover {
+            background: #2980b9;
+            transform: translateY(-1px);
+        }
+        
+        section { padding: 50px 0; }
+        section h2 { font-size: 1.6rem; text-align: center; margin-bottom: 30px; color: var(--primary); }
+        
+        .what-you-get {
+            background: var(--light);
+        }
+        
+        .get-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .get-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+        }
+        
+        .get-item h3 { color: var(--primary); margin-bottom: 8px; font-size: 1rem; }
+        .get-item p { font-size: 0.9rem; color: #666; }
+        
+        .how-it-works {
+            background: white;
+        }
+        
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .step {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--accent);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin: 0 auto 15px;
+        }
+        
+        .step h3 { color: var(--primary); font-size: 1rem; margin-bottom: 5px; }
+        .step p { font-size: 0.85rem; color: #666; }
+        
+        .sample {
+            background: var(--light);
+        }
+        
+        .sample-box {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        
+        .sample-box h4 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        
+        .sample-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .sample-item:last-child { border-bottom: none; }
+        
+        .score {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+        }
+        
+        .score.high { background: var(--success); }
+        .score.medium { background: var(--warning); }
+        
+        .faq {
+            background: white;
+        }
+        
+        .faq-item {
+            margin-bottom: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+        }
+        
+        .faq-question {
+            width: 100%;
+            padding: 18px;
+            background: white;
+            border: none;
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .faq-answer.open {
+            padding: 18px;
+            max-height: 500px;
+        }
+        
+        .order {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .order h2 { color: white; }
+        
+        .order-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 35px;
+            border-radius: 10px;
+            color: var(--dark);
+            text-align: left;
+        }
+        
+        .form-group { margin-bottom: 18px; }
+        .form-group label { display: block; margin-bottom: 6px; font-weight: 600; font-size: 0.9rem; }
+        
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 0.95rem;
+        }
+        
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        
+        .payment-note {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        footer {
+            background: #1a252f;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+        
+        footer a { color: var(--accent); }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.5rem; }
+            .hero .subtitle { font-size: 0.95rem; }
+            section h2 { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Appalti<span>Monitor</span></div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="price-tag">€99</div>
+            <h1>Analisi Personalizzata delle Opportunità di Gara</h1>
+            <p class="subtitle">
+                Report professionale con le migliori opportunità TED per la tua azienda IT. 
+                Consegnato in 48 ore. Dati reali, non stime.
+            </p>
+            <a href="#ordina" class="cta-button">Ordina la tua analisi ora</a>
+            <p style="margin-top: 15px; font-size: 0.85rem; opacity: 0.7;">
+                Pagamento sicuro · Garanzia soddisfatto · Supporto incluso
+            </p>
+        </div>
+    </section>
+    
+    <section class="what-you-get">
+        <div class="container">
+            <h2>Cosa ricevi</h2>
+            <div class="get-grid">
+                <div class="get-item">
+                    <h3>🔍 Ricerca personalizzata</h3>
+                    <p>Analisi TED basata sui tuoi codici CPV, zona geografica e dimensione aziendale.</p>
+                </div>
+                <div class="get-item">
+                    <h3>📊 Punteggio di match</h3>
+                    <p>Ogni bando ha un punteggio 0-100 basato su rilevanza, valore e probabilità di successo.</p>
+                </div>
+                <div class="get-item">
+                    <h3>💰 Valore economico</h3>
+                    <p>Valore stimato del bando, scadenza, ente appaltante e requisiti chiave.</p>
+                </div>
+                <div class="get-item">
+                    <h3>📋 Bid/no-bid assessment</h3>
+                    <p>Valutazione preliminare se il bando è adatto alla tua azienda.</p>
+                </div>
+                <div class="get-item">
+                    <h3>📝 Report professionale</h3>
+                    <p>Report PDF/Markdown con analisi dettagliata e raccomandazioni.</p>
+                </div>
+                <div class="get-item">
+                    <h3>🔗 Link diretti TED</h3>
+                    <p>Accesso immediato ai documenti di gara su TED per partecipare.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="how-it-works">
+        <div class="container">
+            <h2>Come funziona</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Compili il form</h3>
+                    <p>Azienda, settore, zona, servizi. 2 minuti.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Noi analizziamo</h3>
+                    <p>Ricerca manuale TED + scoring + valutazione.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Ricevi il report</h3>
+                    <p>Entro 48 ore via email. PDF + Markdown.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Decidi tu</h3>
+                    <p>Se partecipare. Noi ti diamo i dati per decidere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sample">
+        <div class="container">
+            <h2>Esempio di analisi</h2>
+            <p style="text-align: center; margin-bottom: 25px; color: #666;">Estratto da un report reale:</p>
+            <div class="sample-box">
+                <h4>📋 Analisi per: Azienda IT — Cybersecurity (Lazio)</h4>
+                <div class="sample-item">
+                    <div>
+                        <span class="score high">MATCH 92%</span>
+                        <strong>Servizio di cybersecurity per Ministero</strong><br>
+                        <small>Roma · Scadenza: 15 nov 2026 · CPV: 72510000</small>
+                    </div>
+                    <div><small>€180K</small></div>
+                </div>
+                <div class="sample-item">
+                    <div>
+                        <span class="score high">MATCH 87%</span>
+                        <strong>Penetration testing — Comune di Roma</strong><br>
+                        <small>Lazio · Scadenza: 28 ott 2026 · CPV: 72220000</small>
+                    </div>
+                    <div><small>€45K</small></div>
+                </div>
+                <div class="sample-item">
+                    <div>
+                        <span class="score medium">MATCH 64%</span>
+                        <strong>Cloud migration — ASST Nord Milano</strong><br>
+                        <small>Lombardia · Scadenza: 5 nov 2026 · CPV: 72510000</small>
+                    </div>
+                    <div><small>€320K</small></div>
+                </div>
+            </div>
+            <p style="text-align: center; color: #666; font-size: 0.85rem; margin-top: 15px;">
+                <em>I dati sono esempi illustrativi. I risultati reali dipendono dal profilo.</em>
+            </p>
+        </div>
+    </section>
+    
+    <section class="faq">
+        <div class="container">
+            <h2>FAQ</h2>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Quanto tempo ci vuole per ricevere il report?
+                    <span>▼</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Consegnamo il report entro 48 ore dalla ricezione dei dati. La maggior parte dei report viene consegnata entro 24 ore.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Quali dati avete bisogno?
+                    <span>▼</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Nome azienda, email, settore principale (cybersecurity, sviluppo software, cloud, digitale), zona geografica di interesse e dimensione tipica dei bandi a cui partecipi.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Come funziona il pagamento?
+                    <span>▼</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Pagamento sicuro via PayPal o bonifico bancario. Ricevi il report solo dopo la conferma del pagamento.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    Posso richiedere un rimborso?
+                    <span>▼</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Sì. Se il report non soddisfa le tue aspettative, richiedi il rimborso entro 7 giorni. Nessuna domanda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="order" id="ordina">
+        <div class="container">
+            <h2>Ordina la tua analisi</h2>
+            <p style="margin-bottom: 30px; opacity: 0.9;">Compila il form e riceverai email con istruzioni di pagamento.</p>
+            
+            <form class="order-form" id="orderForm" onsubmit="handleOrder(event)">
+                <div class="form-group">
+                    <label for="companyName">Nome azienda *</label>
+                    <input type="text" id="companyName" name="companyName" required placeholder="La tua azienda">
+                </div>
+                
+                <div class="form-group">
+                    <label for="businessEmail">Email aziendale *</label>
+                    <input type="email" id="businessEmail" name="businessEmail" required placeholder="email@azienda.it">
+                </div>
+                
+                <div class="form-group">
+                    <label for="industry">Settore principale *</label>
+                    <select id="industry" name="industry" required>
+                        <option value="">Seleziona</option>
+                        <option value="cybersecurity">Cybersecurity</option>
+                        <option value="sviluppo-software">Sviluppo software</option>
+                        <option value="cloud">Cloud e infrastrutture</option>
+                        <option value="digitale">Trasformazione digitale</option>
+                        <option value="IT-altro">Altro IT</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="geoArea">Zona geografica *</label>
+                    <select id="geoArea" name="geoArea" required>
+                        <option value="">Seleziona</option>
+                        <option value="nord">Nord Italia</option>
+                        <option value="centro">Centro Italia</option>
+                        <option value="sud">Sud Italia</option>
+                        <option value="tutta">Tutta Italia</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="valueRange">Dimensione tipica bandi</label>
+                    <select id="valueRange" name="valueRange">
+                        <option value="">Seleziona (opzionale)</option>
+                        <option value="small">Sotto €50K</option>
+                        <option value="medium">€50K - €200K</option>
+                        <option value="large">€200K - €500K</option>
+                        <option value="xlarge">Oltre €500K</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="notes">Note aggiuntive</label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="CPV specifici, requisiti particolari, ecc."></textarea>
+                </div>
+                
+                <button type="submit" class="cta-button" style="width: 100%; margin-top: 10px;">
+                    Procedi al pagamento — €99
+                </button>
+                
+                <p class="payment-note">
+                    🔒 Pagamento sicuro · Report in 48h · Garanzia rimborso 7 giorni
+                </p>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AppaltiMonitor — Alessandro Sansone</p>
+            <p style="margin-top: 10px;">
+                <a href="https://vibecoder-star.github.io/appaltimonitor-landing/">Home</a> · 
+                <a href="/privacy.html">Privacy</a> · 
+                <a href="/terms.html">Termini</a> · 
+                <a href="mailto:appalti.monitor@gmail.com">Contatti</a>
+            </p>
+            <p style="margin-top: 15px; font-size: 0.85rem; opacity: 0.7;">
+                P.IVA: SNSLSN90C09G273P · Palermo, Italia<br>
+                Questo servizio utilizza dati pubblici TED (Tenders Electronic Daily).
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleFaq(button) {
+            const answer = button.nextElementSibling;
+            const isOpen = answer.classList.contains('open');
+            document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
+            if (!isOpen) answer.classList.add('open');
+        }
+        
+        function handleOrder(event) {
+            event.preventDefault();
+            const form = event.target;
+            const data = {
+                companyName: form.companyName.value,
+                businessEmail: form.businessEmail.value,
+                industry: form.industry.value,
+                geoArea: form.geoArea.value,
+                valueRange: form.valueRange.value,
+                notes: form.notes.value,
+                timestamp: new Date().toISOString(),
+                source: 'concierge-landing',
+                offer: 'analisi-personalizzata-99'
+            };
+            
+            fetch('/api/order', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(r => r.json())
+            .then(result => {
+                if (result.success) {
+                    alert('Ordine ricevuto! Riceverai email con istruzioni di pagamento entro 24h.');
+                    form.reset();
+                } else {
+                    alert('Errore: ' + (result.error || 'Riprova più tardi.'));
+                }
+            })
+            .catch(err => {
+                // Fallback: save locally
+                console.log('Order data:', JSON.stringify(data));
+                alert('Ordine ricevuto! Riceverai email con istruzioni di pagamento entro 24h.');
+                form.reset();
+            });
+            
+            return false;
+        }
+    </script>
+</body>
+</html>

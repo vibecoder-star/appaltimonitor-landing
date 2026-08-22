@@ -7,6 +7,7 @@ import os
 import json
 import logging
 from datetime import datetime
+from pathlib import Path
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
@@ -142,6 +143,44 @@ def confirm(trial_id):
         return jsonify(result), 200 if result.get('success') else 400
     except Exception as e:
         logger.error(f"Confirm error: {e}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/order', methods=['POST'])
+def order():
+    try:
+        data = request.get_json() or request.form.to_dict()
+        logger.info(f"Order received: {data.get('companyName')} - {data.get('businessEmail')} - Offer: {data.get('offer', 'analisi-personalizzata-99')}")
+        
+        # Save order to file
+        order_id = f"order_{datetime.now().strftime('%Y%m%d%H%M%S')}_{data.get('businessEmail', 'unknown').split('@')[0]}"
+        order_data = {
+            "id": order_id,
+            "status": "pending_payment",
+            "created": datetime.utcnow().isoformat(),
+            **data
+        }
+        
+        # Save to orders directory
+        orders_dir = Path("/opt/autonomous-venture-engine/appalti-monitor/data/orders")
+        orders_dir.mkdir(parents=True, exist_ok=True)
+        with open(orders_dir / f"{order_id}.json", "w") as f:
+            json.dump(order_data, f, indent=2)
+        
+        # Send notification email
+        try:
+            from commercial_pipeline import EmailSender
+            sender = EmailSender()
+            sender.send(
+                to_email="appalti.monitor@gmail.com",
+                subject=f"New Order: {data.get('companyName')} - €99",
+                body=f"New order received:\n\nCompany: {data.get('companyName')}\nEmail: {data.get('businessEmail')}\nIndustry: {data.get('industry')}\nGeo: {data.get('geoArea')}\nValue: {data.get('valueRange')}\nNotes: {data.get('notes')}\n\nOrder ID: {order_id}"
+            )
+        except Exception as e:
+            logger.error(f"Failed to send order notification: {e}")
+        
+        return jsonify({"success": True, "order_id": order_id, "message": "Order received. Payment instructions will be sent within 24h."}), 200
+    except Exception as e:
+        logger.error(f"Order error: {e}")
         return jsonify({'success': False, 'error': str(e)}), 500
 
 if __name__ == '__main__':
