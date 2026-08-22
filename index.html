@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AppaltiMonitor — Intelligence sugli Appalti Pubblici</title>
-    <meta name="description" content="Ogni settimana, identifichiamo e prioritizziamo le opportunità di appalto pubblico più rilevanti per la tua azienda, basandoci sui dati ufficiali TED.">
+    <meta name="description" content="Ogni settimana, identifichiamo e prioritizzamo le opportunità di appalto pubblico più rilevanti per la tua azienda, basandoci sui dati ufficiali TED.">
     <style>
         :root {
             --primary: #1a5276;
@@ -16,11 +16,7 @@
             --warning: #f39c12;
         }
         
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
@@ -29,13 +25,8 @@
             background: #fff;
         }
         
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
         
-        /* Header */
         header {
             background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
             color: white;
@@ -46,22 +37,11 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         
-        header .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+        header .container { display: flex; justify-content: space-between; align-items: center; }
         
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-        }
+        .logo { font-size: 1.5rem; font-weight: 700; }
+        .logo span { color: var(--accent); }
         
-        .logo span {
-            color: var(--accent);
-        }
-        
-        /* Hero */
         .hero {
             background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
             color: white;
@@ -69,18 +49,8 @@
             text-align: center;
         }
         
-        .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            line-height: 1.2;
-        }
-        
-        .hero p {
-            font-size: 1.25rem;
-            opacity: 0.95;
-            max-width: 700px;
-            margin: 0 auto 30px;
-        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2; }
+        .hero p { font-size: 1.25rem; opacity: 0.95; max-width: 700px; margin: 0 auto 30px; }
         
         .cta-button {
             display: inline-block;
@@ -116,29 +86,12 @@
             transition: all 0.3s;
         }
         
-        .cta-secondary:hover {
-            background: white;
-            color: var(--primary);
-        }
+        .cta-secondary:hover { background: white; color: var(--primary); }
         
-        /* Sections */
-        section {
-            padding: 80px 0;
-        }
+        section { padding: 80px 0; }
+        section h2 { font-size: 2rem; text-align: center; margin-bottom: 50px; color: var(--primary); }
         
-        section h2 {
-            font-size: 2rem;
-            text-align: center;
-            margin-bottom: 50px;
-            color: var(--primary);
-        }
-        
-        /* How it works */
-        .steps {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-        }
+        .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
         
         .step {
             text-align: center;
@@ -148,9 +101,7 @@
             transition: transform 0.3s;
         }
         
-        .step:hover {
-            transform: translateY(-5px);
-        }
+        .step:hover { transform: translateY(-5px); }
         
         .step-number {
             width: 50px;
@@ -166,17 +117,9 @@
             margin: 0 auto 20px;
         }
         
-        .step h3 {
-            margin-bottom: 10px;
-            color: var(--primary);
-        }
+        .step h3 { margin-bottom: 10px; color: var(--primary); }
         
-        /* Value props */
-        .value-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
+        .value-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
         
         .value-card {
             padding: 30px;
@@ -185,62 +128,23 @@
             transition: all 0.3s;
         }
         
-        .value-card:hover {
-            border-color: var(--accent);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-        }
+        .value-card:hover { border-color: var(--accent); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        .value-card h3 { color: var(--primary); margin-bottom: 10px; }
         
-        .value-card h3 {
-            color: var(--primary);
-            margin-bottom: 10px;
-        }
+        .who-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
         
-        /* Who it's for */
-        .who-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
+        .who-item { background: var(--light); padding: 25px; border-radius: 10px; text-align: center; }
+        .who-item h4 { color: var(--primary); margin-bottom: 10px; }
         
-        .who-item {
-            background: var(--light);
-            padding: 25px;
-            border-radius: 10px;
-            text-align: center;
-        }
+        .sources { background: var(--light); }
         
-        .who-item h4 {
-            color: var(--primary);
-            margin-bottom: 10px;
-        }
+        .source-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
         
-        /* Sources */
-        .sources {
-            background: var(--light);
-        }
+        .source-item { background: white; padding: 20px; border-radius: 8px; border-left: 4px solid var(--accent); }
         
-        .source-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
+        .limitations { background: #fff3cd; }
         
-        .source-item {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid var(--accent);
-        }
-        
-        /* Limitations */
-        .limitations {
-            background: #fff3cd;
-        }
-        
-        .limitation-list {
-            max-width: 700px;
-            margin: 0 auto;
-        }
+        .limitation-list { max-width: 700px; margin: 0 auto; }
         
         .limitation-item {
             display: flex;
@@ -251,18 +155,9 @@
             border-radius: 8px;
         }
         
-        .limitation-item::before {
-            content: "⚠️";
-            margin-right: 15px;
-            font-size: 1.2rem;
-        }
+        .limitation-item::before { content: "⚠️"; margin-right: 15px; font-size: 1.2rem; }
         
-        /* Pricing */
-        .pricing-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
         
         .pricing-card {
             border: 2px solid #e0e0e0;
@@ -272,64 +167,20 @@
             transition: all 0.3s;
         }
         
-        .pricing-card:hover {
-            border-color: var(--accent);
-        }
+        .pricing-card:hover { border-color: var(--accent); }
+        .pricing-card.featured { border-color: var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .pricing-card h3 { color: var(--primary); font-size: 1.5rem; margin-bottom: 10px; }
         
-        .pricing-card.featured {
-            border-color: var(--accent);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
+        .price { font-size: 3rem; font-weight: 700; color: var(--primary); margin: 20px 0; }
+        .price span { font-size: 1rem; color: #666; }
         
-        .pricing-card h3 {
-            color: var(--primary);
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
+        .pricing-features { list-style: none; margin: 30px 0; text-align: left; }
+        .pricing-features li { padding: 10px 0; border-bottom: 1px solid #eee; }
+        .pricing-features li::before { content: "✓ "; color: var(--success); font-weight: bold; }
         
-        .price {
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--primary);
-            margin: 20px 0;
-        }
+        .hypothesis { font-size: 0.85rem; color: #666; font-style: italic; margin-top: 20px; }
         
-        .price span {
-            font-size: 1rem;
-            color: #666;
-        }
-        
-        .pricing-features {
-            list-style: none;
-            margin: 30px 0;
-            text-align: left;
-        }
-        
-        .pricing-features li {
-            padding: 10px 0;
-            border-bottom: 1px solid #eee;
-        }
-        
-        .pricing-features li::before {
-            content: "✓ ";
-            color: var(--success);
-            font-weight: bold;
-        }
-        
-        .hypothesis {
-            font-size: 0.85rem;
-            color: #666;
-            font-style: italic;
-            margin-top: 20px;
-        }
-        
-        /* FAQ */
-        .faq-item {
-            margin-bottom: 20px;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            overflow: hidden;
-        }
+        .faq-item { margin-bottom: 20px; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
         
         .faq-question {
             width: 100%;
@@ -345,46 +196,17 @@
             align-items: center;
         }
         
-        .faq-question:hover {
-            background: var(--light);
-        }
+        .faq-question:hover { background: var(--light); }
         
-        .faq-answer {
-            padding: 0 20px;
-            max-height: 0;
-            overflow: hidden;
-            transition: all 0.3s;
-        }
+        .faq-answer { padding: 0 20px; max-height: 0; overflow: hidden; transition: all 0.3s; }
+        .faq-answer.open { padding: 20px; max-height: 500px; }
         
-        .faq-answer.open {
-            padding: 20px;
-            max-height: 500px;
-        }
+        .privacy { background: var(--light); }
+        .privacy-content { max-width: 800px; margin: 0 auto; }
+        .privacy h3 { color: var(--primary); margin: 30px 0 15px; }
         
-        /* Privacy */
-        .privacy {
-            background: var(--light);
-        }
-        
-        .privacy-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .privacy h3 {
-            color: var(--primary);
-            margin: 30px 0 15px;
-        }
-        
-        /* Opt-in Form */
-        .optin {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            color: white;
-        }
-        
-        .optin h2 {
-            color: white;
-        }
+        .optin { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white; }
+        .optin h2 { color: white; }
         
         .optin-form {
             max-width: 600px;
@@ -395,19 +217,10 @@
             color: var(--dark);
         }
         
-        .form-group {
-            margin-bottom: 20px;
-        }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; }
         
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-        }
-        
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
+        .form-group input, .form-group select, .form-group textarea {
             width: 100%;
             padding: 12px;
             border: 2px solid #e0e0e0;
@@ -416,72 +229,28 @@
             transition: border-color 0.3s;
         }
         
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
             outline: none;
             border-color: var(--accent);
         }
         
-        .form-group small {
-            color: #666;
-            font-size: 0.85rem;
-        }
+        .form-group small { color: #666; font-size: 0.85rem; }
         
-        .checkbox-group {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 15px;
-        }
+        .checkbox-group { display: flex; align-items: flex-start; margin-bottom: 15px; }
+        .checkbox-group input { margin-right: 10px; margin-top: 5px; }
+        .checkbox-group label { font-size: 0.9rem; line-height: 1.5; }
+        .checkbox-group a { color: var(--accent); }
         
-        .checkbox-group input {
-            margin-right: 10px;
-            margin-top: 5px;
-        }
+        footer { background: var(--dark); color: white; padding: 40px 0; text-align: center; }
+        footer a { color: var(--accent); }
         
-        .checkbox-group label {
-            font-size: 0.9rem;
-            line-height: 1.5;
-        }
-        
-        .checkbox-group a {
-            color: var(--accent);
-        }
-        
-        /* Footer */
-        footer {
-            background: var(--dark);
-            color: white;
-            padding: 40px 0;
-            text-align: center;
-        }
-        
-        footer a {
-            color: var(--accent);
-        }
-        
-        /* Responsive */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 1.8rem;
-            }
-            
-            .hero p {
-                font-size: 1rem;
-            }
-            
-            .cta-button, .cta-secondary {
-                display: block;
-                margin: 10px 0;
-                text-align: center;
-            }
-            
-            section h2 {
-                font-size: 1.5rem;
-            }
+            .hero h1 { font-size: 1.8rem; }
+            .hero p { font-size: 1rem; }
+            .cta-button, .cta-secondary { display: block; margin: 10px 0; text-align: center; }
+            section h2 { font-size: 1.5rem; }
         }
         
-        /* Example report */
         .example-report {
             background: white;
             border: 1px solid #e0e0e0;
@@ -491,23 +260,11 @@
             box-shadow: 0 5px 20px rgba(0,0,0,0.05);
         }
         
-        .example-report h4 {
-            color: var(--primary);
-            margin-bottom: 15px;
-        }
+        .example-report h4 { color: var(--primary); margin-bottom: 15px; }
         
-        .report-item {
-            padding: 15px;
-            border-bottom: 1px solid #eee;
-        }
-        
-        .report-item:last-child {
-            border-bottom: none;
-        }
-        
-        .report-item strong {
-            color: var(--primary);
-        }
+        .report-item { padding: 15px; border-bottom: 1px solid #eee; }
+        .report-item:last-child { border-bottom: none; }
+        .report-item strong { color: var(--primary); }
         
         .score {
             display: inline-block;
@@ -519,30 +276,25 @@
             font-weight: 600;
         }
         
-        .score.medium {
-            background: var(--warning);
-        }
+        .score.medium { background: var(--warning); }
     </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <div class="container">
             <div class="logo">Appalti<span>Monitor</span></div>
         </div>
     </header>
 
-    <!-- Hero -->
     <section class="hero">
         <div class="container">
-            <h1>Ogni settimana, identifichiamo e prioritizziamo le opportunità di appalto pubblico più rilevanti per la tua azienda.</h1>
+            <h1>Ogni settimana, identifichiamo e prioritizzamo le opportunità di appalto pubblico più rilevanti per la tua azienda.</h1>
             <p>Basati sui dati ufficiali TED (Tenders Electronic Daily), vi aiutiamo a non perdere mai un bando interessante.</p>
             <a href="#optin" class="cta-button">Prova gratuita 7 giorni</a>
             <a href="#how-it-works" class="cta-secondary">Scopri come funziona</a>
         </div>
     </section>
 
-    <!-- Value Proposition -->
     <section id="value">
         <div class="container">
             <h2>Perché AppaltiMonitor</h2>
@@ -567,7 +319,6 @@
         </div>
     </section>
 
-    <!-- How It Works -->
     <section id="how-it-works">
         <div class="container">
             <h2>Come funziona</h2>
@@ -596,7 +347,6 @@
         </div>
     </section>
 
-    <!-- Example Report -->
     <section id="example">
         <div class="container">
             <h2>Esempio di report settimanale</h2>
@@ -631,7 +381,6 @@
         </div>
     </section>
 
-    <!-- Who It's For -->
     <section id="who">
         <div class="container">
             <h2>Per chi è</h2>
@@ -664,7 +413,6 @@
         </div>
     </section>
 
-    <!-- Data Sources -->
     <section class="sources" id="sources">
         <div class="container">
             <h2>Fonti dati</h2>
@@ -689,41 +437,29 @@
         </div>
     </section>
 
-    <!-- Limitations -->
     <section class="limitations" id="limitations">
         <div class="container">
             <h2>Limitazioni attuali</h2>
             <div class="limitation-list">
                 <div class="limitation-item">
-                    <div>
-                        <strong>Bandi sotto soglia</strong> — Non includiamo bandi sotto soglia UE (MEPA, affidamenti diretti).
-                    </div>
+                    <div><strong>Bandi sotto soglia</strong> — Non includiamo bandi sotto soglia UE (MEPA, affidamenti diretti).</div>
                 </div>
                 <div class="limitation-item">
-                    <div>
-                        <strong>Verifica idoneità</strong> — Non verifichiamo i requisiti di partecipazione. Spetta al cliente farlo.
-                    </div>
+                    <div><strong>Verifica idoneità</strong> — Non verifichiamo i requisiti di partecipazione. Spetta al cliente farlo.</div>
                 </div>
                 <div class="limitation-item">
-                    <div>
-                        <strong>Documenti di gara</strong> — Non forniamo i documenti di gara. Link ai bandi TED per scaricarli.
-                    </div>
+                    <div><strong>Documenti di gara</strong> — Non forniamo i documenti di gara. Link ai bandi TED per scaricarli.</div>
                 </div>
                 <div class="limitation-item">
-                    <div>
-                        <strong>Intelligence competitor</strong> — Non forniamo informazioni sui concorrenti (funzionalità futura).
-                    </div>
+                    <div><strong>Intelligence competitor</strong> — Non forniamo informazioni sui concorrenti (funzionalità futura).</div>
                 </div>
                 <div class="limitation-item">
-                    <div>
-                        <strong>Consulenza legale</strong> — Non forniamo consulenza legale o redazione offerte.
-                    </div>
+                    <div><strong>Consulenza legale</strong> — Non forniamo consulenza legale o redazione offerte.</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing -->
     <section id="pricing">
         <div class="container">
             <h2>Piani e prezzi</h2>
@@ -780,7 +516,6 @@
         </div>
     </section>
 
-    <!-- FAQ -->
     <section id="faq">
         <div class="container">
             <h2>Domande frequenti</h2>
@@ -837,7 +572,6 @@
         </div>
     </section>
 
-    <!-- Privacy -->
     <section class="privacy" id="privacy">
         <div class="container">
             <h2>Privacy e consenso</h2>
@@ -867,15 +601,14 @@
         </div>
     </section>
 
-    <!-- Opt-in Form -->
     <section class="optin" id="optin">
         <div class="container">
             <h2>Prova gratuita 7 giorni</h2>
             <p style="text-align: center; margin-bottom: 30px; opacity: 0.9;">
-                Ricevi un campione di report settimanale personalizzato. Nessun impegno.
+                Compila il form per ricevere un campione di report settimanale personalizzato. Nessun impegno.
             </p>
             
-            <form class="optin-form" id="optinForm" onsubmit="return handleSubmit(event)">
+            <form class="optin-form" id="optinForm" action="mailto:appalti.monitor@gmail.com?subject=AppaltiMonitor%20-%20Richiesta%20Prova%20Gratuita" method="POST" enctype="text/plain" onsubmit="return handleSubmit(event)">
                 <div class="form-group">
                     <label for="companyName">Nome azienda *</label>
                     <input type="text" id="companyName" name="companyName" required placeholder="Es. EdilPro SRL">
@@ -954,12 +687,12 @@
                 <div class="checkbox-group">
                     <input type="checkbox" id="consentPrivacy" name="consentPrivacy" required>
                     <label for="consentPrivacy">
-                        Ho letto e accetto l'<a href="#privacy" target="_blank">Informativa sulla Privacy</a>. *
+                        Ho letto e accetto l'<a href="/privacy.html" target="_blank">Informativa sulla Privacy</a>. *
                     </label>
                 </div>
                 
                 <button type="submit" class="cta-button" style="width: 100%; margin-top: 20px;">
-                    Inizia la prova gratuita
+                    Invia richiesta di prova
                 </button>
                 
                 <p style="text-align: center; margin-top: 15px; font-size: 0.85rem; color: #666;">
@@ -969,7 +702,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2026 AppaltiMonitor — Alessandro Sansone</p>
@@ -990,28 +722,21 @@
     </footer>
 
     <script>
-        // FAQ toggle
         function toggleFaq(button) {
             const answer = button.nextElementSibling;
             const isOpen = answer.classList.contains('open');
             
-            // Close all
             document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
             
-            // Open clicked
             if (!isOpen) {
                 answer.classList.add('open');
             }
         }
         
-        // Form submission
         function handleSubmit(event) {
-            event.preventDefault();
-            
             const form = event.target;
             const formData = new FormData(form);
             
-            // Validate required fields
             const required = ['companyName', 'businessEmail', 'industry', 'geoArea'];
             for (const field of required) {
                 if (!formData.get(field)) {
@@ -1020,13 +745,11 @@
                 }
             }
             
-            // Validate consent
             if (!formData.get('consentService') || !formData.get('consentPrivacy')) {
                 alert('È necessario acconsentire al trattamento dei dati per il servizio e aver letto l\'informativa privacy.');
                 return false;
             }
             
-            // Collect data
             const data = {
                 companyName: formData.get('companyName'),
                 businessEmail: formData.get('businessEmail'),
@@ -1043,19 +766,27 @@
                 consentVersion: '1.0'
             };
             
-            // Store locally (in production, send to server)
-            localStorage.setItem('appaltimonitor_optin', JSON.stringify(data));
+            const body = 
+                'Richiesta prova gratuita AppaltiMonitor\n' +
+                '========================================\n\n' +
+                'Nome azienda: ' + data.companyName + '\n' +
+                'Email: ' + data.businessEmail + '\n' +
+                'Settore: ' + data.industry + '\n' +
+                'Zona: ' + data.geoArea + '\n' +
+                'Servizi: ' + (data.services || 'Non specificato') + '\n' +
+                'CPV: ' + (data.cpvCodes || 'Non specificati') + '\n' +
+                'Range valore: ' + (data.valueRange || 'Non specificato') + '\n\n' +
+                'Consensi:\n' +
+                '- Servizio: ' + (data.consentService ? 'Sì' : 'No') + '\n' +
+                '- Marketing: ' + (data.consentMarketing ? 'Sì' : 'No') + '\n' +
+                '- Privacy: ' + (data.consentPrivacy ? 'Sì' : 'No') + '\n\n' +
+                'Timestamp: ' + data.timestamp + '\n';
             
-            // Show confirmation
-            alert('Grazie! Riceverai una email di conferma con il tuo report personalizzato.');
+            form.action = 'mailto:appalti.monitor@gmail.com?subject=AppaltiMonitor%20-%20Richiesta%20Prova%20Gratuita%20-%20' + encodeURIComponent(data.companyName) + '&body=' + encodeURIComponent(body);
             
-            // Reset form
-            form.reset();
-            
-            return false;
+            return true;
         }
         
-        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
