@@ -608,7 +608,7 @@
                 Compila il form per ricevere un campione di report settimanale personalizzato. Nessun impegno.
             </p>
             
-            <form class="optin-form" id="optinForm" action="mailto:appalti.monitor@gmail.com?subject=AppaltiMonitor%20-%20Richiesta%20Prova%20Gratuita" method="POST" enctype="text/plain" onsubmit="return handleSubmit(event)">
+            <form class="optin-form" id="optinForm" action="/api/optin" method="POST" onsubmit="return handleSubmit(event)">
                 <div class="form-group">
                     <label for="companyName">Nome azienda *</label>
                     <input type="text" id="companyName" name="companyName" required placeholder="Es. EdilPro SRL">
@@ -734,6 +734,8 @@
         }
         
         function handleSubmit(event) {
+            event.preventDefault();
+            
             const form = event.target;
             const formData = new FormData(form);
             
@@ -766,25 +768,26 @@
                 consentVersion: '1.0'
             };
             
-            const body = 
-                'Richiesta prova gratuita AppaltiMonitor\n' +
-                '========================================\n\n' +
-                'Nome azienda: ' + data.companyName + '\n' +
-                'Email: ' + data.businessEmail + '\n' +
-                'Settore: ' + data.industry + '\n' +
-                'Zona: ' + data.geoArea + '\n' +
-                'Servizi: ' + (data.services || 'Non specificato') + '\n' +
-                'CPV: ' + (data.cpvCodes || 'Non specificati') + '\n' +
-                'Range valore: ' + (data.valueRange || 'Non specificato') + '\n\n' +
-                'Consensi:\n' +
-                '- Servizio: ' + (data.consentService ? 'Sì' : 'No') + '\n' +
-                '- Marketing: ' + (data.consentMarketing ? 'Sì' : 'No') + '\n' +
-                '- Privacy: ' + (data.consentPrivacy ? 'Sì' : 'No') + '\n\n' +
-                'Timestamp: ' + data.timestamp + '\n';
+            fetch('/api/optin', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    alert('Grazie! Riceverai una email di conferma con il tuo report personalizzato.');
+                    form.reset();
+                } else {
+                    alert('Errore: ' + (result.error || 'Si è verificato un errore.'));
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Errore di connessione. Riprova più tardi.');
+            });
             
-            form.action = 'mailto:appalti.monitor@gmail.com?subject=AppaltiMonitor%20-%20Richiesta%20Prova%20Gratuita%20-%20' + encodeURIComponent(data.companyName) + '&body=' + encodeURIComponent(body);
-            
-            return true;
+            return false;
         }
         
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
