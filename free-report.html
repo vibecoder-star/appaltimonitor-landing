@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Gratuito Appalti TED — AppaltiMonitor</title>
+    <meta name="description" content="Ricevi gratuitamente un'analisi personalizzata delle opportunità di appalti pubblici TED per la tua azienda. Senza impegno.">
+    <style>
+        :root { --primary: #1a5276; --accent: #3498db; --success: #27ae60; --light: #f8f9fa; --dark: #2c3e50; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: var(--dark); background: #fff; }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+        header { background: linear-gradient(135deg, var(--primary), #2874a6); color: white; padding: 20px 0; }
+        .logo { font-size: 1.5rem; font-weight: 700; }
+        .logo span { color: var(--accent); }
+        .hero { background: linear-gradient(135deg, var(--primary), #2874a6); color: white; padding: 60px 0; text-align: center; }
+        .hero h1 { font-size: 2.2rem; margin-bottom: 20px; }
+        .hero p { font-size: 1.1rem; opacity: 0.95; max-width: 600px; margin: 0 auto 30px; }
+        .cta-button { display: inline-block; background: var(--accent); color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-size: 1.1rem; font-weight: 600; border: none; cursor: pointer; }
+        .cta-button:hover { background: #2980b9; transform: translateY(-2px); box-shadow: 0 5px 20px rgba(0,0,0,0.2); }
+        section { padding: 60px 0; }
+        section h2 { font-size: 1.8rem; text-align: center; margin-bottom: 40px; color: var(--primary); }
+        .benefits { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; }
+        .benefit { text-align: center; padding: 20px; background: var(--light); border-radius: 10px; }
+        .benefit h3 { color: var(--primary); margin-bottom: 10px; }
+        .form-section { background: var(--light); }
+        .form-box { max-width: 500px; margin: 0 auto; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; }
+        .form-group input, .form-group select { width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; }
+        .form-group input:focus, .form-group select:focus { outline: none; border-color: var(--accent); }
+        .checkbox-group { display: flex; align-items: flex-start; margin-bottom: 15px; }
+        .checkbox-group input { margin-right: 10px; margin-top: 5px; }
+        .checkbox-group label { font-size: 0.9rem; line-height: 1.5; }
+        .checkbox-group a { color: var(--accent); }
+        footer { background: var(--dark); color: white; padding: 30px 0; text-align: center; }
+        footer a { color: var(--accent); }
+        .small { font-size: 0.85rem; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Appalti<span>Monitor</span></div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Ricevi Gratuitamente un'Analisi delle Opportunità TED per la Tua Azienda</h1>
+            <p>Compila il form e riceverai entro 24 ore un report personalizzato con i bandi pubblici più rilevanti per il tuo settore. Senza impegno.</p>
+            <a href="#form" class="cta-button">Richiedi il tuo report gratuito</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Cosa riceverai</h2>
+            <div class="benefits">
+                <div class="benefit">
+                    <h3>📊 Report Personalizzato</h3>
+                    <p>Bandi TED filtrati per settore, zona e valore</p>
+                </div>
+                <div class="benefit">
+                    <h3>🎯 Ranking per Rilevanza</h3>
+                    <p>Opportunità prioritizzate in base al tuo profilo</p>
+                </div>
+                <div class="benefit">
+                    <h3>🔗 Link Diretto ai Bandi</h3>
+                    <p>Accedi subito ai bandi senza ricerca manuale</p>
+                </div>
+                <div class="benefit">
+                    <h3>⏰ Alert Scadenze</h3>
+                    <p>Non perdere mai una scadenza importante</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section" id="form">
+        <div class="container">
+            <h2>Richiedi il tuo report gratuito</h2>
+            <div class="form-box">
+                <form id="freeReportForm" action="/api/optin" method="POST" onsubmit="return handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="companyName">Nome azienda *</label>
+                        <input type="text" id="companyName" name="companyName" required placeholder="Es. EdilPro SRL">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessEmail">Email aziendale *</label>
+                        <input type="email" id="businessEmail" name="businessEmail" required placeholder="Es. info@edilpro.it">
+                    </div>
+                    <div class="form-group">
+                        <label for="industry">Settore *</label>
+                        <select id="industry" name="industry" required>
+                            <option value="">Seleziona settore</option>
+                            <option value="costruzioni">Costruzioni edili</option>
+                            <option value="it-software">IT — Sviluppo software</option>
+                            <option value="it-cloud">IT — Cloud e infrastrutture</option>
+                            <option value="facility">Facility management</option>
+                            <option value="altro">Altro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="geoArea">Zona geografica *</label>
+                        <select id="geoArea" name="geoArea" required>
+                            <option value="">Seleziona zona</option>
+                            <option value="nord">Nord Italia</option>
+                            <option value="centro">Centro Italia</option>
+                            <option value="sud">Sud Italia e Isole</option>
+                            <option value="tutta">Tutta Italia</option>
+                        </select>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="consentService" name="consentService" required>
+                        <label for="consentService">Acconsento al trattamento dei miei dati per ricevere il report gratuito e il servizio di intelligence sugli appalti pubblici. *</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="consentMarketing" name="consentMarketing">
+                        <label for="consentMarketing">Acconsento a ricevere comunicazioni commerciali e aggiornamenti su AppaltiMonitor (facoltativo).</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="consentPrivacy" name="consentPrivacy" required>
+                        <label for="consentPrivacy">Ho letto e accetto l'<a href="/privacy.html" target="_blank">Informativa sulla Privacy</a>. *</label>
+                    </div>
+                    <button type="submit" class="cta-button" style="width: 100%;">Richiedi report gratuito</button>
+                    <p class="small" style="text-align: center; margin-top: 15px;">Nessuna carta di credito. Cancellazione in qualsiasi momento.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AppaltiMonitor — Alessandro Sansone</p>
+            <p><a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Termini di Servizio</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+            
+            const required = ['companyName', 'businessEmail', 'industry', 'geoArea'];
+            for (const field of required) {
+                if (!formData.get(field)) {
+                    alert('Compila tutti i campi obbligatori.');
+                    return false;
+                }
+            }
+            
+            if (!formData.get('consentService') || !formData.get('consentPrivacy')) {
+                alert('È necessario acconsentire al trattamento dei dati per il servizio e aver letto l\'informativa privacy.');
+                return false;
+            }
+            
+            const data = {
+                companyName: formData.get('companyName'),
+                businessEmail: formData.get('businessEmail'),
+                industry: formData.get('industry'),
+                geoArea: formData.get('geoArea'),
+                consentService: formData.get('consentService') === 'on',
+                consentMarketing: formData.get('consentMarketing') === 'on',
+                consentPrivacy: formData.get('consentPrivacy') === 'on',
+                source: 'free-report-landing',
+                timestamp: new Date().toISOString(),
+                consentVersion: '1.0'
+            };
+            
+            fetch('/api/optin', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    alert('Grazie! Riceverete il vostro report gratuito entro 24 ore.');
+                    form.reset();
+                } else {
+                    alert('Errore: ' + (result.error || 'Si è verificato un errore.'));
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Errore di connessione. Riprova più tardi.');
+            });
+            
+            return false;
+        }
+    </script>
+</body>
+</html>
